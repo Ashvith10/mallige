@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_period_period" format="2">
+  <advance width="665"/>
+  <anchor x="333" y="592" name="Anchor-4"/>
+  <outline>
+    <contour>
+      <point x="553" y="116" type="qcurve" smooth="yes"/>
+      <point x="579" y="116"/>
+      <point x="616" y="79"/>
+      <point x="616" y="53" type="qcurve" smooth="yes"/>
+      <point x="616" y="26"/>
+      <point x="579" y="-11"/>
+      <point x="553" y="-11" type="qcurve" smooth="yes"/>
+      <point x="527" y="-11"/>
+      <point x="490" y="26"/>
+      <point x="490" y="53" type="qcurve" smooth="yes"/>
+      <point x="490" y="79"/>
+      <point x="527" y="116"/>
+    </contour>
+    <contour>
+      <point x="113" y="116" type="qcurve" smooth="yes"/>
+      <point x="139" y="116"/>
+      <point x="176" y="79"/>
+      <point x="176" y="53" type="qcurve" smooth="yes"/>
+      <point x="176" y="26"/>
+      <point x="139" y="-11"/>
+      <point x="113" y="-11" type="qcurve" smooth="yes"/>
+      <point x="87" y="-11"/>
+      <point x="50" y="26"/>
+      <point x="50" y="53" type="qcurve" smooth="yes"/>
+      <point x="50" y="79"/>
+      <point x="87" y="116"/>
+    </contour>
+    <contour>
+      <point x="333" y="116" type="qcurve" smooth="yes"/>
+      <point x="359" y="116"/>
+      <point x="396" y="79"/>
+      <point x="396" y="53" type="qcurve" smooth="yes"/>
+      <point x="396" y="26"/>
+      <point x="359" y="-11"/>
+      <point x="333" y="-11" type="qcurve" smooth="yes"/>
+      <point x="307" y="-11"/>
+      <point x="270" y="26"/>
+      <point x="270" y="53" type="qcurve" smooth="yes"/>
+      <point x="270" y="79"/>
+      <point x="307" y="116"/>
+    </contour>
+  </outline>
+</glyph>

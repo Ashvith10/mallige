@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V_period" format="2">
+  <advance width="217"/>
+  <anchor x="110" y="592" name="Anchor-4"/>
+  <outline>
+    <contour>
+      <point x="110" y="116" type="qcurve" smooth="yes"/>
+      <point x="136" y="116"/>
+      <point x="173" y="79"/>
+      <point x="173" y="53" type="qcurve" smooth="yes"/>
+      <point x="173" y="26"/>
+      <point x="136" y="-11"/>
+      <point x="110" y="-11" type="qcurve" smooth="yes"/>
+      <point x="84" y="-11"/>
+      <point x="47" y="26"/>
+      <point x="47" y="53" type="qcurve" smooth="yes"/>
+      <point x="47" y="79"/>
+      <point x="84" y="116"/>
+    </contour>
+  </outline>
+</glyph>

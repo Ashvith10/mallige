@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="K_A_n" format="2">
+  <advance width="895"/>
+  <anchor x="413" y="592" name="Anchor-4"/>
+  <outline>
+    <component base="K" xOffset="-2"/>
+    <component base="n" xOffset="182" yOffset="-603"/>
+  </outline>
+</glyph>

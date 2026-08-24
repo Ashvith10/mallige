@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A_f" format="2">
+  <advance width="306"/>
+  <anchor x="342" y="592" name="Anchor-4"/>
+  <outline>
+    <component base="A"/>
+    <component base="f" xOffset="18"/>
+  </outline>
+</glyph>

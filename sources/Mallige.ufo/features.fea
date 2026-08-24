@@ -1,0 +1,3380 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem tutg dflt;
+
+
+# GSUB 
+
+
+lookup akhnAkhandintutglookup0 {
+  lookupflag 0;
+    sub \u113AC \u113D0 \u113AA  by \m_f;
+    sub \u113AC \u113D0 \u113AE  by \v_f;
+    sub \u113AC \u113D0 \u113AE \u113BC  by \v_f_U;
+    sub \u113AC \u113D0 \u113AE \u113BB  by \v_f_u;
+    sub \u113AC \u113D0 \u113AB \u113D0 \u113AB  by \y_A_y_f;
+    sub \u113AC \u113D0 \u113AB \u113D0 \u113AB \u113BC  by \y_A_y_f_U;
+    sub \u113AC \u113D0 \u113AB \u113D0 \u113AB \u113BB  by \y_A_y_f_u;
+    sub \u113AC \u113D0 \u113AB  by \y_f;
+    sub \u113AC \u113D0 \u113AB \u113BB  by \y_f_u;
+} akhnAkhandintutglookup0;
+
+lookup ligaStandardLigatureslookup1 {
+  lookupflag 0;
+    sub \period \period  by \period_period;
+    sub \period \period \period  by \period_period_period;
+} ligaStandardLigatureslookup1;
+
+lookup akhnAkhandlookup2 {
+  lookupflag 0;
+    sub \u113A9 \u113D0 \u113A5  by \B_A_n;
+    sub \u113A9 \u113D0 \u113A5 \u113BC  by \B_A_n_U;
+    sub \u113A9 \u113D0 \u113A5 \u113BB  by \B_A_n_u;
+    sub \u113A9 \u113D0 \u113AC  by \B_A_r;
+    sub \u113A9 \u113D0 \u113AC \u113BC  by \B_A_r_U;
+    sub \u113A9 \u113D0 \u113AC \u113BB  by \B_A_r_u;
+    sub \u113A9 \u113D0 \u113AB  by \B_A_y;
+    sub \u113A9 \u113D0 \u113AB \u113BC  by \B_A_y_U;
+    sub \u113A9 \u113D0 \u113AB \u113BB  by \B_A_y_u;
+    sub \u113A9 \u113BD  by \B_R;
+    sub \u113A9 \u113BE  by \B_R_R;
+    sub \u113A9 \u113BC  by \B_U;
+    sub \u113A9 \u113BB  by \B_u;
+    sub \u11398 \u113D0 \u113AC  by \C_A_r;
+    sub \u11398 \u113D0 \u113AC \u113BC  by \C_A_r_U;
+    sub \u11398 \u113D0 \u113AC \u113BB  by \C_A_r_u;
+    sub \u11398 \u113D0 \u113AB  by \C_A_y;
+    sub \u11398 \u113D0 \u113AB \u113BC  by \C_A_y_U;
+    sub \u11398 \u113D0 \u113AB \u113BB  by \C_A_y_u;
+    sub \u11398 \u113D0 \u1139B  by \C_A_z;
+    sub \u11398 \u113D0 \u1139B \u113BC  by \C_A_z_U;
+    sub \u11398 \u113D0 \u1139B \u113BB  by \C_A_z_u;
+    sub \u11398 \u113BD  by \C_R;
+    sub \u11398 \u113BE  by \C_R_R;
+    sub \u11398 \u113BC  by \C_U;
+    sub \u11398 \u113BB  by \C_u;
+    sub \u113A4 \u113D0 \u113AA  by \D_A_m;
+    sub \u113A4 \u113D0 \u113AA \u113BC  by \D_A_m_U;
+    sub \u113A4 \u113D0 \u113AA \u113BB  by \D_A_m_u;
+    sub \u113A4 \u113D0 \u113AC  by \D_A_r;
+    sub \u113A4 \u113D0 \u113AC \u113BC  by \D_A_r_U;
+    sub \u113A4 \u113D0 \u113AC \u113BB  by \D_A_r_u;
+    sub \u113A4 \u113D0 \u113AE  by \D_A_v;
+    sub \u113A4 \u113D0 \u113AE \u113BC  by \D_A_v_U;
+    sub \u113A4 \u113D0 \u113AE \u113BB  by \D_A_v_u;
+    sub \u113A4 \u113D0 \u113AB  by \D_A_y;
+    sub \u113A4 \u113D0 \u113AB \u113BC  by \D_A_y_U;
+    sub \u113A4 \u113D0 \u113AB \u113BB  by \D_A_y_u;
+    sub \u113C5 \u113D0  by \E_A;
+    sub \u113C5 \u113D0 \u113BA  by \E_A_a;
+    sub \u113C5 \u113D0 \u113BA \u113AA \u113D0  by \E_A_a_m_A;
+    sub \u11395 \u113D0 \u113AC  by \G_A_r;
+    sub \u11395 \u113D0 \u113AC \u113BC  by \G_A_r_U;
+    sub \u11395 \u113D0 \u113AC \u113BB  by \G_A_r_u;
+    sub \u11395 \u113BD  by \G_R;
+    sub \u11395 \u113BE  by \G_R_R;
+    sub \u11393 \u113D0 \u11393  by \K_A_K;
+    sub \u11393 \u113D0 \u11393 \u113BC  by \K_A_K_U;
+    sub \u11393 \u113D0 \u11393 \u113BB  by \K_A_K_u;
+    sub \u11393 \u113D0 \u11392  by \K_A_k;
+    sub \u11393 \u113D0 \u11392 \u113BC  by \K_A_k_U;
+    sub \u11393 \u113D0 \u11392 \u113BB  by \K_A_k_u;
+    sub \u11393 \u113D0 \u113AA  by \K_A_m;
+    sub \u11393 \u113D0 \u113AA \u113BC  by \K_A_m_U;
+    sub \u11393 \u113D0 \u113AA \u113BB  by \K_A_m_u;
+    sub \u11393 \u113D0 \u113A5  by \K_A_n;
+    sub \u11393 \u113D0 \u113A5 \u113BC  by \K_A_n_U;
+    sub \u11393 \u113D0 \u113A5 \u113BB  by \K_A_n_u;
+    sub \u11393 \u113D0 \u113AC  by \K_A_r;
+    sub \u11393 \u113D0 \u113AC \u113BC  by \K_A_r_U;
+    sub \u11393 \u113D0 \u113AC \u113BB  by \K_A_r_u;
+    sub \u11393 \u113D0 \u113AE  by \K_A_v;
+    sub \u11393 \u113D0 \u113AE \u113BC  by \K_A_v_U;
+    sub \u11393 \u113D0 \u113AE \u113BB  by \K_A_v_u;
+    sub \u11393 \u113D0 \u113AB  by \K_A_y;
+    sub \u11393 \u113D0 \u113AB \u113BC  by \K_A_y_U;
+    sub \u11393 \u113D0 \u113AB \u113BB  by \K_A_y_u;
+    sub \u11393 \u113BD  by \K_R;
+    sub \u11393 \u113BE  by \K_R_R;
+    sub \u113B3 \u113D0 \u113B3  by \L_A_L;
+    sub \u113B3 \u113CF  by \L_A_X;
+    sub \u113B3 \u113D0 \u113AE  by \L_A_v;
+    sub \u113B3 \u113D0 \u113AB  by \L_A_y;
+    sub \u113B3 \u113D0 \u113AB \u113BC  by \L_A_y_U;
+    sub \u113B3 \u113D0 \u113AB \u113BB  by \L_A_y_u;
+    sub \u113CD \u113CD  by \M_M;
+    sub \u113A0 \u113D0 \u113B3  by \N_A_L;
+    sub \u113A0 \u113D0 \u113B3 \u113BC  by \N_A_L_U;
+    sub \u113A0 \u113D0 \u113B3 \u113BB  by \N_A_L_u;
+    sub \u113A0 \u113D0 \u1139D  by \N_A_Q;
+    sub \u113A0 \u113D0 \u1139F  by \N_A_W;
+    sub \u113A0 \u113CF  by \N_A_X;
+    sub \u113A0 \u113D0 \u113B2  by \N_A_h;
+    sub \u113A0 \u113D0 \u113B2 \u113D0 \u113AE  by \N_A_h_A_v;
+    sub \u113A0 \u113D0 \u113B2 \u113D0 \u113AB  by \N_A_h_A_y;
+    sub \u113A0 \u113D0 \u113B2 \u113D0 \u113AB \u113BC  by \N_A_h_A_y_U;
+    sub \u113A0 \u113D0 \u113B2 \u113D0 \u113AB \u113BB  by \N_A_h_A_y_u;
+    sub \u113A0 \u113D0 \u113B2 \u113BC  by \N_A_h_U;
+    sub \u113A0 \u113D0 \u113B2 \u113BB  by \N_A_h_u;
+    sub \u113A0 \u113D0 \u11399  by \N_A_j;
+    sub \u113A0 \u113D0 \u11399 \u113BC  by \N_A_j_U;
+    sub \u113A0 \u113D0 \u11399 \u113BB  by \N_A_j_u;
+    sub \u113A0 \u113D0 \u11392  by \N_A_k;
+    sub \u113A0 \u113D0 \u11392 \u113CF  by \N_A_k_A_X;
+    sub \u113A0 \u113D0 \u11392 \u113BC  by \N_A_k_U;
+    sub \u113A0 \u113D0 \u11392 \u113BB  by \N_A_k_u;
+    sub \u113A0 \u113D0 \u113AA  by \N_A_m;
+    sub \u113A0 \u113D0 \u113A5  by \N_A_n;
+    sub \u113A0 \u113D0 \u113A5 \u113BC  by \N_A_n_U;
+    sub \u113A0 \u113D0 \u113A5 \u113BB  by \N_A_n_u;
+    sub \u113A0 \u113D0 \u1139C  by \N_A_q;
+    sub \u113A0 \u113D0 \u1139C \u113CF  by \N_A_q_A_X;
+    sub \u113A0 \u113D0 \u1139C \u113D0 \u113AC  by \N_A_q_A_r;
+    sub \u113A0 \u113D0 \u1139C \u113D0 \u113AC \u113BC  by \N_A_q_A_r_U;
+    sub \u113A0 \u113D0 \u1139C \u113D0 \u113AC \u113BB  by \N_A_q_A_r_u;
+    sub \u113A0 \u113D0 \u1139C \u113D0 \u113AE  by \N_A_q_A_v;
+    sub \u113A0 \u113D0 \u1139C \u113BC  by \N_A_q_U;
+    sub \u113A0 \u113D0 \u1139C \u113BB  by \N_A_q_u;
+    sub \u113A0 \u113D0 \u113AC  by \N_A_r;
+    sub \u113A0 \u113D0 \u113AC \u113BC  by \N_A_r_U;
+    sub \u113A0 \u113D0 \u113AC \u113BB  by \N_A_r_u;
+    sub \u113A0 \u113D0 \u113A1  by \N_A_t;
+    sub \u113A0 \u113D0 \u113A1 \u113CF  by \N_A_t_A_X;
+    sub \u113A0 \u113D0 \u113A1 \u113D0 \u113A5  by \N_A_t_A_n;
+    sub \u113A0 \u113D0 \u113A1 \u113D0 \u113A5 \u113CF  by \N_A_t_A_n_A_X;
+    sub \u113A0 \u113D0 \u113A1 \u113D0 \u113A5 \u113BC  by \N_A_t_A_n_U;
+    sub \u113A0 \u113D0 \u113A1 \u113D0 \u113A5 \u113BB  by \N_A_t_A_n_u;
+    sub \u113A0 \u113D0 \u113A1 \u113D0 \u113AC  by \N_A_t_A_r;
+    sub \u113A0 \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \N_A_t_A_r_U;
+    sub \u113A0 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \N_A_t_A_r_u;
+    sub \u113A0 \u113D0 \u113A1 \u113BC  by \N_A_t_U;
+    sub \u113A0 \u113D0 \u113A1 \u113BB  by \N_A_t_u;
+    sub \u113A0 \u113D0 \u1139E  by \N_A_w;
+    sub \u113A0 \u113D0 \u1139E \u113D0 \u113AB  by \N_A_w_A_y;
+    sub \u113A0 \u113D0 \u1139E \u113D0 \u113AB \u113BC  by \N_A_w_A_y_U;
+    sub \u113A0 \u113D0 \u1139E \u113D0 \u113AB \u113BB  by \N_A_w_A_y_u;
+    sub \u113A0 \u113D0 \u113AB  by \N_A_y;
+    sub \u113A0 \u113D0 \u113AB \u113BC  by \N_A_y_U;
+    sub \u113A0 \u113D0 \u113AB \u113BB  by \N_A_y_u;
+    sub \u113A0 \u113BD  by \N_R;
+    sub \u113A0 \u113BC  by \N_U;
+    sub \u113A0 \u113BB  by \N_u;
+    sub \u113C9 \u113D0  by \O_A;
+    sub \u113A7 \u113D0 \u113AC  by \P_A_r;
+    sub \u113A7 \u113D0 \u113AC \u113BC  by \P_A_r_U;
+    sub \u113A7 \u113D0 \u113AC \u113BB  by \P_A_r_u;
+    sub \u113A7 \u113D0 \u113AE  by \P_A_v;
+    sub \u113A7 \u113D0 \u113AE \u113BC  by \P_A_v_U;
+    sub \u113A7 \u113D0 \u113AE \u113BB  by \P_A_v_u;
+    sub \u113A7 \u113D0 \u113AB  by \P_A_y;
+    sub \u113A7 \u113D0 \u113AB \u113BC  by \P_A_y_U;
+    sub \u113A7 \u113D0 \u113AB \u113BB  by \P_A_y_u;
+    sub \u113AF \u113D0 \u11398  by \S_A_C;
+    sub \u113AF \u113D0 \u11398 \u113BC  by \S_A_C_U;
+    sub \u113AF \u113D0 \u11398 \u113BB  by \S_A_C_u;
+    sub \u113AF \u113D0 \u1139D  by \S_A_Q;
+    sub \u113AF \u113D0 \u1139D \u113BC  by \S_A_Q_U;
+    sub \u113AF \u113D0 \u1139D \u113BB  by \S_A_Q_u;
+    sub \u113AF \u113D0 \u11397  by \S_A_c;
+    sub \u113AF \u113D0 \u11397 \u113BC  by \S_A_c_U;
+    sub \u113AF \u113D0 \u11397 \u113BB  by \S_A_c_u;
+    sub \u113AF \u113D0 \u113AA  by \S_A_m;
+    sub \u113AF \u113D0 \u113AA \u113BC  by \S_A_m_U;
+    sub \u113AF \u113D0 \u113AA \u113BB  by \S_A_m_u;
+    sub \u113AF \u113D0 \u113A5  by \S_A_n;
+    sub \u113AF \u113D0 \u113A5 \u113BC  by \S_A_n_U;
+    sub \u113AF \u113D0 \u113A5 \u113BB  by \S_A_n_u;
+    sub \u113AF \u113D0 \u113AC  by \S_A_r;
+    sub \u113AF \u113D0 \u113AC \u113BC  by \S_A_r_U;
+    sub \u113AF \u113D0 \u113AC \u113BB  by \S_A_r_u;
+    sub \u113AF \u113D0 \u113AE  by \S_A_v;
+    sub \u113AF \u113D0 \u113AB  by \S_A_y;
+    sub \u113AF \u113D0 \u113AB \u113BC  by \S_A_y_U;
+    sub \u113AF \u113D0 \u113AB \u113BB  by \S_A_y_u;
+    sub \u113AF \u113BD  by \S_R;
+    sub \u113AF \u113BC  by \S_U;
+    sub \u113AF \u113BB  by \S_u;
+    sub \u113A2 \u113D0 \u113AA  by \T_A_m;
+    sub \u113A2 \u113D0 \u113AA \u113BC  by \T_A_m_U;
+    sub \u113A2 \u113D0 \u113AA \u113BB  by \T_A_m_u;
+    sub \u113A2 \u113D0 \u113AC  by \T_A_r;
+    sub \u113A2 \u113D0 \u113AC \u113BC  by \T_A_r_U;
+    sub \u113A2 \u113D0 \u113AC \u113BB  by \T_A_r_u;
+    sub \u113A2 \u113D0 \u113AE  by \T_A_v;
+    sub \u113A2 \u113D0 \u113AE \u113BC  by \T_A_v_U;
+    sub \u113A2 \u113D0 \u113AE \u113BB  by \T_A_v_u;
+    sub \u113A2 \u113D0 \u113AB  by \T_A_y;
+    sub \u113A2 \u113D0 \u113AB \u113BC  by \T_A_y_U;
+    sub \u113A2 \u113D0 \u113AB \u113BB  by \T_A_y_u;
+    sub \u1139F \u113D0 \u113AB  by \W_A_y;
+    sub \u1139F \u113D0 \u113AB \u113BC  by \W_A_y_U;
+    sub \u1139F \u113D0 \u113AB \u113BB  by \W_A_y_u;
+    sub \u11396 \u113D0 \u11394  by \Z_A_g;
+    sub \u11396 \u113D0 \u11394 \u113BD  by \Z_A_g_R;
+    sub \u11396 \u113D0 \u11394 \u113BC  by \Z_A_g_U;
+    sub \u11396 \u113D0 \u11394 \u113BB  by \Z_A_g_u;
+    sub \u11396 \u113D0 \u11392  by \Z_A_k;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113B3  by \Z_A_k_A_L;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113B3 \u113BC  by \Z_A_k_A_L_U;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113B3 \u113BB  by \Z_A_k_A_L_u;
+    sub \u11396 \u113D0 \u11392 \u113CF  by \Z_A_k_A_X;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u11392  by \Z_A_k_A_k;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u11392 \u113BC  by \Z_A_k_A_k_U;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u11392 \u113BB  by \Z_A_k_A_k_u;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113AC  by \Z_A_k_A_r;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113AC \u113BC  by \Z_A_k_A_r_U;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113AC \u113BB  by \Z_A_k_A_r_u;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113A1  by \Z_A_k_A_t;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB  by \Z_A_k_A_t_A_y;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB \u113BC  by \Z_A_k_A_t_A_y_U;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \Z_A_k_A_t_A_y_u;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113BC  by \Z_A_k_A_t_U;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113BB  by \Z_A_k_A_t_u;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113B0  by \Z_A_k_A_x;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AB  by \Z_A_k_A_x_A_y;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AB \u113BC  by \Z_A_k_A_x_A_y_U;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AB \u113BB  by \Z_A_k_A_x_A_y_u;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113AB  by \Z_A_k_A_y;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113AB \u113BC  by \Z_A_k_A_y_U;
+    sub \u11396 \u113D0 \u11392 \u113D0 \u113AB \u113BB  by \Z_A_k_A_y_u;
+    sub \u11396 \u113D0 \u11392 \u113BC  by \Z_A_k_U;
+    sub \u11396 \u113D0 \u11392 \u113BB  by \Z_A_k_u;
+    sub \u11396 \u113D0 \u113AB  by \Z_A_y;
+    sub \u11396 \u113D0 \u113AB \u113BC  by \Z_A_y_U;
+    sub \u11396 \u113D0 \u113AB \u113BB  by \Z_A_y_u;
+    sub \u113A8 \u113D0 \u113A8  by \b_A_b;
+    sub \u113A8 \u113D0 \u113A8 \u113BC  by \b_A_b_U;
+    sub \u113A8 \u113D0 \u113A8 \u113BB  by \b_A_b_u;
+    sub \u113A8 \u113D0 \u113A3  by \b_A_d;
+    sub \u113A8 \u113D0 \u113A3 \u113BC  by \b_A_d_U;
+    sub \u113A8 \u113D0 \u113A3 \u113BB  by \b_A_d_u;
+    sub \u113A8 \u113D0 \u113AC  by \b_A_r;
+    sub \u113A8 \u113D0 \u113AC \u113BC  by \b_A_r_U;
+    sub \u113A8 \u113D0 \u113AC \u113BB  by \b_A_r_u;
+    sub \u113A8 \u113D0 \u113AB  by \b_A_y;
+    sub \u113A8 \u113D0 \u113AB \u113BC  by \b_A_y_U;
+    sub \u113A8 \u113D0 \u113AB \u113BB  by \b_A_y_u;
+    sub \u113A8 \u113BD  by \b_R;
+    sub \u113A8 \u113BE  by \b_R_R;
+    sub \u11397 \u113D0 \u11398  by \c_A_C;
+    sub \u11397 \u113D0 \u11398 \u113BC  by \c_A_C_U;
+    sub \u11397 \u113D0 \u11398 \u113BB  by \c_A_C_u;
+    sub \u11397 \u113D0 \u11397  by \c_A_c;
+    sub \u11397 \u113D0 \u11397 \u113BC  by \c_A_c_U;
+    sub \u11397 \u113D0 \u11397 \u113BB  by \c_A_c_u;
+    sub \u11397 \u113D0 \u113AC \u113BC  by \c_A_r_U;
+    sub \u11397 \u113D0 \u113AC \u113BB  by \c_A_r_u;
+    sub \u11397 \u113D0 \u113AB  by \c_A_y;
+    sub \u11397 \u113D0 \u113AB \u113BC  by \c_A_y_U;
+    sub \u11397 \u113D0 \u113AB \u113BB  by \c_A_y_u;
+    sub \u11397 \u113BD  by \c_R;
+    sub \u11397 \u113BE  by \c_R_R;
+    sub \u113A3 \u113D0 \u113A9  by \d_A_B;
+    sub \u113A3 \u113D0 \u113A9 \u113D0 \u113AC  by \d_A_B_A_r;
+    sub \u113A3 \u113D0 \u113A9 \u113D0 \u113AC \u113BC  by \d_A_B_A_r_U;
+    sub \u113A3 \u113D0 \u113A9 \u113D0 \u113AC \u113BB  by \d_A_B_A_r_u;
+    sub \u113A3 \u113D0 \u113A9 \u113D0 \u113AB  by \d_A_B_A_y;
+    sub \u113A3 \u113D0 \u113A9 \u113D0 \u113AB \u113BC  by \d_A_B_A_y_U;
+    sub \u113A3 \u113D0 \u113A9 \u113D0 \u113AB \u113BB  by \d_A_B_A_y_u;
+    sub \u113A3 \u113D0 \u113A9 \u113BC  by \d_A_B_U;
+    sub \u113A3 \u113D0 \u113A9 \u113BB  by \d_A_B_u;
+    sub \u113A3 \u113D0 \u113A4  by \d_A_D;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AA  by \d_A_D_A_m;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AA \u113BC  by \d_A_D_A_m_U;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AA \u113BB  by \d_A_D_A_m_u;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AC  by \d_A_D_A_r;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AC \u113BC  by \d_A_D_A_r_U;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AE  by \d_A_D_A_v;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AE \u113BC  by \d_A_D_A_v_U;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AE \u113BB  by \d_A_D_A_v_u;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AB  by \d_A_D_A_y;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AB \u113BC  by \d_A_D_A_y_U;
+    sub \u113A3 \u113D0 \u113A4 \u113D0 \u113AB \u113BB  by \d_A_D_A_y_u;
+    sub \u113A3 \u113D0 \u113A4 \u113AC \u113BB  by \d_A_D_r_u;
+    sub \u113A3 \u113D0 \u11395  by \d_A_G;
+    sub \u113A3 \u113CF  by \d_A_X;
+    sub \u113A3 \u113D0 \u113A8  by \d_A_b;
+    sub \u113A3 \u113D0 \u113A8 \u113D0 \u113AC  by \d_A_b_A_r;
+    sub \u113A3 \u113D0 \u113A8 \u113D0 \u113AC \u113BC  by \d_A_b_A_r_U;
+    sub \u113A3 \u113D0 \u113A8 \u113D0 \u113AC \u113BB  by \d_A_b_A_r_u;
+    sub \u113A3 \u113D0 \u113A3  by \d_A_d;
+    sub \u113A3 \u113D0 \u113A3 \u113D0 \u113AC  by \d_A_d_A_r;
+    sub \u113A3 \u113D0 \u113A3 \u113D0 \u113AC \u113BC  by \d_A_d_A_r_U;
+    sub \u113A3 \u113D0 \u113A3 \u113D0 \u113AC \u113BB  by \d_A_d_A_r_u;
+    sub \u113A3 \u113D0 \u113A3 \u113D0 \u113AB  by \d_A_d_A_y;
+    sub \u113A3 \u113D0 \u113A3 \u113D0 \u113AB \u113BC  by \d_A_d_A_y_U;
+    sub \u113A3 \u113D0 \u113A3 \u113D0 \u113AB \u113BB  by \d_A_d_A_y_u;
+    sub \u113A3 \u113D0 \u113A3 \u113BC  by \d_A_d_U;
+    sub \u113A3 \u113D0 \u113A3 \u113BB  by \d_A_d_u;
+    sub \u113A3 \u113D0 \u11394  by \d_A_g;
+    sub \u113A3 \u113D0 \u11394 \u113D0 \u113AC  by \d_A_g_A_r;
+    sub \u113A3 \u113D0 \u11394 \u113D0 \u113AC \u113BC  by \d_A_g_A_r_U;
+    sub \u113A3 \u113D0 \u11394 \u113D0 \u113AC \u113BB  by \d_A_g_A_r_u;
+    sub \u113A3 \u113D0 \u11394 \u113BD  by \d_A_g_R;
+    sub \u113A3 \u113D0 \u11394 \u113BC  by \d_A_g_U;
+    sub \u113A3 \u113D0 \u11394 \u113BB  by \d_A_g_u;
+    sub \u113A3 \u113D0 \u11392  by \d_A_k;
+    sub \u113A3 \u113D0 \u11392 \u113CF  by \d_A_k_A_X;
+    sub \u113A3 \u113D0 \u11392 \u113BC  by \d_A_k_U;
+    sub \u113A3 \u113D0 \u11392 \u113BB  by \d_A_k_u;
+    sub \u113A3 \u113D0 \u113AD  by \d_A_l;
+    sub \u113A3 \u113D0 \u113AD \u113BC  by \d_A_l_U;
+    sub \u113A3 \u113D0 \u113AD \u113BB  by \d_A_l_u;
+    sub \u113A3 \u113D0 \u113AA  by \d_A_m;
+    sub \u113A3 \u113D0 \u113AA \u113BC  by \d_A_m_U;
+    sub \u113A3 \u113D0 \u113AA \u113BB  by \d_A_m_u;
+    sub \u113A3 \u113D0 \u113AC  by \d_A_r;
+    sub \u113A3 \u113D0 \u113AC \u113BC  by \d_A_r_U;
+    sub \u113A3 \u113D0 \u113AC \u113BB  by \d_A_r_u;
+    sub \u113A3 \u113D0 \u113AE  by \d_A_v;
+    sub \u113A3 \u113D0 \u113AE \u113D0 \u113AB  by \d_A_v_A_y;
+    sub \u113A3 \u113D0 \u113AE \u113D0 \u113AB \u113BC  by \d_A_v_A_y_U;
+    sub \u113A3 \u113D0 \u113AE \u113D0 \u113AB \u113BB  by \d_A_v_A_y_u;
+    sub \u113A3 \u113D0 \u113AB  by \d_A_y;
+    sub \u113A3 \u113D0 \u113AB \u113BC  by \d_A_y_U;
+    sub \u113A3 \u113D0 \u113AB \u113BB  by \d_A_y_u;
+    sub \u113A3 \u113BD  by \d_R;
+    sub \u113A3 \u113BE  by \d_R_R;
+    sub \u113A3 \u113BC  by \d_U;
+    sub \u113A3 \u113BB  by \d_u;
+    sub \u113C2 \u113D0  by \e_A;
+    sub \u113C2 \u113D0 \u113BA  by \e_A_a;
+    sub \u113C7 \u113D0  by \e_e_A;
+    sub \u11394 \u113D0 \u113A9  by \g_A_B;
+    sub \u11394 \u113D0 \u113A9 \u113D0 \u113AB  by \g_A_B_A_y;
+    sub \u11394 \u113D0 \u113A9 \u113D0 \u113AB \u113BC  by \g_A_B_A_y_U;
+    sub \u11394 \u113D0 \u113A9 \u113D0 \u113AB \u113BB  by \g_A_B_A_y_u;
+    sub \u11394 \u113D0 \u113A9 \u113BB  by \g_A_B_u;
+    sub \u11394 \u113D0 \u113A4  by \g_A_D;
+    sub \u11394 \u113D0 \u113A4 \u113BB  by \g_A_D_u;
+    sub \u11394 \u113D0 \u11395  by \g_A_G;
+    sub \u11394 \u113D0 \u11395 \u113BD  by \g_A_G_R;
+    sub \u11394 \u113CF  by \g_A_X;
+    sub \u11394 \u113D0 \u113A8  by \g_A_b;
+    sub \u11394 \u113D0 \u113A3  by \g_A_d;
+    sub \u11394 \u113D0 \u113A3 \u113D0 \u113A4  by \g_A_d_A_D;
+    sub \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AC  by \g_A_d_A_D_A_r;
+    sub \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AC \u113BC  by \g_A_d_A_D_A_r_U;
+    sub \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AC \u113BB  by \g_A_d_A_D_A_r_u;
+    sub \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113BC  by \g_A_d_A_D_U;
+    sub \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113BB  by \g_A_d_A_D_u;
+    sub \u11394 \u113D0 \u113A3 \u113BC  by \g_A_d_U;
+    sub \u11394 \u113D0 \u113A3 \u113BB  by \g_A_d_u;
+    sub \u11394 \u113D0 \u11394  by \g_A_g;
+    sub \u11394 \u113D0 \u11394 \u113D0 \u113AB  by \g_A_g_A_y;
+    sub \u11394 \u113D0 \u11394 \u113D0 \u113AB \u113BC  by \g_A_g_A_y_U;
+    sub \u11394 \u113D0 \u11394 \u113D0 \u113AB \u113BB  by \g_A_g_A_y_u;
+    sub \u11394 \u113D0 \u11394 \u113BD  by \g_A_g_R;
+    sub \u11394 \u113D0 \u11394 \u113BC  by \g_A_g_U;
+    sub \u11394 \u113D0 \u11394 \u113BB  by \g_A_g_u;
+    sub \u11394 \u113D0 \u11399  by \g_A_j;
+    sub \u11394 \u113D0 \u11399 \u113BC  by \g_A_j_U;
+    sub \u11394 \u113D0 \u11399 \u113BB  by \g_A_j_u;
+    sub \u11394 \u113D0 \u113AD  by \g_A_l;
+    sub \u11394 \u113D0 \u113AD \u113BC  by \g_A_l_U;
+    sub \u11394 \u113D0 \u113AD \u113BB  by \g_A_l_u;
+    sub \u11394 \u113D0 \u113AA  by \g_A_m;
+    sub \u11394 \u113D0 \u113A5  by \g_A_n;
+    sub \u11394 \u113D0 \u113A5 \u113D0 \u113AE  by \g_A_n_A_v;
+    sub \u11394 \u113D0 \u113A5 \u113D0 \u113AB  by \g_A_n_A_y;
+    sub \u11394 \u113D0 \u113A5 \u113D0 \u113AB \u113BC  by \g_A_n_A_y_U;
+    sub \u11394 \u113D0 \u113A5 \u113D0 \u113AB \u113BB  by \g_A_n_A_y_u;
+    sub \u11394 \u113D0 \u113A5 \u113BC  by \g_A_n_U;
+    sub \u11394 \u113D0 \u113A5 \u113BB  by \g_A_n_u;
+    sub \u11394 \u113D0 \u113AC  by \g_A_r;
+    sub \u11394 \u113D0 \u113AC \u113BC  by \g_A_r_U;
+    sub \u11394 \u113D0 \u113AC \u113BB  by \g_A_r_u;
+    sub \u11394 \u113D0 \u113AE  by \g_A_v;
+    sub \u11394 \u113D0 \u113AB  by \g_A_y;
+    sub \u11394 \u113D0 \u113AB \u113BC  by \g_A_y_U;
+    sub \u11394 \u113D0 \u113AB \u113BB  by \g_A_y_u;
+    sub \u11394 \u113BD  by \g_R;
+    sub \u11394 \u113BE  by \g_R_R;
+    sub \u11394 \u113BC  by \g_U;
+    sub \u11394 \u113BB  by \g_u;
+    sub \u113B2 \u113D0 \u113A0  by \h_A_N;
+    sub \u113B2 \u113D0 \u113A0 \u113BD  by \h_A_N_R;
+    sub \u113B2 \u113D0 \u113A0 \u113BC  by \h_A_N_U;
+    sub \u113B2 \u113D0 \u113A0 \u113BB  by \h_A_N_u;
+    sub \u113B2 \u113CF  by \h_A_X;
+    sub \u113B2 \u113D0 \u113AD  by \h_A_l;
+    sub \u113B2 \u113D0 \u113AD \u113BC  by \h_A_l_U;
+    sub \u113B2 \u113D0 \u113AD \u113BB  by \h_A_l_u;
+    sub \u113B2 \u113D0 \u113AA  by \h_A_m;
+    sub \u113B2 \u113D0 \u113A5  by \h_A_n;
+    sub \u113B2 \u113D0 \u113A5 \u113BC  by \h_A_n_U;
+    sub \u113B2 \u113D0 \u113A5 \u113BB  by \h_A_n_u;
+    sub \u113B2 \u113D0 \u113AC  by \h_A_r;
+    sub \u113B2 \u113D0 \u113AC \u113BC  by \h_A_r_U;
+    sub \u113B2 \u113D0 \u113AC \u113BB  by \h_A_r_u;
+    sub \u113B2 \u113D0 \u113AE  by \h_A_v;
+    sub \u113B2 \u113D0 \u113AB  by \h_A_y;
+    sub \u113B2 \u113D0 \u113AB \u113BC  by \h_A_y_U;
+    sub \u113B2 \u113D0 \u113AB \u113BB  by \h_A_y_u;
+    sub \u113B2 \u113BD  by \h_R;
+    sub \u113B2 \u113BE  by \h_R_R;
+    sub \u113B2 \u113BC  by \h_U;
+    sub \u113B2 \u113BB  by \h_u;
+    sub \u11399 \u113D0 \u11399  by \j_A_j;
+    sub \u11399 \u113D0 \u11399 \u113D0 \u113AB  by \j_A_j_A_y;
+    sub \u11399 \u113D0 \u11399 \u113D0 \u113AB \u113BC  by \j_A_j_A_y_U;
+    sub \u11399 \u113D0 \u11399 \u113D0 \u113AB \u113BB  by \j_A_j_A_y_u;
+    sub \u11399 \u113D0 \u11399 \u113D0 \u1139B  by \j_A_j_A_z;
+    sub \u11399 \u113D0 \u11399 \u113D0 \u1139B \u113BC  by \j_A_j_A_z_U;
+    sub \u11399 \u113D0 \u11399 \u113D0 \u1139B \u113BB  by \j_A_j_A_z_u;
+    sub \u11399 \u113D0 \u11399 \u113BC  by \j_A_j_U;
+    sub \u11399 \u113D0 \u11399 \u113BB  by \j_A_j_u;
+    sub \u11399 \u113D0 \u113AA  by \j_A_m;
+    sub \u11399 \u113D0 \u113AC  by \j_A_r;
+    sub \u11399 \u113D0 \u113AC \u113BC  by \j_A_r_U;
+    sub \u11399 \u113D0 \u113AC \u113BB  by \j_A_r_u;
+    sub \u11399 \u113D0 \u113AE  by \j_A_v;
+    sub \u11399 \u113D0 \u113AE \u113BC  by \j_A_v_U;
+    sub \u11399 \u113D0 \u113AE \u113BB  by \j_A_v_u;
+    sub \u11399 \u113D0 \u113AB  by \j_A_y;
+    sub \u11399 \u113D0 \u113AB \u113BC  by \j_A_y_U;
+    sub \u11399 \u113D0 \u113AB \u113BB  by \j_A_y_u;
+    sub \u11399 \u113D0 \u1139B  by \j_A_z;
+    sub \u11399 \u113D0 \u1139B \u113BC  by \j_A_z_U;
+    sub \u11399 \u113D0 \u1139B \u113BB  by \j_A_z_u;
+    sub \u11399 \u113BD  by \j_R;
+    sub \u11399 \u113BE  by \j_R_R;
+    sub \u11399 \u113BC  by \j_U;
+    sub \u11399 \u113BB  by \j_u;
+    sub \u11392 \u113D0 \u113B3  by \k_A_L;
+    sub \u11392 \u113D0 \u113B3 \u113BC  by \k_A_L_U;
+    sub \u11392 \u113D0 \u113B3 \u113BB  by \k_A_L_u;
+    sub \u11392 \u113D0 \u113A2  by \k_A_T;
+    sub \u11392 \u113CF  by \k_A_X;
+    sub \u11392 \u113D0 \u11392  by \k_A_k;
+    sub \u11392 \u113D0 \u11392 \u113CF  by \k_A_k_A_X;
+    sub \u11392 \u113D0 \u11392 \u113D0 \u113AC  by \k_A_k_A_r;
+    sub \u11392 \u113D0 \u11392 \u113BD  by \k_A_k_R;
+    sub \u11392 \u113D0 \u11392 \u113BC  by \k_A_k_U;
+    sub \u11392 \u113D0 \u11392 \u113BB  by \k_A_k_u;
+    sub \u11392 \u113D0 \u113AD  by \k_A_l;
+    sub \u11392 \u113D0 \u113AD \u113BC  by \k_A_l_U;
+    sub \u11392 \u113D0 \u113AD \u113BB  by \k_A_l_u;
+    sub \u11392 \u113D0 \u113AA  by \k_A_m;
+    sub \u11392 \u113D0 \u113A5  by \k_A_n;
+    sub \u11392 \u113D0 \u113A5 \u113D0 \u113AB  by \k_A_n_A_y;
+    sub \u11392 \u113D0 \u113A5 \u113D0 \u113AB \u113BC  by \k_A_n_A_y_U;
+    sub \u11392 \u113D0 \u113A5 \u113D0 \u113AB \u113BB  by \k_A_n_A_y_u;
+    sub \u11392 \u113D0 \u113A5 \u113BC  by \k_A_n_U;
+    sub \u11392 \u113D0 \u113A5 \u113BB  by \k_A_n_u;
+    sub \u11392 \u113D0 \u1139C  by \k_A_q;
+    sub \u11392 \u113D0 \u1139C \u113BC  by \k_A_q_U;
+    sub \u11392 \u113D0 \u1139C \u113BB  by \k_A_q_u;
+    sub \u11392 \u113D0 \u113AC  by \k_A_r;
+    sub \u11392 \u113D0 \u113AC \u113BC  by \k_A_r_U;
+    sub \u11392 \u113D0 \u113AC \u113BB  by \k_A_r_u;
+    sub \u11392 \u113D0 \u113B1  by \k_A_s;
+    sub \u11392 \u113D0 \u113B1 \u113D0 \u113B1  by \k_A_s_A_s;
+    sub \u11392 \u113D0 \u113B1 \u113D0 \u113B1 \u113BC  by \k_A_s_A_s_U;
+    sub \u11392 \u113D0 \u113B1 \u113D0 \u113B1 \u113BB  by \k_A_s_A_s_u;
+    sub \u11392 \u113D0 \u113A1  by \k_A_t;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113A2  by \k_A_t_A_T;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AC  by \k_A_t_A_r;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB  by \k_A_t_A_r_A_y;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BC  by \k_A_t_A_r_A_y_U;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BB  by \k_A_t_A_r_A_y_u;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \k_A_t_A_r_U;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \k_A_t_A_r_u;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AE  by \k_A_t_A_v;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AB  by \k_A_t_A_y;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AB \u113BC  by \k_A_t_A_y_U;
+    sub \u11392 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \k_A_t_A_y_u;
+    sub \u11392 \u113D0 \u113A1 \u113BD  by \k_A_t_R;
+    sub \u11392 \u113D0 \u113A1 \u113BC  by \k_A_t_U;
+    sub \u11392 \u113D0 \u113A1 \u113BB  by \k_A_t_u;
+    sub \u11392 \u113D0 \u113AE  by \k_A_v;
+    sub \u11392 \u113D0 \u113B0  by \k_A_x;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u11392 \u113D0 \u113AC  by \k_A_x_A_k_A_r;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u11392 \u113D0 \u113AC \u113BC  by \k_A_x_A_k_A_r_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u11392 \u113D0 \u113AB  by \k_A_x_A_k_A_y;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u11392 \u113D0 \u113AB \u113BC  by \k_A_x_A_k_A_y_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AD  by \k_A_x_A_l;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AD \u113BC  by \k_A_x_A_l_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AD \u113BB  by \k_A_x_A_l_u;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AA  by \k_A_x_A_m;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113D0 \u113AB  by \k_A_x_A_m_A_y;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113D0 \u113AB \u113BC  by \k_A_x_A_m_A_y_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113D0 \u113AB \u113BB  by \k_A_x_A_m_A_y_u;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113BC  by \k_A_x_A_m_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113BB  by \k_A_x_A_m_u;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AC  by \k_A_x_A_r;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AC \u113BC  by \k_A_x_A_r_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AC \u113BB  by \k_A_x_A_r_u;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AE  by \k_A_x_A_v;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AE \u113BC  by \k_A_x_A_v_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AE \u113BB  by \k_A_x_A_v_u;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AB  by \k_A_x_A_y;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AB \u113BC  by \k_A_x_A_y_U;
+    sub \u11392 \u113D0 \u113B0 \u113D0 \u113AB \u113BB  by \k_A_x_A_y_u;
+    sub \u11392 \u113D0 \u113AB  by \k_A_y;
+    sub \u11392 \u113D0 \u113AB \u113BC  by \k_A_y_U;
+    sub \u11392 \u113D0 \u113AB \u113BB  by \k_A_y_u;
+    sub \u11392 \u113BD  by \k_R;
+    sub \u11392 \u113BE  by \k_R_R;
+    sub \u11392 \u113BC  by \k_U;
+    sub \u11392 \u113BB  by \k_u;
+    sub \u113AD \u113CF  by \l_A_X;
+    sub \u113AD \u113D0 \u11392  by \l_A_k;
+    sub \u113AD \u113D0 \u11392 \u113BC  by \l_A_k_U;
+    sub \u113AD \u113D0 \u11392 \u113BB  by \l_A_k_u;
+    sub \u113AD \u113D0 \u113AA  by \l_A_m;
+    sub \u113AD \u113D0 \u113AA \u113BC  by \l_A_m_U;
+    sub \u113AD \u113D0 \u113AA \u113BB  by \l_A_m_u;
+    sub \u113AD \u113D0 \u113AB  by \l_A_y;
+    sub \u113AD \u113D0 \u113AB \u113BC  by \l_A_y_U;
+    sub \u113AD \u113D0 \u113AB \u113BB  by \l_A_y_u;
+    sub \u113AA \u113CF  by \m_A_X;
+    sub \u113AA \u113D0 \u113AA  by \m_A_m;
+    sub \u113AA \u113D0 \u113AA \u113CF  by \m_A_m_A_X;
+    sub \u113AA \u113D0 \u113AA \u113D0 \u113AB  by \m_A_m_A_y;
+    sub \u113AA \u113D0 \u113AA \u113D0 \u113AB \u113BC  by \m_A_m_A_y_U;
+    sub \u113AA \u113D0 \u113AA \u113D0 \u113AB \u113BB  by \m_A_m_A_y_u;
+    sub \u113AA \u113D0 \u113AC  by \m_A_r;
+    sub \u113AA \u113D0 \u113AC \u113BC  by \m_A_r_U;
+    sub \u113AA \u113D0 \u113AC \u113BB  by \m_A_r_u;
+    sub \u113AA \u113D0 \u113AB  by \m_A_y;
+    sub \u113AA \u113D0 \u113AB \u113BC  by \m_A_y_U;
+    sub \u113AA \u113D0 \u113AB \u113BB  by \m_A_y_u;
+    sub \u113AA \u113BD  by \m_R;
+    sub \u113AA \u113BE  by \m_R_R;
+    sub \u113A5 \u113D0 \u113A9  by \n_A_B;
+    sub \u113A5 \u113D0 \u113A9 \u113BB  by \n_A_B_u;
+    sub \u113A5 \u113D0 \u113A4  by \n_A_D;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AC  by \n_A_D_A_r;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AC \u113BC  by \n_A_D_A_r_U;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AC \u113BB  by \n_A_D_A_r_u;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AE  by \n_A_D_A_v;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AE \u113BC  by \n_A_D_A_v_U;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AE \u113BB  by \n_A_D_A_v_u;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AB  by \n_A_D_A_y;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AB \u113BC  by \n_A_D_A_y_U;
+    sub \u113A5 \u113D0 \u113A4 \u113D0 \u113AB \u113BB  by \n_A_D_A_y_u;
+    sub \u113A5 \u113D0 \u11395  by \n_A_G;
+    sub \u113A5 \u113D0 \u11395 \u113D0 \u113BD  by \n_A_G_A_R;
+    sub \u113A5 \u113D0 \u113A2  by \n_A_T;
+    sub \u113A5 \u113CF  by \n_A_X;
+    sub \u113A5 \u113D0 \u113A8  by \n_A_b;
+    sub \u113A5 \u113D0 \u113A8 \u113D0 \u113AC  by \n_A_b_A_r;
+    sub \u113A5 \u113D0 \u113A8 \u113D0 \u113AC \u113BC  by \n_A_b_A_r_U;
+    sub \u113A5 \u113D0 \u113A8 \u113D0 \u113AC \u113BB  by \n_A_b_A_r_u;
+    sub \u113A5 \u113D0 \u113A3  by \n_A_d;
+    sub \u113A5 \u113D0 \u113A3 \u113CF  by \n_A_d_A_X;
+    sub \u113A5 \u113D0 \u113A3 \u113D0 \u113AC  by \n_A_d_A_r;
+    sub \u113A5 \u113D0 \u113A3 \u113D0 \u113AC \u113BC  by \n_A_d_A_r_U;
+    sub \u113A5 \u113D0 \u113A3 \u113D0 \u113AC \u113BB  by \n_A_d_A_r_u;
+    sub \u113A5 \u113D0 \u113A3 \u113D0 \u113AE  by \n_A_d_A_v;
+    sub \u113A5 \u113D0 \u113A3 \u113D0 \u113AB  by \n_A_d_A_y;
+    sub \u113A5 \u113D0 \u113A3 \u113D0 \u113AB \u113BC  by \n_A_d_A_y_U;
+    sub \u113A5 \u113D0 \u113A3 \u113D0 \u113AB \u113BB  by \n_A_d_A_y_u;
+    sub \u113A5 \u113D0 \u113A3 \u113BC  by \n_A_d_U;
+    sub \u113A5 \u113D0 \u113A3 \u113BB  by \n_A_d_u;
+    sub \u113A5 \u113D0 \u113B2  by \n_A_h;
+    sub \u113A5 \u113D0 \u113B2 \u113BC  by \n_A_h_U;
+    sub \u113A5 \u113D0 \u113B2 \u113BB  by \n_A_h_u;
+    sub \u113A5 \u113D0 \u11392  by \n_A_k;
+    sub \u113A5 \u113D0 \u11392 \u113D0 \u113A1  by \n_A_k_A_t;
+    sub \u113A5 \u113D0 \u11392 \u113D0 \u113A1 \u113BC  by \n_A_k_A_t_U;
+    sub \u113A5 \u113D0 \u11392 \u113D0 \u113A1 \u113BB  by \n_A_k_A_t_u;
+    sub \u113A5 \u113D0 \u11392 \u113D0 \u113B0  by \n_A_k_A_x;
+    sub \u113A5 \u113D0 \u11392 \u113BD  by \n_A_k_R;
+    sub \u113A5 \u113D0 \u11392 \u113BC  by \n_A_k_U;
+    sub \u113A5 \u113D0 \u11392 \u113BB  by \n_A_k_u;
+    sub \u113A5 \u113D0 \u113AA  by \n_A_m;
+    sub \u113A5 \u113D0 \u113AA \u113BD  by \n_A_m_R;
+    sub \u113A5 \u113D0 \u113A5  by \n_A_n;
+    sub \u113A5 \u113D0 \u113A5 \u113CF  by \n_A_n_A_X;
+    sub \u113A5 \u113D0 \u113A5 \u113BC  by \n_A_n_U;
+    sub \u113A5 \u113D0 \u113A5 \u113BB  by \n_A_n_u;
+    sub \u113A5 \u113D0 \u1139C  by \n_A_q;
+    sub \u113A5 \u113D0 \u1139C \u113BC  by \n_A_q_U;
+    sub \u113A5 \u113D0 \u1139C \u113BB  by \n_A_q_u;
+    sub \u113A5 \u113D0 \u113AC  by \n_A_r;
+    sub \u113A5 \u113D0 \u113AC \u113BC  by \n_A_r_U;
+    sub \u113A5 \u113D0 \u113AC \u113BB  by \n_A_r_u;
+    sub \u113A5 \u113D0 \u113A1  by \n_A_t;
+    sub \u113A5 \u113D0 \u113A1 \u113CF  by \n_A_t_A_X;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113A3  by \n_A_t_A_d;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113A3 \u113BC  by \n_A_t_A_d_U;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113A3 \u113BB  by \n_A_t_A_d_u;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113A5  by \n_A_t_A_n;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113A5 \u113BC  by \n_A_t_A_n_U;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113A5 \u113BB  by \n_A_t_A_n_u;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AC  by \n_A_t_A_r;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB  by \n_A_t_A_r_A_y;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BC  by \n_A_t_A_r_A_y_U;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BB  by \n_A_t_A_r_A_y_u;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \n_A_t_A_r_U;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \n_A_t_A_r_u;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113B1  by \n_A_t_A_s;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AE  by \n_A_t_A_v;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AB  by \n_A_t_A_y;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AB \u113BC  by \n_A_t_A_y_U;
+    sub \u113A5 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \n_A_t_A_y_u;
+    sub \u113A5 \u113D0 \u113A1 \u113BC  by \n_A_t_U;
+    sub \u113A5 \u113D0 \u113A1 \u113BB  by \n_A_t_u;
+    sub \u113A5 \u113D0 \u113AE  by \n_A_v;
+    sub \u113A5 \u113D0 \u113AB  by \n_A_y;
+    sub \u113A5 \u113D0 \u113AB \u113BC  by \n_A_y_U;
+    sub \u113A5 \u113D0 \u113AB \u113BB  by \n_A_y_u;
+    sub \u113A5 \u113BD  by \n_R;
+    sub \u113A5 \u113BE  by \n_R_R;
+    sub \u113A5 \u113BC  by \n_U;
+    sub \u113A5 \u113BB  by \n_u;
+    sub \u113C8 \u113D0  by \o_A;
+    sub \u113A6 \u113D0 \u11398  by \p_A_C;
+    sub \u113A6 \u113D0 \u11398 \u113BC  by \p_A_C_U;
+    sub \u113A6 \u113D0 \u11398 \u113BB  by \p_A_C_u;
+    sub \u113A6 \u113D0 \u113A7  by \p_A_P;
+    sub \u113A6 \u113D0 \u113A7 \u113BC  by \p_A_P_U;
+    sub \u113A6 \u113D0 \u113A7 \u113BB  by \p_A_P_u;
+    sub \u113A6 \u113D0 \u113AA  by \p_A_m;
+    sub \u113A6 \u113D0 \u113AA \u113BC  by \p_A_m_U;
+    sub \u113A6 \u113D0 \u113AA \u113BB  by \p_A_m_u;
+    sub \u113A6 \u113D0 \u113A6  by \p_A_p;
+    sub \u113A6 \u113D0 \u113A6 \u113BC  by \p_A_p_U;
+    sub \u113A6 \u113D0 \u113A6 \u113BB  by \p_A_p_u;
+    sub \u113A6 \u113D0 \u113AC  by \p_A_r;
+    sub \u113A6 \u113D0 \u113AC \u113BC  by \p_A_r_U;
+    sub \u113A6 \u113D0 \u113AC \u113BB  by \p_A_r_u;
+    sub \u113A6 \u113D0 \u113B1  by \p_A_s;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113A2  by \p_A_s_A_T;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113A2 \u113BC  by \p_A_s_A_T_U;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113A2 \u113BB  by \p_A_s_A_T_u;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113AA  by \p_A_s_A_m;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113AA \u113BB  by \p_A_s_A_m_u;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113A1  by \p_A_s_A_t;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113A1 \u113BB  by \p_A_s_A_t_u;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113AE  by \p_A_s_A_v;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113AE \u113BC  by \p_A_s_A_v_U;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113AE \u113BB  by \p_A_s_A_v_u;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113AB  by \p_A_s_A_y;
+    sub \u113A6 \u113D0 \u113B1 \u113D0 \u113AB \u113BB  by \p_A_s_A_y_u;
+    sub \u113A6 \u113D0 \u113B1 \u113BC  by \p_A_s_U;
+    sub \u113A6 \u113D0 \u113B1 \u113BB  by \p_A_s_u;
+    sub \u113A6 \u113D0 \u113A1  by \p_A_t;
+    sub \u113A6 \u113D0 \u113A1 \u113D0 \u113AE  by \p_A_t_A_v;
+    sub \u113A6 \u113D0 \u113A1 \u113D0 \u113AE \u113BC  by \p_A_t_A_v_U;
+    sub \u113A6 \u113D0 \u113A1 \u113D0 \u113AE \u113BB  by \p_A_t_A_v_u;
+    sub \u113A6 \u113D0 \u113A1 \u113BC  by \p_A_t_U;
+    sub \u113A6 \u113D0 \u113A1 \u113BB  by \p_A_t_u;
+    sub \u113A6 \u113D0 \u113AB  by \p_A_y;
+    sub \u113A6 \u113D0 \u113AB \u113BC  by \p_A_y_U;
+    sub \u113A6 \u113D0 \u113AB \u113BB  by \p_A_y_u;
+    sub \u113A6 \u113BD  by \p_R;
+    sub \u113A6 \u113BE  by \p_R_R;
+    sub \u1139C \u113D0 \u1139D  by \q_A_Q;
+    sub \u1139C \u113D0 \u1139D \u113BC  by \q_A_Q_U;
+    sub \u1139C \u113D0 \u1139D \u113BB  by \q_A_Q_u;
+    sub \u1139C \u113CF  by \q_A_X;
+    sub \u1139C \u113D0 \u113AD  by \q_A_l;
+    sub \u1139C \u113D0 \u113AD \u113BC  by \q_A_l_U;
+    sub \u1139C \u113D0 \u113AD \u113BB  by \q_A_l_u;
+    sub \u1139C \u113D0 \u1139C  by \q_A_q;
+    sub \u1139C \u113D0 \u1139C \u113CF  by \q_A_q_A_X;
+    sub \u1139C \u113D0 \u1139C \u113D0 \u113AB  by \q_A_q_A_y;
+    sub \u1139C \u113D0 \u1139C \u113D0 \u113AB \u113BC  by \q_A_q_A_y_U;
+    sub \u1139C \u113D0 \u1139C \u113D0 \u113AB \u113BB  by \q_A_q_A_y_u;
+    sub \u1139C \u113D0 \u1139C \u113BC  by \q_A_q_U;
+    sub \u1139C \u113D0 \u1139C \u113BB  by \q_A_q_u;
+    sub \u1139C \u113D0 \u113AC  by \q_A_r;
+    sub \u1139C \u113D0 \u113AC \u113BC  by \q_A_r_U;
+    sub \u1139C \u113D0 \u113AC \u113BB  by \q_A_r_u;
+    sub \u1139C \u113D0 \u113AE  by \q_A_v;
+    sub \u1139C \u113D0 \u113AB  by \q_A_y;
+    sub \u1139C \u113D0 \u113AB \u113BC  by \q_A_y_U;
+    sub \u1139C \u113D0 \u113AB \u113BB  by \q_A_y_u;
+    sub \u1139C \u113BC  by \q_U;
+    sub \u1139C \u113BB  by \q_u;
+    sub \u113AC \u113CF  by \r_A_X;
+    sub \u113AC \u113D0 \u113AC  by \r_A_r;
+    sub \u113AC \u113D0 \u113AC \u113BC  by \r_A_r_U;
+    sub \u113AC \u113D0 \u113AC \u113BB  by \r_A_r_u;
+    sub \u113AC \u113BC  by \r_U;
+    sub \u113AC \u113BB  by \r_u;
+    sub \u113B1 \u113D0 \u113A2  by \s_A_T;
+    sub \u113B1 \u113D0 \u113AA  by \s_A_m;
+    sub \u113B1 \u113D0 \u113AA \u113BD  by \s_A_m_R;
+    sub \u113B1 \u113D0 \u113AA \u113BC  by \s_A_m_U;
+    sub \u113B1 \u113D0 \u113AA \u113BB  by \s_A_m_u;
+    sub \u113B1 \u113D0 \u113A6  by \s_A_p;
+    sub \u113B1 \u113D0 \u113A6 \u113D0 \u113AD  by \s_A_p_A_l;
+    sub \u113B1 \u113D0 \u113A6 \u113D0 \u113AD \u113BC  by \s_A_p_A_l_U;
+    sub \u113B1 \u113D0 \u113A6 \u113D0 \u113AD \u113BB  by \s_A_p_A_l_u;
+    sub \u113B1 \u113D0 \u113A6 \u113D0 \u113AC  by \s_A_p_A_r;
+    sub \u113B1 \u113D0 \u113A6 \u113D0 \u113AC \u113BC  by \s_A_p_A_r_U;
+    sub \u113B1 \u113D0 \u113A6 \u113D0 \u113AC \u113BB  by \s_A_p_A_r_u;
+    sub \u113B1 \u113D0 \u113A6 \u113BC  by \s_A_p_U;
+    sub \u113B1 \u113D0 \u113A6 \u113BB  by \s_A_p_u;
+    sub \u113B1 \u113D0 \u1139C  by \s_A_q;
+    sub \u113B1 \u113D0 \u1139C \u113CF  by \s_A_q_A_X;
+    sub \u113B1 \u113D0 \u1139C \u113D0 \u113AD  by \s_A_q_A_l;
+    sub \u113B1 \u113D0 \u1139C \u113D0 \u113AD \u113BC  by \s_A_q_A_l_U;
+    sub \u113B1 \u113D0 \u1139C \u113D0 \u113AD \u113BB  by \s_A_q_A_l_u;
+    sub \u113B1 \u113D0 \u1139C \u113D0 \u113AC  by \s_A_q_A_r;
+    sub \u113B1 \u113D0 \u1139C \u113D0 \u113AC \u113BC  by \s_A_q_A_r_U;
+    sub \u113B1 \u113D0 \u1139C \u113D0 \u113AC \u113BB  by \s_A_q_A_r_u;
+    sub \u113B1 \u113D0 \u1139C \u113BC  by \s_A_q_U;
+    sub \u113B1 \u113D0 \u1139C \u113BB  by \s_A_q_u;
+    sub \u113B1 \u113D0 \u113AC  by \s_A_r;
+    sub \u113B1 \u113D0 \u113B1  by \s_A_s;
+    sub \u113B1 \u113D0 \u113B1 \u113BC  by \s_A_s_U;
+    sub \u113B1 \u113D0 \u113B1 \u113BB  by \s_A_s_u;
+    sub \u113B1 \u113D0 \u113A1  by \s_A_t;
+    sub \u113B1 \u113D0 \u113A1 \u113CF  by \s_A_t_A_X;
+    sub \u113B1 \u113D0 \u113A1 \u113D0 \u113AC  by \s_A_t_A_r;
+    sub \u113B1 \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \s_A_t_A_r_U;
+    sub \u113B1 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \s_A_t_A_r_u;
+    sub \u113B1 \u113D0 \u113A1 \u113D0 \u113AE  by \s_A_t_A_v;
+    sub \u113B1 \u113D0 \u113A1 \u113BC  by \s_A_t_U;
+    sub \u113B1 \u113D0 \u113A1 \u113BB  by \s_A_t_u;
+    sub \u113B1 \u113D0 \u113AE  by \s_A_v;
+    sub \u113B1 \u113D0 \u113AB  by \s_A_y;
+    sub \u113B1 \u113D0 \u113AB \u113BC  by \s_A_y_U;
+    sub \u113B1 \u113D0 \u113AB \u113BB  by \s_A_y_u;
+    sub \u113A1 \u113D0 \u113A2  by \t_A_T;
+    sub \u113A1 \u113D0 \u113A2 \u113D0 \u113AB  by \t_A_T_A_y;
+    sub \u113A1 \u113D0 \u113A2 \u113D0 \u113AB \u113BC  by \t_A_T_A_y_U;
+    sub \u113A1 \u113D0 \u113A2 \u113D0 \u113AB \u113BB  by \t_A_T_A_y_u;
+    sub \u113A1 \u113CF  by \t_A_X;
+    sub \u113A1 \u113D0 \u11392  by \t_A_k;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113AC  by \t_A_k_A_r;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113AC \u113BC  by \t_A_k_A_r_U;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113AC \u113BB  by \t_A_k_A_r_u;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113B0  by \t_A_k_A_x;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA  by \t_A_k_A_x_A_m;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113BC  by \t_A_k_A_x_A_m_U;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113BB  by \t_A_k_A_x_A_m_u;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113B0 \u113BC  by \t_A_k_A_x_U;
+    sub \u113A1 \u113D0 \u11392 \u113D0 \u113B0 \u113BB  by \t_A_k_A_x_u;
+    sub \u113A1 \u113D0 \u11392 \u113BD  by \t_A_k_R;
+    sub \u113A1 \u113D0 \u11392 \u113BC  by \t_A_k_U;
+    sub \u113A1 \u113D0 \u11392 \u113BB  by \t_A_k_u;
+    sub \u113A1 \u113D0 \u113AD  by \t_A_l;
+    sub \u113A1 \u113D0 \u113AD \u113BC  by \t_A_l_U;
+    sub \u113A1 \u113D0 \u113AD \u113BB  by \t_A_l_u;
+    sub \u113A1 \u113D0 \u113AA  by \t_A_m;
+    sub \u113A1 \u113D0 \u113AA \u113D0 \u113AC  by \t_A_m_A_r;
+    sub \u113A1 \u113D0 \u113AA \u113D0 \u113AC \u113BC  by \t_A_m_A_r_U;
+    sub \u113A1 \u113D0 \u113AA \u113D0 \u113AC \u113BB  by \t_A_m_A_r_u;
+    sub \u113A1 \u113D0 \u113AA \u113D0 \u113AB  by \t_A_m_A_y;
+    sub \u113A1 \u113D0 \u113AA \u113D0 \u113AB \u113BC  by \t_A_m_A_y_U;
+    sub \u113A1 \u113D0 \u113AA \u113D0 \u113AB \u113BB  by \t_A_m_A_y_u;
+    sub \u113A1 \u113D0 \u113A5  by \t_A_n;
+    sub \u113A1 \u113D0 \u113A5 \u113CF  by \t_A_n_A_X;
+    sub \u113A1 \u113D0 \u113A5 \u113D0 \u113A1  by \t_A_n_A_t;
+    sub \u113A1 \u113D0 \u113A5 \u113D0 \u113A1 \u113CF  by \t_A_n_A_t_A_X;
+    sub \u113A1 \u113D0 \u113A5 \u113D0 \u113A1 \u113BC  by \t_A_n_A_t_U;
+    sub \u113A1 \u113D0 \u113A5 \u113D0 \u113A1 \u113BB  by \t_A_n_A_t_u;
+    sub \u113A1 \u113D0 \u113A5 \u113D0 \u113AB  by \t_A_n_A_y;
+    sub \u113A1 \u113D0 \u113A5 \u113D0 \u113AB \u113BC  by \t_A_n_A_y_U;
+    sub \u113A1 \u113D0 \u113A5 \u113D0 \u113AB \u113BB  by \t_A_n_A_y_u;
+    sub \u113A1 \u113D0 \u113A5 \u113BC  by \t_A_n_U;
+    sub \u113A1 \u113D0 \u113A5 \u113BB  by \t_A_n_u;
+    sub \u113A1 \u113D0 \u113AC  by \t_A_r;
+    sub \u113A1 \u113D0 \u113AC \u113D0 \u113AE  by \t_A_r_A_v;
+    sub \u113A1 \u113D0 \u113AC \u113D0 \u113AE \u113BC  by \t_A_r_A_v_U;
+    sub \u113A1 \u113D0 \u113AC \u113D0 \u113AE \u113BB  by \t_A_r_A_v_u;
+    sub \u113A1 \u113D0 \u113AC \u113D0 \u113AB  by \t_A_r_A_y;
+    sub \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BC  by \t_A_r_A_y_U;
+    sub \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BB  by \t_A_r_A_y_u;
+    sub \u113A1 \u113D0 \u113AC \u113BC  by \t_A_r_U;
+    sub \u113A1 \u113D0 \u113AC \u113BB  by \t_A_r_u;
+    sub \u113A1 \u113D0 \u113B1  by \t_A_s;
+    sub \u113A1 \u113D0 \u113B1 \u113D0 \u113A2  by \t_A_s_A_T;
+    sub \u113A1 \u113D0 \u113B1 \u113D0 \u113AE  by \t_A_s_A_v;
+    sub \u113A1 \u113D0 \u113B1 \u113D0 \u113AB  by \t_A_s_A_y;
+    sub \u113A1 \u113D0 \u113B1 \u113D0 \u113AB \u113BC  by \t_A_s_A_y_U;
+    sub \u113A1 \u113D0 \u113B1 \u113D0 \u113AB \u113BB  by \t_A_s_A_y_u;
+    sub \u113A1 \u113D0 \u113A1  by \t_A_t;
+    sub \u113A1 \u113D0 \u113A1 \u113CF  by \t_A_t_A_X;
+    sub \u113A1 \u113D0 \u113A1 \u113D0 \u113AC  by \t_A_t_A_r;
+    sub \u113A1 \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \t_A_t_A_r_U;
+    sub \u113A1 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \t_A_t_A_r_u;
+    sub \u113A1 \u113D0 \u113A1 \u113D0 \u113AE  by \t_A_t_A_v;
+    sub \u113A1 \u113D0 \u113A1 \u113D0 \u113AB  by \t_A_t_A_y;
+    sub \u113A1 \u113D0 \u113A1 \u113D0 \u113AB \u113BC  by \t_A_t_A_y_U;
+    sub \u113A1 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \t_A_t_A_y_u;
+    sub \u113A1 \u113D0 \u113A1 \u113BD  by \t_A_t_R;
+    sub \u113A1 \u113D0 \u113A1 \u113BC  by \t_A_t_U;
+    sub \u113A1 \u113D0 \u113A1 \u113BB  by \t_A_t_u;
+    sub \u113A1 \u113D0 \u113AE  by \t_A_v;
+    sub \u113A1 \u113D0 \u113AB  by \t_A_y;
+    sub \u113A1 \u113D0 \u113AB \u113BC  by \t_A_y_U;
+    sub \u113A1 \u113D0 \u113AB \u113BB  by \t_A_y_u;
+    sub \u113A1 \u113BD  by \t_R;
+    sub \u113A1 \u113BE  by \t_R_R;
+    sub \u113A1 \u113BC  by \t_U;
+    sub \u113A1 \u113BB  by \t_u;
+    sub \u113AE \u113D0 \u113AE  by \v_A_v;
+    sub \u113AE \u113D0 \u113AB  by \v_A_y;
+    sub \u113AE \u113D0 \u113AB \u113BC  by \v_A_y_U;
+    sub \u113AE \u113D0 \u113AB \u113BB  by \v_A_y_u;
+    sub \u113AE \u113BD  by \v_R;
+    sub \u113AE \u113BE  by \v_R_R;
+    sub \u1139E \u113D0 \u11394  by \w_A_g;
+    sub \u1139E \u113D0 \u11394 \u113BC  by \w_A_g_U;
+    sub \u1139E \u113D0 \u11394 \u113BB  by \w_A_g_u;
+    sub \u1139E \u113D0 \u113AA  by \w_A_m;
+    sub \u1139E \u113D0 \u113AA \u113BC  by \w_A_m_U;
+    sub \u1139E \u113D0 \u113AA \u113BB  by \w_A_m_u;
+    sub \u1139E \u113D0 \u113AC  by \w_A_r;
+    sub \u1139E \u113D0 \u113AC \u113BC  by \w_A_r_U;
+    sub \u1139E \u113D0 \u113AC \u113BB  by \w_A_r_u;
+    sub \u1139E \u113D0 \u113A1  by \w_A_t;
+    sub \u1139E \u113D0 \u113A1 \u113D0 \u113A5  by \w_A_t_A_n;
+    sub \u1139E \u113D0 \u113A1 \u113D0 \u113AC  by \w_A_t_A_r;
+    sub \u1139E \u113D0 \u113AE  by \w_A_v;
+    sub \u1139E \u113D0 \u113AE \u113BC  by \w_A_v_U;
+    sub \u1139E \u113D0 \u113AE \u113BB  by \w_A_v_u;
+    sub \u1139E \u113D0 \u113AB  by \w_A_y;
+    sub \u1139E \u113D0 \u113AB \u113BC  by \w_A_y_U;
+    sub \u1139E \u113D0 \u113AB \u113BB  by \w_A_y_u;
+    sub \u113B0 \u113D0 \u113A0  by \x_A_N;
+    sub \u113B0 \u113D0 \u113A0 \u113BC  by \x_A_N_U;
+    sub \u113B0 \u113D0 \u113A0 \u113BB  by \x_A_N_u;
+    sub \u113B0 \u113D0 \u1139D  by \x_A_Q;
+    sub \u113B0 \u113D0 \u1139D \u113BC  by \x_A_Q_U;
+    sub \u113B0 \u113D0 \u1139D \u113BB  by \x_A_Q_u;
+    sub \u113B0 \u113D0 \u11392  by \x_A_k;
+    sub \u113B0 \u113D0 \u11392 \u113D0 \u113AC  by \x_A_k_A_r;
+    sub \u113B0 \u113D0 \u11392 \u113D0 \u113AC \u113BC  by \x_A_k_A_r_U;
+    sub \u113B0 \u113D0 \u11392 \u113BD  by \x_A_k_R;
+    sub \u113B0 \u113D0 \u11392 \u113BC  by \x_A_k_U;
+    sub \u113B0 \u113D0 \u11392 \u113BB  by \x_A_k_u;
+    sub \u113B0 \u113D0 \u113AA  by \x_A_m;
+    sub \u113B0 \u113D0 \u113AA \u113BC  by \x_A_m_U;
+    sub \u113B0 \u113D0 \u113AA \u113BB  by \x_A_m_u;
+    sub \u113B0 \u113D0 \u1139C  by \x_A_q;
+    sub \u113B0 \u113D0 \u1139C \u113D0 \u113AC  by \x_A_q_A_r;
+    sub \u113B0 \u113D0 \u1139C \u113D0 \u113AC \u113BC  by \x_A_q_A_r_U;
+    sub \u113B0 \u113D0 \u1139C \u113D0 \u113AC \u113BB  by \x_A_q_A_r_u;
+    sub \u113B0 \u113D0 \u1139C \u113D0 \u113AE  by \x_A_q_A_v;
+    sub \u113B0 \u113D0 \u1139C \u113BC  by \x_A_q_U;
+    sub \u113B0 \u113D0 \u1139C \u113BB  by \x_A_q_u;
+    sub \u113AB \u113D0 \u113A3  by \y_A_d;
+    sub \u113AB \u113D0 \u113A3 \u113BC  by \y_A_d_U;
+    sub \u113AB \u113D0 \u113A3 \u113BB  by \y_A_d_u;
+    sub \u113AB \u113D0 \u113A1  by \y_A_t;
+    sub \u113AB \u113D0 \u113A1 \u113BC  by \y_A_t_U;
+    sub \u113AB \u113D0 \u113A1 \u113BB  by \y_A_t_u;
+    sub \u113AB \u113D0 \u113AB  by \y_A_y;
+    sub \u113AB \u113D0 \u113AB \u113BC  by \y_A_y_U;
+    sub \u113AB \u113D0 \u113AB \u113BB  by \y_A_y_u;
+    sub \u1139B \u113D0 \u11397  by \z_A_c;
+    sub \u1139B \u113D0 \u11399  by \z_A_j;
+    sub \u1139B \u113D0 \u11399 \u113D0 \u113AB  by \z_A_j_A_y;
+    sub \u1139B \u113D0 \u11399 \u113D0 \u113AB \u113BC  by \z_A_j_A_y_U;
+    sub \u1139B \u113D0 \u11399 \u113D0 \u113AB \u113BB  by \z_A_j_A_y_u;
+    sub \u1139B \u113D0 \u11399 \u113D0 \u1139B  by \z_A_j_A_z;
+    sub \u1139B \u113D0 \u11399 \u113D0 \u1139B \u113BC  by \z_A_j_A_z_U;
+    sub \u1139B \u113D0 \u11399 \u113D0 \u1139B \u113BB  by \z_A_j_A_z_u;
+    sub \u1139B \u113D0 \u11399 \u113BC  by \z_A_j_U;
+    sub \u1139B \u113D0 \u11399 \u113BB  by \z_A_j_u;
+    sub \u1139B \u113D0 \u113AB  by \z_A_y;
+    sub \u1139B \u113D0 \u113AB \u113BC  by \z_A_y_U;
+    sub \u1139B \u113D0 \u113AB \u113BB  by \z_A_y_u;
+    sub \u1139B \u113D0 \u1139B  by \z_A_z;
+    sub \u1139B \u113D0 \u1139B \u113BC  by \z_A_z_U;
+    sub \u1139B \u113D0 \u1139B \u113BB  by \z_A_z_u;
+} akhnAkhandlookup2;
+
+lookup blwfBelowBaseFormslookup3 {
+  lookupflag 0;
+    sub \u113D0 \u113D0  by \A_A;
+    sub \u113D0 \u113A9  by \A_B;
+    sub \u113D0 \u11398  by \A_C;
+    sub \u113D0 \u113A4  by \A_D;
+    sub \u113D0 \u113A4 \u113BC  by \A_D_U;
+    sub \u113D0 \u113D0 \u113A4 \u113BC  by \A_D_U.under;
+    sub \u113D0 \u113A4 \u113BB  by \A_D_u;
+    sub \u113D0 \u113D0 \u113A4 \u113BB  by \A_D_u.under;
+    sub \u113D0 \u11395  by \A_G;
+    sub \u113D0 \u11395 \u113BC  by \A_G_U;
+    sub \u113D0 \u113D0 \u11395 \u113BC  by \A_G_U.under;
+    sub \u113D0 \u11395 \u113BB  by \A_G_u;
+    sub \u113D0 \u113D0 \u11395 \u113BB  by \A_G_u.under;
+    sub \u113D0 \u1139A  by \A_J;
+    sub \u113D0 \u1139A \u113BC  by \A_J_U;
+    sub \u113D0 \u1139A \u113BB  by \A_J_u;
+    sub \u113D0 \u11393  by \A_K;
+    sub \u113D0 \u11393 \u113BC  by \A_K_U;
+    sub \u113D0 \u11393 \u113BB  by \A_K_u;
+    sub \u113D0 \u113B3  by \A_L;
+    sub \u113D0 \u113B3 \u113BC  by \A_L_U;
+    sub \u113D0 \u113D0 \u113B3 \u113BC  by \A_L_U.under;
+    sub \u113D0 \u113B3 \u113BB  by \A_L_u;
+    sub \u113D0 \u113D0 \u113B3 \u113BB  by \A_L_u.under;
+    sub \u113D0 \u113A0  by \A_N;
+    sub \u113D0 \u113A7  by \A_P;
+    sub \u113D0 \u113A7 \u113BC  by \A_P_U;
+    sub \u113D0 \u113D0 \u113A7 \u113BC  by \A_P_U.under;
+    sub \u113D0 \u113A7 \u113BB  by \A_P_u;
+    sub \u113D0 \u113D0 \u113A7 \u113BB  by \A_P_u.under;
+    sub \u113D0 \u1139D  by \A_Q;
+    sub \u113D0 \u1139D \u113BC  by \A_Q_U;
+    sub \u113D0 \u113D0 \u1139D \u113BC  by \A_Q_U.under;
+    sub \u113D0 \u1139D \u113BB  by \A_Q_u;
+    sub \u113D0 \u113D0 \u1139D \u113BB  by \A_Q_u.under;
+    sub \u113D0 \u113BD  by \A_R;
+    sub \u113D0 \u113BE  by \A_R_R;
+    sub \u113D0 \u113AF  by \A_S;
+    sub \u113D0 \u113A2  by \A_T;
+    sub \u113D0 \u113A2 \u113BC  by \A_T_U;
+    sub \u113D0 \u113D0 \u113A2 \u113BC  by \A_T_U.under;
+    sub \u113D0 \u113A2 \u113BB  by \A_T_u;
+    sub \u113D0 \u113D0 \u113A2 \u113BB  by \A_T_u.under;
+    sub \u113D0 \u113BC  by \A_U;
+    sub \u113D0 \u1139F  by \A_W;
+    sub \u113D0 \u1139F \u113BC  by \A_W_U;
+    sub \u113D0 \u113D0 \u1139F \u113BC  by \A_W_U.under;
+    sub \u113D0 \u1139F \u113BB  by \A_W_u;
+    sub \u113D0 \u113D0 \u1139F \u113BB  by \A_W_u.under;
+    sub \u113D0 \u11396  by \A_Z;
+    sub \u113D0 \u11396 \u113BC  by \A_Z_U;
+    sub \u113D0 \u113D0 \u11396 \u113BC  by \A_Z_U.under;
+    sub \u113D0 \u11396 \u113BB  by \A_Z_u;
+    sub \u113D0 \u113D0 \u11396 \u113BB  by \A_Z_u.under;
+    sub \u113D0 \u113BA  by \A_a;
+    sub \u113D0 \u113A8  by \A_b;
+    sub \u113D0 \u113A8 \u113BC  by \A_b_U;
+    sub \u113D0 \u113D0 \u113A8 \u113BC  by \A_b_U.under;
+    sub \u113D0 \u113A8 \u113BB  by \A_b_u;
+    sub \u113D0 \u113D0 \u113A8 \u113BB  by \A_b_u.under;
+    sub \u113D0 \u11397  by \A_c;
+    sub \u113D0 \u11397 \u113BC  by \A_c_U;
+    sub \u113D0 \u113D0 \u11397 \u113BC  by \A_c_U.under;
+    sub \u113D0 \u11397 \u113BB  by \A_c_u;
+    sub \u113D0 \u113D0 \u11397 \u113BB  by \A_c_u.under;
+    sub \u113D0 \u113A3  by \A_d;
+    sub \u113D0 \u11394  by \A_g;
+    sub \u113D0 \u113B2  by \A_h;
+    sub \u113D0 \u113BB  by \A_i;
+    sub \u113D0 \u11399  by \A_j;
+    sub \u113D0 \u11392  by \A_k;
+    sub \u113D0 \u113AD  by \A_l;
+    sub \u113D0 \u113AD \u113BC  by \A_l_U;
+    sub \u113D0 \u113D0 \u113AD \u113BC  by \A_l_U.under;
+    sub \u113D0 \u113AD \u113BB  by \A_l_u;
+    sub \u113D0 \u113D0 \u113AD \u113BB  by \A_l_u.under;
+    sub \u113D0 \u113AA  by \A_m;
+    sub \u113D0 \u113AA \u113BC  by \A_m_U;
+    sub \u113D0 \u113D0 \u113AA \u113BC  by \A_m_U.under;
+    sub \u113D0 \u113AA \u113BB  by \A_m_u;
+    sub \u113D0 \u113D0 \u113AA \u113BB  by \A_m_u.under;
+    sub \u113D0 \u113A5  by \A_n;
+    sub \u113D0 \u113A6  by \A_p;
+    sub \u113D0 \u113A6 \u113BC  by \A_p_U;
+    sub \u113D0 \u113D0 \u113A6 \u113BC  by \A_p_U.under;
+    sub \u113D0 \u113A6 \u113BB  by \A_p_u;
+    sub \u113D0 \u113D0 \u113A6 \u113BB  by \A_p_u.under;
+    sub \u113D0 \u1139C  by \A_q;
+    sub \u113D0 \u113AC  by \A_r;
+    sub \u113D0 \u113AC \u113BC  by \A_r_U;
+    sub \u113D0 \u113D0 \u113AC \u113BC  by \A_r_U.under;
+    sub \u113D0 \u113AC \u113BB  by \A_r_u;
+    sub \u113D0 \u113D0 \u113AC \u113BB  by \A_r_u.under;
+    sub \u113D0 \u113B1  by \A_s;
+    sub \u113D0 \u113B1 \u113BC  by \A_s_U;
+    sub \u113D0 \u113D0 \u113B1 \u113BC  by \A_s_U.under;
+    sub \u113D0 \u113B1 \u113BB  by \A_s_u;
+    sub \u113D0 \u113D0 \u113B1 \u113BB  by \A_s_u.under;
+    sub \u113D0 \u113A1  by \A_t;
+    sub \u113D0 \u113AE  by \A_v;
+    sub \u113D0 \u113AE \u113BC  by \A_v_U;
+    sub \u113D0 \u113D0 \u113AE \u113BC  by \A_v_U.under;
+    sub \u113D0 \u113AE \u113BB  by \A_v_u;
+    sub \u113D0 \u113D0 \u113AE \u113BB  by \A_v_u.under;
+    sub \u113D0 \u1139E  by \A_w;
+    sub \u113D0 \u1139E \u113BC  by \A_w_U;
+    sub \u113D0 \u113D0 \u1139E \u113BC  by \A_w_U.under;
+    sub \u113D0 \u1139E \u113BB  by \A_w_u;
+    sub \u113D0 \u113D0 \u1139E \u113BB  by \A_w_u.under;
+    sub \u113D0 \u113B0  by \A_x;
+    sub \u113D0 \u113AB  by \A_y;
+    sub \u113D0 \u113AB \u113BC  by \A_y_U;
+    sub \u113D0 \u113D0 \u113AB \u113BC  by \A_y_U.under;
+    sub \u113D0 \u113AB \u113BB  by \A_y_u;
+    sub \u113D0 \u113D0 \u113AB \u113BB  by \A_y_u.under;
+    sub \u113D0 \u1139B  by \A_z;
+    sub \u113D0 \u1139B \u113BC  by \A_z_U;
+    sub \u113D0 \u113D0 \u1139B \u113BC  by \A_z_U.under;
+    sub \u113D0 \u1139B \u113BB  by \A_z_u;
+    sub \u113D0 \u113D0 \u1139B \u113BB  by \A_z_u.under;
+    sub \u113D0 \u113A9 \u113D0 \u113A5  by \B_A_n.under;
+    sub \u113D0 \u113A9 \u113D0 \u113A5 \u113BB  by \B_A_n_u.under;
+    sub \u113D0 \u113A9 \u113D0 \u113AB  by \B_A_y.under;
+    sub \u113D0 \u113A9 \u113D0 \u113AB \u113BC  by \B_A_y_U.under;
+    sub \u113D0 \u113A9 \u113D0 \u113AB \u113BB  by \B_A_y_u.under;
+    sub \u113D0 \u113A9 \u113BD  by \B_R.under;
+    sub \u113D0 \u113A9 \u113BC  by \B_U.under;
+    sub \u113D0 \u113A9 \u113BB  by \B_u.under;
+    sub \u113D0 \u11398 \u113D0 \u113AC  by \C_A_r.under;
+    sub \u113D0 \u11398 \u113D0 \u113AC \u113BB  by \C_A_r_u.under;
+    sub \u113D0 \u11398 \u113D0 \u113AB  by \C_A_y.under;
+    sub \u113D0 \u11398 \u113D0 \u113AB \u113BC  by \C_A_y_U.under;
+    sub \u113D0 \u11398 \u113D0 \u113AB \u113BB  by \C_A_y_u.under;
+    sub \u113D0 \u11398 \u113D0 \u1139B  by \C_A_z.under;
+    sub \u113D0 \u11398 \u113D0 \u1139B \u113BB  by \C_A_z_u.under;
+    sub \u113D0 \u11398 \u113BD  by \C_R.under;
+    sub \u113D0 \u11398 \u113BC  by \C_U.under;
+    sub \u113D0 \u11398 \u113BB  by \C_u.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AA  by \D_A_m.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AA \u113BB  by \D_A_m_u.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AC  by \D_A_r.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AC \u113BB  by \D_A_r_u.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AE  by \D_A_v.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AE \u113BB  by \D_A_v_u.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AB  by \D_A_y.under;
+    sub \u113D0 \u113A4 \u113D0 \u113AB \u113BB  by \D_A_y_u.under;
+    sub \u113D0 \u11395 \u113BD  by \G_R.under;
+    sub \u113D0 \u11393 \u113D0 \u11392  by \K_A_k.under;
+    sub \u113D0 \u11393 \u113D0 \u113AA  by \K_A_m.under;
+    sub \u113D0 \u11393 \u113D0 \u113AA \u113BB  by \K_A_m_u.under;
+    sub \u113D0 \u11393 \u113D0 \u113A5  by \K_A_n.under;
+    sub \u113D0 \u11393 \u113D0 \u113AC  by \K_A_r.under;
+    sub \u113D0 \u11393 \u113D0 \u113AC \u113BB  by \K_A_r_u.under;
+    sub \u113D0 \u11393 \u113D0 \u113AE  by \K_A_v.under;
+    sub \u113D0 \u11393 \u113D0 \u113AE \u113BB  by \K_A_v_u.under;
+    sub \u113D0 \u11393 \u113D0 \u113AB  by \K_A_y.under;
+    sub \u113D0 \u11393 \u113D0 \u113AB \u113BB  by \K_A_y_u.under;
+    sub \u113D0 \u11393 \u113BD  by \K_R.under;
+    sub \u113D0 \u113B3 \u113D0 \u113B3  by \L_A_L.under;
+    sub \u113D0 \u113B3 \u113D0 \u113AB  by \L_A_y.under;
+    sub \u113D0 \u113B3 \u113D0 \u113AB \u113BC  by \L_A_y_U.under;
+    sub \u113D0 \u113B3 \u113D0 \u113AB \u113BB  by \L_A_y_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139F  by \N_A_W.under;
+    sub \u113D0 \u113A0 \u113D0 \u113B2  by \N_A_h.under;
+    sub \u113D0 \u113A0 \u113D0 \u113B2 \u113D0 \u113AE  by \N_A_h_A_v.under;
+    sub \u113D0 \u113A0 \u113D0 \u113B2 \u113D0 \u113AB  by \N_A_h_A_y.under;
+    sub \u113D0 \u113A0 \u113D0 \u113B2 \u113D0 \u113AB \u113BB  by \N_A_h_A_y_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u113B2 \u113BB  by \N_A_h_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u113AA  by \N_A_m.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A5  by \N_A_n.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A5 \u113BC  by \N_A_n_U.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A5 \u113BB  by \N_A_n_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139C  by \N_A_q.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139C \u113D0 \u113AC  by \N_A_q_A_r.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139C \u113D0 \u113AC \u113BB  by \N_A_q_A_r_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139C \u113D0 \u113AE  by \N_A_q_A_v.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139C \u113BC  by \N_A_q_U.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139C \u113BB  by \N_A_q_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u113AC  by \N_A_r.under;
+    sub \u113D0 \u113A0 \u113D0 \u113AC \u113BC  by \N_A_r_U.under;
+    sub \u113D0 \u113A0 \u113D0 \u113AC \u113BB  by \N_A_r_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1  by \N_A_t.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113D0 \u113A5  by \N_A_t_A_n.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113D0 \u113A5 \u113BC  by \N_A_t_A_n_U.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113D0 \u113A5 \u113BB  by \N_A_t_A_n_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113D0 \u113AC  by \N_A_t_A_r.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \N_A_t_A_r_U.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \N_A_t_A_r_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113BC  by \N_A_t_U.under;
+    sub \u113D0 \u113A0 \u113D0 \u113A1 \u113BB  by \N_A_t_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139E  by \N_A_w.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139E \u113D0 \u113AB  by \N_A_w_A_y.under;
+    sub \u113D0 \u113A0 \u113D0 \u1139E \u113D0 \u113AB \u113BB  by \N_A_w_A_y_u.under;
+    sub \u113D0 \u113A0 \u113D0 \u113AB  by \N_A_y.under;
+    sub \u113D0 \u113A0 \u113D0 \u113AB \u113BC  by \N_A_y_U.under;
+    sub \u113D0 \u113A0 \u113D0 \u113AB \u113BB  by \N_A_y_u.under;
+    sub \u113D0 \u113A0 \u113BC  by \N_U.under;
+    sub \u113D0 \u113A0 \u113BB  by \N_u.under;
+    sub \u113D0 \u113A7 \u113D0 \u113AC  by \P_A_r.under;
+    sub \u113D0 \u113A7 \u113D0 \u113AC \u113BB  by \P_A_r_u.under;
+    sub \u113D0 \u113A7 \u113D0 \u113AE  by \P_A_v.under;
+    sub \u113D0 \u113A7 \u113D0 \u113AE \u113BB  by \P_A_v_u.under;
+    sub \u113D0 \u113A7 \u113D0 \u113AB  by \P_A_y.under;
+    sub \u113D0 \u113A7 \u113D0 \u113AB \u113BB  by \P_A_y_u.under;
+    sub \u113D0 \u113AF \u113D0 \u11398  by \S_A_C.under;
+    sub \u113D0 \u113AF \u113D0 \u11398 \u113BB  by \S_A_C_u.under;
+    sub \u113D0 \u113AF \u113D0 \u1139D  by \S_A_Q.under;
+    sub \u113D0 \u113AF \u113D0 \u11397  by \S_A_c.under;
+    sub \u113D0 \u113AF \u113D0 \u11397 \u113BC  by \S_A_c_U.under;
+    sub \u113D0 \u113AF \u113D0 \u11397 \u113BB  by \S_A_c_u.under;
+    sub \u113D0 \u113AF \u113D0 \u113AA  by \S_A_m.under;
+    sub \u113D0 \u113AF \u113D0 \u113AA \u113BB  by \S_A_m_u.under;
+    sub \u113D0 \u113AF \u113D0 \u113A5  by \S_A_n.under;
+    sub \u113D0 \u113AF \u113D0 \u113A5 \u113BB  by \S_A_n_u.under;
+    sub \u113D0 \u113AF \u113D0 \u113AC  by \S_A_r.under;
+    sub \u113D0 \u113AF \u113D0 \u113AC \u113BC  by \S_A_r_U.under;
+    sub \u113D0 \u113AF \u113D0 \u113AC \u113BB  by \S_A_r_u.under;
+    sub \u113D0 \u113AF \u113D0 \u113AE  by \S_A_v.under;
+    sub \u113D0 \u113AF \u113D0 \u113AB  by \S_A_y.under;
+    sub \u113D0 \u113AF \u113D0 \u113AB \u113BC  by \S_A_y_U.under;
+    sub \u113D0 \u113AF \u113D0 \u113AB \u113BB  by \S_A_y_u.under;
+    sub \u113D0 \u113AF \u113BD  by \S_R.under;
+    sub \u113D0 \u113AF \u113BC  by \S_U.under;
+    sub \u113D0 \u113AF \u113BB  by \S_u.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AA  by \T_A_m.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AA \u113BB  by \T_A_m_u.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AC  by \T_A_r.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AC \u113BB  by \T_A_r_u.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AE  by \T_A_v.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AE \u113BB  by \T_A_v_u.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AB  by \T_A_y.under;
+    sub \u113D0 \u113A2 \u113D0 \u113AB \u113BB  by \T_A_y_u.under;
+    sub \u113D0 \u1139F \u113D0 \u113AB  by \W_A_y.under;
+    sub \u113D0 \u1139F \u113D0 \u113AB \u113BB  by \W_A_y_u.under;
+    sub \u113D0 \u11396 \u113D0 \u11392  by \Z_A_k.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u11392  by \Z_A_k_A_k.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u11392 \u113BB  by \Z_A_k_A_k_u.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113AC  by \Z_A_k_A_r.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113AC \u113BB  by \Z_A_k_A_r_u.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113A1  by \Z_A_k_A_t.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB  by \Z_A_k_A_t_A_y.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \Z_A_k_A_t_A_y_u.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113A1 \u113BB  by \Z_A_k_A_t_u.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113B0  by \Z_A_k_A_x.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AB  by \Z_A_k_A_x_A_y.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AB \u113BB  by \Z_A_k_A_x_A_y_u.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113AB  by \Z_A_k_A_y.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113D0 \u113AB \u113BB  by \Z_A_k_A_y_u.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113BC  by \Z_A_k_U.under;
+    sub \u113D0 \u11396 \u113D0 \u11392 \u113BB  by \Z_A_k_u.under;
+    sub \u113D0 \u11396 \u113D0 \u113AB  by \Z_A_y.under;
+    sub \u113D0 \u11396 \u113D0 \u113AB \u113BB  by \Z_A_y_u.under;
+    sub \u113D0 \u113A8 \u113D0 \u113A8  by \b_A_b.under;
+    sub \u113D0 \u113A8 \u113D0 \u113A8 \u113BC  by \b_A_b_U.under;
+    sub \u113D0 \u113A8 \u113D0 \u113A8 \u113BB  by \b_A_b_u.under;
+    sub \u113D0 \u113A8 \u113D0 \u113A3  by \b_A_d.under;
+    sub \u113D0 \u113A8 \u113D0 \u113AC  by \b_A_r.under;
+    sub \u113D0 \u113A8 \u113D0 \u113AC \u113BC  by \b_A_r_U.under;
+    sub \u113D0 \u113A8 \u113D0 \u113AC \u113BB  by \b_A_r_u.under;
+    sub \u113D0 \u113A8 \u113D0 \u113AB  by \b_A_y.under;
+    sub \u113D0 \u113A8 \u113D0 \u113AB \u113BC  by \b_A_y_U.under;
+    sub \u113D0 \u113A8 \u113D0 \u113AB \u113BB  by \b_A_y_u.under;
+    sub \u113D0 \u113A8 \u113BD  by \b_R.under;
+    sub \u113D0 \u11397 \u113D0 \u11398  by \c_A_C.under;
+    sub \u113D0 \u11397 \u113D0 \u11398 \u113BC  by \c_A_C_U.under;
+    sub \u113D0 \u11397 \u113D0 \u11398 \u113BB  by \c_A_C_u.under;
+    sub \u113D0 \u11397 \u113D0 \u11397  by \c_A_c.under;
+    sub \u113D0 \u11397 \u113D0 \u11397 \u113BC  by \c_A_c_U.under;
+    sub \u113D0 \u11397 \u113D0 \u11397 \u113BB  by \c_A_c_u.under;
+    sub \u113D0 \u11397 \u113D0 \u113AC \u113BC  by \c_A_r_U.under;
+    sub \u113D0 \u11397 \u113D0 \u113AC \u113BB  by \c_A_r_u.under;
+    sub \u113D0 \u11397 \u113D0 \u113AB  by \c_A_y.under;
+    sub \u113D0 \u11397 \u113D0 \u113AB \u113BC  by \c_A_y_U.under;
+    sub \u113D0 \u11397 \u113D0 \u113AB \u113BB  by \c_A_y_u.under;
+    sub \u113D0 \u11397 \u113BD  by \c_R.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A9  by \d_A_B.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A9 \u113D0 \u113AC  by \d_A_B_A_r.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A9 \u113D0 \u113AC \u113BB  by \d_A_B_A_r_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A9 \u113D0 \u113AB  by \d_A_B_A_y.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A9 \u113D0 \u113AB \u113BB  by \d_A_B_A_y_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A9 \u113BB  by \d_A_B_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4  by \d_A_D.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AA  by \d_A_D_A_m.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AA \u113BB  by \d_A_D_A_m_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AC  by \d_A_D_A_r.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AC \u113BC  by \d_A_D_A_r_U.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AE  by \d_A_D_A_v.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AE \u113BB  by \d_A_D_A_v_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AB  by \d_A_D_A_y.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AB \u113BB  by \d_A_D_A_y_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A4 \u113AC \u113BB  by \d_A_D_r_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u11395  by \d_A_G.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A8  by \d_A_b.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A8 \u113D0 \u113AC  by \d_A_b_A_r.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A8 \u113D0 \u113AC \u113BB  by \d_A_b_A_r_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A3  by \d_A_d.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A3 \u113D0 \u113AC  by \d_A_d_A_r.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A3 \u113D0 \u113AC \u113BB  by \d_A_d_A_r_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A3 \u113D0 \u113AB  by \d_A_d_A_y.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A3 \u113D0 \u113AB \u113BB  by \d_A_d_A_y_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A3 \u113BC  by \d_A_d_U.under;
+    sub \u113D0 \u113A3 \u113D0 \u113A3 \u113BB  by \d_A_d_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u11394  by \d_A_g.under;
+    sub \u113D0 \u113A3 \u113D0 \u11394 \u113D0 \u113AC  by \d_A_g_A_r.under;
+    sub \u113D0 \u113A3 \u113D0 \u11394 \u113D0 \u113AC \u113BB  by \d_A_g_A_r_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u11394 \u113BB  by \d_A_g_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AD  by \d_A_l.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AD \u113BB  by \d_A_l_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AA  by \d_A_m.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AA \u113BC  by \d_A_m_U.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AA \u113BB  by \d_A_m_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AC  by \d_A_r.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AC \u113BC  by \d_A_r_U.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AC \u113BB  by \d_A_r_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AE  by \d_A_v.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AE \u113D0 \u113AB  by \d_A_v_A_y.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AE \u113D0 \u113AB \u113BB  by \d_A_v_A_y_u.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AB  by \d_A_y.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AB \u113BC  by \d_A_y_U.under;
+    sub \u113D0 \u113A3 \u113D0 \u113AB \u113BB  by \d_A_y_u.under;
+    sub \u113D0 \u113A3 \u113BC  by \d_U.under;
+    sub \u113D0 \u113A3 \u113BB  by \d_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113A9  by \g_A_B.under;
+    sub \u113D0 \u11394 \u113D0 \u113A9 \u113D0 \u113AB  by \g_A_B_A_y.under;
+    sub \u113D0 \u11394 \u113D0 \u113A9 \u113D0 \u113AB \u113BB  by \g_A_B_A_y_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113A9 \u113BB  by \g_A_B_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113A4  by \g_A_D.under;
+    sub \u113D0 \u11394 \u113D0 \u113A4 \u113BB  by \g_A_D_u.under;
+    sub \u113D0 \u11394 \u113D0 \u11395  by \g_A_G.under;
+    sub \u113D0 \u11394 \u113D0 \u11395 \u113BD  by \g_A_G_R.under;
+    sub \u113D0 \u11394 \u113D0 \u113A8  by \g_A_b.under;
+    sub \u113D0 \u11394 \u113D0 \u113A3  by \g_A_d.under;
+    sub \u113D0 \u11394 \u113D0 \u113A3 \u113D0 \u113A4  by \g_A_d_A_D.under;
+    sub \u113D0 \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AC  by \g_A_d_A_D_A_r.under;
+    sub \u113D0 \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113D0 \u113AC \u113BB  by \g_A_d_A_D_A_r_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113A3 \u113D0 \u113A4 \u113BB  by \g_A_d_A_D_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113A3 \u113BB  by \g_A_d_u.under;
+    sub \u113D0 \u11394 \u113D0 \u11394  by \g_A_g.under;
+    sub \u113D0 \u11394 \u113D0 \u11394 \u113BD  by \g_A_g_R.under;
+    sub \u113D0 \u11394 \u113D0 \u11394 \u113BC  by \g_A_g_U.under;
+    sub \u113D0 \u11394 \u113D0 \u11394 \u113BB  by \g_A_g_u.under;
+    sub \u113D0 \u11394 \u113D0 \u11399  by \g_A_j.under;
+    sub \u113D0 \u11394 \u113D0 \u11399 \u113BB  by \g_A_j_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113AA  by \g_A_m.under;
+    sub \u113D0 \u11394 \u113D0 \u113A5  by \g_A_n.under;
+    sub \u113D0 \u11394 \u113D0 \u113A5 \u113D0 \u113AE  by \g_A_n_A_v.under;
+    sub \u113D0 \u11394 \u113D0 \u113A5 \u113D0 \u113AB  by \g_A_n_A_y.under;
+    sub \u113D0 \u11394 \u113D0 \u113A5 \u113D0 \u113AB \u113BB  by \g_A_n_A_y_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113A5 \u113BC  by \g_A_n_U.under;
+    sub \u113D0 \u11394 \u113D0 \u113A5 \u113BB  by \g_A_n_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113AC  by \g_A_r.under;
+    sub \u113D0 \u11394 \u113D0 \u113AC \u113BC  by \g_A_r_U.under;
+    sub \u113D0 \u11394 \u113D0 \u113AC \u113BB  by \g_A_r_u.under;
+    sub \u113D0 \u11394 \u113D0 \u113AE  by \g_A_v.under;
+    sub \u113D0 \u11394 \u113D0 \u113AB  by \g_A_y.under;
+    sub \u113D0 \u11394 \u113D0 \u113AB \u113BC  by \g_A_y_U.under;
+    sub \u113D0 \u11394 \u113D0 \u113AB \u113BB  by \g_A_y_u.under;
+    sub \u113D0 \u11394 \u113BD  by \g_R.under;
+    sub \u113D0 \u11394 \u113BC  by \g_U.under;
+    sub \u113D0 \u11394 \u113BB  by \g_u.under;
+    sub \u113D0 \u113B2 \u113D0 \u113AA  by \h_A_m.under;
+    sub \u113D0 \u113B2 \u113D0 \u113AB  by \h_A_y.under;
+    sub \u113D0 \u113B2 \u113D0 \u113AB \u113BC  by \h_A_y_U.under;
+    sub \u113D0 \u113B2 \u113D0 \u113AB \u113BB  by \h_A_y_u.under;
+    sub \u113D0 \u113B2 \u113BD  by \h_R.under;
+    sub \u113D0 \u113B2 \u113BC  by \h_U.under;
+    sub \u113D0 \u113B2 \u113BB  by \h_u.under;
+    sub \u113D0 \u11399 \u113D0 \u11399  by \j_A_j.under;
+    sub \u113D0 \u11399 \u113D0 \u11399 \u113D0 \u113AB  by \j_A_j_A_y.under;
+    sub \u113D0 \u11399 \u113D0 \u11399 \u113D0 \u113AB \u113BB  by \j_A_j_A_y_u.under;
+    sub \u113D0 \u11399 \u113D0 \u11399 \u113D0 \u1139B  by \j_A_j_A_z.under;
+    sub \u113D0 \u11399 \u113D0 \u11399 \u113D0 \u1139B \u113BB  by \j_A_j_A_z_u.under;
+    sub \u113D0 \u11399 \u113D0 \u11399 \u113BC  by \j_A_j_U.under;
+    sub \u113D0 \u11399 \u113D0 \u11399 \u113BB  by \j_A_j_u.under;
+    sub \u113D0 \u11399 \u113D0 \u113AA  by \j_A_m.under;
+    sub \u113D0 \u11399 \u113D0 \u113AC  by \j_A_r.under;
+    sub \u113D0 \u11399 \u113D0 \u113AC \u113BC  by \j_A_r_U.under;
+    sub \u113D0 \u11399 \u113D0 \u113AC \u113BB  by \j_A_r_u.under;
+    sub \u113D0 \u11399 \u113D0 \u113AE  by \j_A_v.under;
+    sub \u113D0 \u11399 \u113D0 \u113AE \u113BB  by \j_A_v_u.under;
+    sub \u113D0 \u11399 \u113D0 \u113AB  by \j_A_y.under;
+    sub \u113D0 \u11399 \u113D0 \u113AB \u113BC  by \j_A_y_U.under;
+    sub \u113D0 \u11399 \u113D0 \u113AB \u113BB  by \j_A_y_u.under;
+    sub \u113D0 \u11399 \u113D0 \u1139B  by \j_A_z.under;
+    sub \u113D0 \u11399 \u113D0 \u1139B \u113BC  by \j_A_z_U.under;
+    sub \u113D0 \u11399 \u113D0 \u1139B \u113BB  by \j_A_z_u.under;
+    sub \u113D0 \u11399 \u113BD  by \j_R.under;
+    sub \u113D0 \u11399 \u113BC  by \j_U.under;
+    sub \u113D0 \u11399 \u113BB  by \j_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113A2  by \k_A_T.under;
+    sub \u113D0 \u11392 \u113D0 \u11392  by \k_A_k.under;
+    sub \u113D0 \u11392 \u113D0 \u11392 \u113D0 \u113AC  by \k_A_k_A_r.under;
+    sub \u113D0 \u11392 \u113D0 \u11392 \u113BD  by \k_A_k_R.under;
+    sub \u113D0 \u11392 \u113D0 \u11392 \u113BC  by \k_A_k_U.under;
+    sub \u113D0 \u11392 \u113D0 \u11392 \u113BB  by \k_A_k_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113AA  by \k_A_m.under;
+    sub \u113D0 \u11392 \u113D0 \u113A5  by \k_A_n.under;
+    sub \u113D0 \u11392 \u113D0 \u113A5 \u113D0 \u113AB  by \k_A_n_A_y.under;
+    sub \u113D0 \u11392 \u113D0 \u113A5 \u113D0 \u113AB \u113BB  by \k_A_n_A_y_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113A5 \u113BC  by \k_A_n_U.under;
+    sub \u113D0 \u11392 \u113D0 \u113A5 \u113BB  by \k_A_n_u.under;
+    sub \u113D0 \u11392 \u113D0 \u1139C  by \k_A_q.under;
+    sub \u113D0 \u11392 \u113D0 \u1139C \u113BB  by \k_A_q_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113AC  by \k_A_r.under;
+    sub \u113D0 \u11392 \u113D0 \u113AC \u113BC  by \k_A_r_U.under;
+    sub \u113D0 \u11392 \u113D0 \u113AC \u113BB  by \k_A_r_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113B1  by \k_A_s.under;
+    sub \u113D0 \u11392 \u113D0 \u113B1 \u113D0 \u113B1  by \k_A_s_A_s.under;
+    sub \u113D0 \u11392 \u113D0 \u113B1 \u113D0 \u113B1 \u113BB  by \k_A_s_A_s_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1  by \k_A_t.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113A2  by \k_A_t_A_T.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AC  by \k_A_t_A_r.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB  by \k_A_t_A_r_A_y.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BB  by \k_A_t_A_r_A_y_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \k_A_t_A_r_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AE  by \k_A_t_A_v.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB  by \k_A_t_A_y.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB \u113BC  by \k_A_t_A_y_U.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \k_A_t_A_y_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113BD  by \k_A_t_R.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113BC  by \k_A_t_U.under;
+    sub \u113D0 \u11392 \u113D0 \u113A1 \u113BB  by \k_A_t_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113AE  by \k_A_v.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0  by \k_A_x.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u11392 \u113D0 \u113AC  by \k_A_x_A_k_A_r.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u11392 \u113D0 \u113AB  by \k_A_x_A_k_A_y.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AD  by \k_A_x_A_l.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AD \u113BB  by \k_A_x_A_l_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA  by \k_A_x_A_m.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113D0 \u113AB  by \k_A_x_A_m_A_y.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113D0 \u113AB \u113BB  by \k_A_x_A_m_A_y_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113BC  by \k_A_x_A_m_U.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA \u113BB  by \k_A_x_A_m_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AC  by \k_A_x_A_r.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AC \u113BB  by \k_A_x_A_r_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AE  by \k_A_x_A_v.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AE \u113BB  by \k_A_x_A_v_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AB  by \k_A_x_A_y.under;
+    sub \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AB \u113BB  by \k_A_x_A_y_u.under;
+    sub \u113D0 \u11392 \u113D0 \u113AB  by \k_A_y.under;
+    sub \u113D0 \u11392 \u113D0 \u113AB \u113BC  by \k_A_y_U.under;
+    sub \u113D0 \u11392 \u113D0 \u113AB \u113BB  by \k_A_y_u.under;
+    sub \u113D0 \u11392 \u113BD  by \k_R.under;
+    sub \u113D0 \u11392 \u113BC  by \k_U.under;
+    sub \u113D0 \u11392 \u113BB  by \k_u.under;
+    sub \u113D0 \u113AD \u113D0 \u11392  by \l_A_k.under;
+    sub \u113D0 \u113AD \u113D0 \u11392 \u113BB  by \l_A_k_u.under;
+    sub \u113D0 \u113AD \u113D0 \u113AB  by \l_A_y.under;
+    sub \u113D0 \u113AD \u113D0 \u113AB \u113BC  by \l_A_y_U.under;
+    sub \u113D0 \u113AD \u113D0 \u113AB \u113BB  by \l_A_y_u.under;
+    sub \u113D0 \u113AA \u113D0 \u113AA  by \m_A_m.under;
+    sub \u113D0 \u113AA \u113D0 \u113AA \u113D0 \u113AB  by \m_A_m_A_y.under;
+    sub \u113D0 \u113AA \u113D0 \u113AA \u113D0 \u113AB \u113BB  by \m_A_m_A_y_u.under;
+    sub \u113D0 \u113AA \u113D0 \u113AC  by \m_A_r.under;
+    sub \u113D0 \u113AA \u113D0 \u113AC \u113BC  by \m_A_r_U.under;
+    sub \u113D0 \u113AA \u113D0 \u113AC \u113BB  by \m_A_r_u.under;
+    sub \u113D0 \u113AA \u113D0 \u113AB  by \m_A_y.under;
+    sub \u113D0 \u113AA \u113D0 \u113AB \u113BC  by \m_A_y_U.under;
+    sub \u113D0 \u113AA \u113D0 \u113AB \u113BB  by \m_A_y_u.under;
+    sub \u113D0 \u113AA \u113BD  by \m_R.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A9  by \n_A_B.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A9 \u113BB  by \n_A_B_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A4  by \n_A_D.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A4 \u113D0 \u113AC  by \n_A_D_A_r.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A4 \u113D0 \u113AC \u113BB  by \n_A_D_A_r_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A4 \u113D0 \u113AE  by \n_A_D_A_v.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A4 \u113D0 \u113AE \u113BB  by \n_A_D_A_v_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A4 \u113D0 \u113AB  by \n_A_D_A_y.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A4 \u113D0 \u113AB \u113BB  by \n_A_D_A_y_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u11395  by \n_A_G.under;
+    sub \u113D0 \u113A5 \u113D0 \u11395 \u113D0 \u113BD  by \n_A_G_A_R.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A2  by \n_A_T.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A8  by \n_A_b.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A8 \u113D0 \u113AC  by \n_A_b_A_r.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A8 \u113D0 \u113AC \u113BB  by \n_A_b_A_r_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3  by \n_A_d.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113D0 \u113AC  by \n_A_d_A_r.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113D0 \u113AC \u113BC  by \n_A_d_A_r_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113D0 \u113AC \u113BB  by \n_A_d_A_r_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113D0 \u113AE  by \n_A_d_A_v.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113D0 \u113AB  by \n_A_d_A_y.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113D0 \u113AB \u113BB  by \n_A_d_A_y_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113BC  by \n_A_d_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A3 \u113BB  by \n_A_d_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113B2  by \n_A_h.under;
+    sub \u113D0 \u113A5 \u113D0 \u113B2 \u113BB  by \n_A_h_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u11392  by \n_A_k.under;
+    sub \u113D0 \u113A5 \u113D0 \u11392 \u113D0 \u113A1  by \n_A_k_A_t.under;
+    sub \u113D0 \u113A5 \u113D0 \u11392 \u113D0 \u113A1 \u113BB  by \n_A_k_A_t_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u11392 \u113D0 \u113B0  by \n_A_k_A_x.under;
+    sub \u113D0 \u113A5 \u113D0 \u11392 \u113BD  by \n_A_k_R.under;
+    sub \u113D0 \u113A5 \u113D0 \u11392 \u113BC  by \n_A_k_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u11392 \u113BB  by \n_A_k_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AA  by \n_A_m.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A5  by \n_A_n.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A5 \u113BC  by \n_A_n_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A5 \u113BB  by \n_A_n_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u1139C  by \n_A_q.under;
+    sub \u113D0 \u113A5 \u113D0 \u1139C \u113BB  by \n_A_q_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AC  by \n_A_r.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AC \u113BC  by \n_A_r_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AC \u113BB  by \n_A_r_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1  by \n_A_t.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AC  by \n_A_t_A_r.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB  by \n_A_t_A_r_A_y.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BB  by \n_A_t_A_r_A_y_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \n_A_t_A_r_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \n_A_t_A_r_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113B1  by \n_A_t_A_s.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AE  by \n_A_t_A_v.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AB  by \n_A_t_A_y.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \n_A_t_A_y_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113BC  by \n_A_t_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u113A1 \u113BB  by \n_A_t_u.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AE  by \n_A_v.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AB  by \n_A_y.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AB \u113BC  by \n_A_y_U.under;
+    sub \u113D0 \u113A5 \u113D0 \u113AB \u113BB  by \n_A_y_u.under;
+    sub \u113D0 \u113A5 \u113BD  by \n_R.under;
+    sub \u113D0 \u113A5 \u113BC  by \n_U.under;
+    sub \u113D0 \u113A5 \u113BB  by \n_u.under;
+    sub \u113D0 \u113A6 \u113D0 \u11398  by \p_A_C.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AA  by \p_A_m.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AA \u113BB  by \p_A_m_u.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AC  by \p_A_r.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AC \u113BC  by \p_A_r_U.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AC \u113BB  by \p_A_r_u.under;
+    sub \u113D0 \u113A6 \u113D0 \u113A1  by \p_A_t.under;
+    sub \u113D0 \u113A6 \u113D0 \u113A1 \u113D0 \u113AE  by \p_A_t_A_v.under;
+    sub \u113D0 \u113A6 \u113D0 \u113A1 \u113D0 \u113AE \u113BB  by \p_A_t_A_v_u.under;
+    sub \u113D0 \u113A6 \u113D0 \u113A1 \u113BB  by \p_A_t_u.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AB  by \p_A_y.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AB \u113BC  by \p_A_y_U.under;
+    sub \u113D0 \u113A6 \u113D0 \u113AB \u113BB  by \p_A_y_u.under;
+    sub \u113D0 \u113A6 \u113BD  by \p_R.under;
+    sub \u113D0 \u1139C \u113D0 \u1139D  by \q_A_Q.under;
+    sub \u113D0 \u1139C \u113D0 \u1139D \u113BB  by \q_A_Q_u.under;
+    sub \u113D0 \u1139C \u113D0 \u1139C  by \q_A_q.under;
+    sub \u113D0 \u1139C \u113D0 \u1139C \u113D0 \u113AB  by \q_A_q_A_y.under;
+    sub \u113D0 \u1139C \u113D0 \u1139C \u113D0 \u113AB \u113BB  by \q_A_q_A_y_u.under;
+    sub \u113D0 \u1139C \u113D0 \u1139C \u113BC  by \q_A_q_U.under;
+    sub \u113D0 \u1139C \u113D0 \u1139C \u113BB  by \q_A_q_u.under;
+    sub \u113D0 \u1139C \u113D0 \u113AC  by \q_A_r.under;
+    sub \u113D0 \u1139C \u113D0 \u113AC \u113BC  by \q_A_r_U.under;
+    sub \u113D0 \u1139C \u113D0 \u113AC \u113BB  by \q_A_r_u.under;
+    sub \u113D0 \u1139C \u113D0 \u113AE  by \q_A_v.under;
+    sub \u113D0 \u1139C \u113D0 \u113AB  by \q_A_y.under;
+    sub \u113D0 \u1139C \u113D0 \u113AB \u113BC  by \q_A_y_U.under;
+    sub \u113D0 \u1139C \u113D0 \u113AB \u113BB  by \q_A_y_u.under;
+    sub \u113D0 \u1139C \u113BC  by \q_U.under;
+    sub \u113D0 \u1139C \u113BB  by \q_u.under;
+    sub \u113D0 \u113B1 \u113D0 \u113A2  by \s_A_T.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AA  by \s_A_m.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AA \u113BD  by \s_A_m_R.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AA \u113BC  by \s_A_m_U.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AA \u113BB  by \s_A_m_u.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AC  by \s_A_r.under;
+    sub \u113D0 \u113B1 \u113D0 \u113B1  by \s_A_s.under;
+    sub \u113D0 \u113B1 \u113D0 \u113B1 \u113BC  by \s_A_s_U.under;
+    sub \u113D0 \u113B1 \u113D0 \u113B1 \u113BB  by \s_A_s_u.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AB  by \s_A_y.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AB \u113BC  by \s_A_y_U.under;
+    sub \u113D0 \u113B1 \u113D0 \u113AB \u113BB  by \s_A_y_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A2  by \t_A_T.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A2 \u113D0 \u113AB  by \t_A_T_A_y.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A2 \u113D0 \u113AB \u113BB  by \t_A_T_A_y_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392  by \t_A_k.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392 \u113D0 \u113AC  by \t_A_k_A_r.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392 \u113D0 \u113AC \u113BB  by \t_A_k_A_r_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392 \u113D0 \u113B0  by \t_A_k_A_x.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392 \u113D0 \u113B0 \u113D0 \u113AA  by \t_A_k_A_x_A_m.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392 \u113BD  by \t_A_k_R.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392 \u113BC  by \t_A_k_U.under;
+    sub \u113D0 \u113A1 \u113D0 \u11392 \u113BB  by \t_A_k_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AA  by \t_A_m.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AA \u113D0 \u113AC  by \t_A_m_A_r.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AA \u113D0 \u113AC \u113BB  by \t_A_m_A_r_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AA \u113D0 \u113AB  by \t_A_m_A_y.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AA \u113D0 \u113AB \u113BB  by \t_A_m_A_y_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A5  by \t_A_n.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A5 \u113D0 \u113AB  by \t_A_n_A_y.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A5 \u113D0 \u113AB \u113BB  by \t_A_n_A_y_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A5 \u113BC  by \t_A_n_U.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A5 \u113BB  by \t_A_n_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AC  by \t_A_r.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AE  by \t_A_r_A_v.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AE \u113BB  by \t_A_r_A_v_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB  by \t_A_r_A_y.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AC \u113D0 \u113AB \u113BB  by \t_A_r_A_y_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AC \u113BC  by \t_A_r_U.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AC \u113BB  by \t_A_r_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113B1  by \t_A_s.under;
+    sub \u113D0 \u113A1 \u113D0 \u113B1 \u113D0 \u113A2  by \t_A_s_A_T.under;
+    sub \u113D0 \u113A1 \u113D0 \u113B1 \u113D0 \u113AE  by \t_A_s_A_v.under;
+    sub \u113D0 \u113A1 \u113D0 \u113B1 \u113D0 \u113AB  by \t_A_s_A_y.under;
+    sub \u113D0 \u113A1 \u113D0 \u113B1 \u113D0 \u113AB \u113BB  by \t_A_s_A_y_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A1  by \t_A_t.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A1 \u113D0 \u113AE  by \t_A_t_A_v.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A1 \u113D0 \u113AB  by \t_A_t_A_y.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \t_A_t_A_y_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A1 \u113BD  by \t_A_t_R.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A1 \u113BC  by \t_A_t_U.under;
+    sub \u113D0 \u113A1 \u113D0 \u113A1 \u113BB  by \t_A_t_u.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AE  by \t_A_v.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AB  by \t_A_y.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AB \u113BC  by \t_A_y_U.under;
+    sub \u113D0 \u113A1 \u113D0 \u113AB \u113BB  by \t_A_y_u.under;
+    sub \u113D0 \u113A1 \u113BD  by \t_R.under;
+    sub \u113D0 \u113A1 \u113BC  by \t_U.under;
+    sub \u113D0 \u113A1 \u113BB  by \t_u.under;
+    sub \u113D0 \u113AE \u113D0 \u113AB  by \v_A_y.under;
+    sub \u113D0 \u113AE \u113D0 \u113AB \u113BC  by \v_A_y_U.under;
+    sub \u113D0 \u113AE \u113D0 \u113AB \u113BB  by \v_A_y_u.under;
+    sub \u113D0 \u113AE \u113BD  by \v_R.under;
+    sub \u113D0 \u1139E \u113D0 \u11394  by \w_A_g.under;
+    sub \u113D0 \u1139E \u113D0 \u113AA  by \w_A_m.under;
+    sub \u113D0 \u1139E \u113D0 \u113AA \u113BB  by \w_A_m_u.under;
+    sub \u113D0 \u1139E \u113D0 \u113AC  by \w_A_r.under;
+    sub \u113D0 \u1139E \u113D0 \u113AC \u113BC  by \w_A_r_U.under;
+    sub \u113D0 \u1139E \u113D0 \u113AC \u113BB  by \w_A_r_u.under;
+    sub \u113D0 \u1139E \u113D0 \u113AE  by \w_A_v.under;
+    sub \u113D0 \u1139E \u113D0 \u113AE \u113BB  by \w_A_v_u.under;
+    sub \u113D0 \u1139E \u113D0 \u113AB  by \w_A_y.under;
+    sub \u113D0 \u1139E \u113D0 \u113AB \u113BB  by \w_A_y_u.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139D  by \x_A_Q.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139D \u113BC  by \x_A_Q_U.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139D \u113BB  by \x_A_Q_u.under;
+    sub \u113D0 \u113B0 \u113D0 \u11392  by \x_A_k.under;
+    sub \u113D0 \u113B0 \u113D0 \u11392 \u113D0 \u113AC  by \x_A_k_A_r.under;
+    sub \u113D0 \u113B0 \u113D0 \u11392 \u113BD  by \x_A_k_R.under;
+    sub \u113D0 \u113B0 \u113D0 \u11392 \u113BC  by \x_A_k_U.under;
+    sub \u113D0 \u113B0 \u113D0 \u11392 \u113BB  by \x_A_k_u.under;
+    sub \u113D0 \u113B0 \u113D0 \u113AA  by \x_A_m.under;
+    sub \u113D0 \u113B0 \u113D0 \u113AA \u113BC  by \x_A_m_U.under;
+    sub \u113D0 \u113B0 \u113D0 \u113AA \u113BB  by \x_A_m_u.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139C  by \x_A_q.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139C \u113D0 \u113AC  by \x_A_q_A_r.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139C \u113D0 \u113AC \u113BC  by \x_A_q_A_r_U.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139C \u113D0 \u113AC \u113BB  by \x_A_q_A_r_u.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139C \u113D0 \u113AE  by \x_A_q_A_v.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139C \u113BC  by \x_A_q_U.under;
+    sub \u113D0 \u113B0 \u113D0 \u1139C \u113BB  by \x_A_q_u.under;
+    sub \u113D0 \u113AB \u113D0 \u113AB  by \y_A_y.under;
+    sub \u113D0 \u113AB \u113D0 \u113AB \u113BB  by \y_A_y_u.under;
+    sub \u113D0 \u1139B \u113D0 \u11397  by \z_A_c.under;
+    sub \u113D0 \u1139B \u113D0 \u11399  by \z_A_j.under;
+    sub \u113D0 \u1139B \u113D0 \u11399 \u113D0 \u113AB  by \z_A_j_A_y.under;
+    sub \u113D0 \u1139B \u113D0 \u11399 \u113D0 \u113AB \u113BB  by \z_A_j_A_y_u.under;
+    sub \u113D0 \u1139B \u113D0 \u11399 \u113D0 \u1139B  by \z_A_j_A_z.under;
+    sub \u113D0 \u1139B \u113D0 \u11399 \u113D0 \u1139B \u113BC  by \z_A_j_A_z_U.under;
+    sub \u113D0 \u1139B \u113D0 \u11399 \u113D0 \u1139B \u113BB  by \z_A_j_A_z_u.under;
+    sub \u113D0 \u1139B \u113D0 \u11399 \u113BC  by \z_A_j_U.under;
+    sub \u113D0 \u1139B \u113D0 \u11399 \u113BB  by \z_A_j_u.under;
+    sub \u113D0 \u1139B \u113D0 \u113AB  by \z_A_y.under;
+    sub \u113D0 \u1139B \u113D0 \u113AB \u113BB  by \z_A_y_u.under;
+    sub \u113D0 \u1139B \u113D0 \u1139B  by \z_A_z.under;
+    sub \u113D0 \u1139B \u113D0 \u1139B \u113BC  by \z_A_z_U.under;
+    sub \u113D0 \u1139B \u113D0 \u1139B \u113BB  by \z_A_z_u.under;
+} blwfBelowBaseFormslookup3;
+
+lookup rphfRephFormintutglookup4 {
+  lookupflag 0;
+    sub \u113AC \u113D0  by \u113D1;
+} rphfRephFormintutglookup4;
+
+feature akhn {
+
+ script DFLT;
+     language dflt ;
+      lookup akhnAkhandlookup2;
+
+ script latn;
+     language dflt ;
+      lookup akhnAkhandlookup2;
+
+ script tutg;
+     language dflt ;
+      lookup akhnAkhandintutglookup0;
+      lookup akhnAkhandlookup2;
+} akhn;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup1;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup1;
+
+ script tutg;
+     language dflt ;
+      lookup ligaStandardLigatureslookup1;
+} liga;
+
+feature blwf {
+
+ script DFLT;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup3;
+
+ script latn;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup3;
+
+ script tutg;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup3;
+} blwf;
+
+feature rphf {
+
+ script tutg;
+     language dflt ;
+      lookup rphfRephFormintutglookup4;
+} rphf;
+
+# GPOS 
+
+
+lookup markMarkPositioninglookup0 {
+  lookupflag 0;
+  markClass [\u113BD ] <anchor 21 378> @Anchor0;
+  markClass [\u113BE ] <anchor -375 378> @Anchor0;
+  markClass [\u113BF ] <anchor 22 -56> @Anchor0;
+  markClass [\u113C0 ] <anchor 35 -27> @Anchor0;
+  pos base [\u11392 ] <anchor 783 0> mark @Anchor0;
+  pos base [\u11393 ] <anchor 779 0> mark @Anchor0;
+  pos base [\u11394 ] <anchor 750 0> mark @Anchor0;
+  pos base [\u11395 ] <anchor 1026 0> mark @Anchor0;
+  pos base [\u11396 ] <anchor 884 0> mark @Anchor0;
+  pos base [\u11397 ] <anchor 674 0> mark @Anchor0;
+  pos base [\u11398 ] <anchor 1081 0> mark @Anchor0;
+  pos base [\u11399 ] <anchor 1593 0> mark @Anchor0;
+  pos base [\u1139A ] <anchor 1254 0> mark @Anchor0;
+  pos base [\u1139B ] <anchor 1204 0> mark @Anchor0;
+  pos base [\u1139C ] <anchor 331 0> mark @Anchor0;
+  pos base [\u1139D ] <anchor 537 0> mark @Anchor0;
+  pos base [\u1139E ] <anchor 939 0> mark @Anchor0;
+  pos base [\u1139F ] <anchor 1058 0> mark @Anchor0;
+  pos base [\u113A0 ] <anchor 1162 0> mark @Anchor0;
+  pos base [\u113A1 ] <anchor 706 0> mark @Anchor0;
+  pos base [\u113A2 ] <anchor 714 0> mark @Anchor0;
+  pos base [\u113A3 ] <anchor 367 0> mark @Anchor0;
+  pos base [\u113A4 ] <anchor 753 0> mark @Anchor0;
+  pos base [\u113A5 ] <anchor 679 0> mark @Anchor0;
+  pos base [\u113A6 ] <anchor 951 0> mark @Anchor0;
+  pos base [\u113A7 ] <anchor 1010 0> mark @Anchor0;
+  pos base [\u113A8 ] <anchor 1102 0> mark @Anchor0;
+  pos base [\u113A9 ] <anchor 1036 0> mark @Anchor0;
+  pos base [\u113AA ] <anchor 486 0> mark @Anchor0;
+  pos base [\u113AB ] <anchor 699 0> mark @Anchor0;
+  pos base [\u113AC \u113B1 ] <anchor 630 0> mark @Anchor0;
+  pos base [\u113AD ] <anchor 621 0> mark @Anchor0;
+  pos base [\u113AE ] <anchor 695 0> mark @Anchor0;
+  pos base [\u113AF ] <anchor 811 0> mark @Anchor0;
+  pos base [\u113B0 ] <anchor 1019 0> mark @Anchor0;
+  pos base [\u113B2 ] <anchor 984 0> mark @Anchor0;
+  pos base [\u113B3 ] <anchor 615 0> mark @Anchor0;
+  pos base [\u113B4 ] <anchor 790 0> mark @Anchor0;
+  pos base [\u113B5 ] <anchor 709 0> mark @Anchor0;
+} markMarkPositioninglookup0;
+
+lookup markMarkPositioninglookup1 {
+  lookupflag 0;
+  markClass [\u113CA ] <anchor 209 2> @Anchor1;
+  markClass [\u113CD ] <anchor 30 11> @Anchor2;
+  pos base [\u11392 ] <anchor 783 549> mark @Anchor2
+	<anchor 406 549> mark @Anchor1;
+  pos base [\u11393 ] <anchor 779 552> mark @Anchor2
+	<anchor 399 552> mark @Anchor1;
+  pos base [\u11394 ] <anchor 750 551> mark @Anchor2
+	<anchor 390 551> mark @Anchor1;
+  pos base [\u11395 ] <anchor 1026 554> mark @Anchor2
+	<anchor 528 554> mark @Anchor1;
+  pos base [\u11396 ] <anchor 884 546> mark @Anchor2
+	<anchor 452 546> mark @Anchor1;
+  pos base [\u11397 ] <anchor 674 550> mark @Anchor2
+	<anchor 354 550> mark @Anchor1;
+  pos base [\u11398 ] <anchor 1081 553> mark @Anchor2
+	<anchor 558 553> mark @Anchor1;
+  pos base [\u11399 ] <anchor 1593 549> mark @Anchor2
+	<anchor 811 549> mark @Anchor1;
+  pos base [\u1139A ] <anchor 1254 559> mark @Anchor2
+	<anchor 640 559> mark @Anchor1;
+  pos base [\u1139B ] <anchor 1204 549> mark @Anchor2
+	<anchor 617 549> mark @Anchor1;
+  pos base [\u1139C ] <anchor 331 553> mark @Anchor2
+	<anchor 171 553> mark @Anchor1;
+  pos base [\u1139D ] <anchor 537 554> mark @Anchor2
+	<anchor 283 554> mark @Anchor1;
+  pos base [\u1139E ] <anchor 939 562> mark @Anchor2
+	<anchor 484 562> mark @Anchor1;
+  pos base [\u1139F ] <anchor 1058 562> mark @Anchor2
+	<anchor 544 562> mark @Anchor1;
+  pos base [\u113A0 ] <anchor 1162 549> mark @Anchor2
+	<anchor 593 549> mark @Anchor1;
+  pos base [\u113A1 ] <anchor 706 554> mark @Anchor2
+	<anchor 368 554> mark @Anchor1;
+  pos base [\u113A2 ] <anchor 714 556> mark @Anchor2
+	<anchor 372 556> mark @Anchor1;
+  pos base [\u113A3 ] <anchor 367 555> mark @Anchor2
+	<anchor 185 555> mark @Anchor1;
+  pos base [\u113A4 ] <anchor 753 553> mark @Anchor2
+	<anchor 388 553> mark @Anchor1;
+  pos base [\u113A5 ] <anchor 679 554> mark @Anchor2
+	<anchor 354 554> mark @Anchor1;
+  pos base [\u113A6 ] <anchor 951 559> mark @Anchor2
+	<anchor 491 559> mark @Anchor1;
+  pos base [\u113A7 ] <anchor 1010 556> mark @Anchor2
+	<anchor 514 556> mark @Anchor1;
+  pos base [\u113A8 ] <anchor 1102 545> mark @Anchor2
+	<anchor 561 545> mark @Anchor1;
+  pos base [\u113A9 ] <anchor 1036 553> mark @Anchor2
+	<anchor 534 553> mark @Anchor1;
+  pos base [\u113AA ] <anchor 486 551> mark @Anchor2
+	<anchor 258 551> mark @Anchor1;
+  pos base [\u113AB ] <anchor 699 554> mark @Anchor2
+	<anchor 364 554> mark @Anchor1;
+  pos base [\u113AC ] <anchor 630 549> mark @Anchor2
+	<anchor 330 549> mark @Anchor1;
+  pos base [\u113AD ] <anchor 621 550> mark @Anchor2
+	<anchor 324 550> mark @Anchor1;
+  pos base [\u113AE ] <anchor 695 554> mark @Anchor2
+	<anchor 362 554> mark @Anchor1;
+  pos base [\u113AF ] <anchor 811 551> mark @Anchor2
+	<anchor 420 551> mark @Anchor1;
+  pos base [\u113B0 ] <anchor 1019 547> mark @Anchor2
+	<anchor 527 547> mark @Anchor1;
+  pos base [\u113B1 ] <anchor 630 554> mark @Anchor2
+	<anchor 318 554> mark @Anchor1;
+  pos base [\u113B2 ] <anchor 984 550> mark @Anchor2
+	<anchor 507 550> mark @Anchor1;
+  pos base [\u113B3 ] <anchor 615 576> mark @Anchor2
+	<anchor 312 576> mark @Anchor1;
+  pos base [\u113B4 ] <anchor 790 551> mark @Anchor2
+	<anchor 405 551> mark @Anchor1;
+  pos base [\u113B5 ] <anchor 709 549> mark @Anchor2
+	<anchor 365 549> mark @Anchor1;
+} markMarkPositioninglookup1;
+
+lookup markMarkPositioninglookup2 {
+  lookupflag 0;
+  markClass [\f_I ] <anchor 82 354> @Anchor3;
+  pos base [\u11392 \u11399 \u1139B \u113AC ] <anchor 30 549> mark @Anchor3;
+  pos base [\u11393 ] <anchor 20 552> mark @Anchor3;
+  pos base [\u11394 \u113AA \u113AF ] <anchor 30 551> mark @Anchor3;
+  pos base [\u11395 ] <anchor 31 554> mark @Anchor3;
+  pos base [\u11396 ] <anchor 20 546> mark @Anchor3;
+  pos base [\u11397 ] <anchor 34 550> mark @Anchor3;
+  pos base [\u11398 ] <anchor 35 553> mark @Anchor3;
+  pos base [\u1139A ] <anchor 27 559> mark @Anchor3;
+  pos base [\u1139C ] <anchor 11 553> mark @Anchor3;
+  pos base [\u1139D \u113A1 \u113A5 \u113AB \u113AE ] <anchor 30 554> mark @Anchor3;
+  pos base [\u1139E \u1139F ] <anchor 30 562> mark @Anchor3;
+  pos base [\u113A0 ] <anchor 24 549> mark @Anchor3;
+  pos base [\u113A2 ] <anchor 30 556> mark @Anchor3;
+  pos base [\u113A3 ] <anchor 4 555> mark @Anchor3;
+  pos base [\u113A4 ] <anchor 24 553> mark @Anchor3;
+  pos base [\u113A6 ] <anchor 32 559> mark @Anchor3;
+  pos base [\u113A7 ] <anchor 18 556> mark @Anchor3;
+  pos base [\u113A8 ] <anchor 20 545> mark @Anchor3;
+  pos base [\u113A9 ] <anchor 32 553> mark @Anchor3;
+  pos base [\u113AD ] <anchor 28 550> mark @Anchor3;
+  pos base [\u113B0 ] <anchor 36 547> mark @Anchor3;
+  pos base [\u113B1 ] <anchor 6 554> mark @Anchor3;
+  pos base [\u113B2 ] <anchor 30 550> mark @Anchor3;
+  pos base [\u113B3 ] <anchor 9 576> mark @Anchor3;
+  pos base [\u113B4 ] <anchor 21 551> mark @Anchor3;
+  pos base [\u113B5 ] <anchor 21 549> mark @Anchor3;
+} markMarkPositioninglookup2;
+
+lookup kernHorizontalKerninglookup3 {
+  lookupflag IgnoreMarks;
+    pos \u1139E \A_w -971;
+    pos \u113A0 \z_A_z_u.under -900;
+    pos \u113A0 \z_A_z_U.under -900;
+    pos \u113A0 \z_A_z.under -900;
+    pos \u113A0 \z_A_y_u.under -900;
+    pos \u113A0 \z_A_y.under -900;
+    pos \u113A0 \z_A_j_u.under -900;
+    pos \u113A0 \z_A_j_U.under -900;
+    pos \u113A0 \z_A_j_A_z_u.under -900;
+    pos \u113A0 \z_A_j_A_z_U.under -900;
+    pos \u113A0 \z_A_j_A_z.under -900;
+    pos \u113A0 \z_A_j_A_y_u.under -900;
+    pos \u113A0 \z_A_j_A_y.under -900;
+    pos \u113A0 \z_A_j.under -900;
+    pos \u113A0 \z_A_c.under -900;
+    pos \u113A0 \y_f_u.under -900;
+    pos \u113A0 \y_f.under -900;
+    pos \u113A0 \y_A_y_u.under -900;
+    pos \u113A0 \y_A_y_f_u.under -900;
+    pos \u113A0 \y_A_y_f.under -900;
+    pos \u113A0 \y_A_y.under -900;
+    pos \u113A0 \x_A_q_u.under -900;
+    pos \u113A0 \x_A_q_U.under -900;
+    pos \u113A0 \x_A_q_A_v.under -900;
+    pos \u113A0 \x_A_q_A_r_u.under -900;
+    pos \u113A0 \x_A_q_A_r_U.under -900;
+    pos \u113A0 \x_A_q_A_r.under -900;
+    pos \u113A0 \x_A_q.under -900;
+    pos \u113A0 \x_A_m_u.under -900;
+    pos \u113A0 \x_A_m_U.under -900;
+    pos \u113A0 \x_A_m.under -900;
+    pos \u113A0 \x_A_k_u.under -900;
+    pos \u113A0 \x_A_k_U.under -900;
+    pos \u113A0 \x_A_k_R.under -900;
+    pos \u113A0 \x_A_k_A_r.under -900;
+    pos \u113A0 \x_A_k.under -900;
+    pos \u113A0 \x_A_Q_u.under -900;
+    pos \u113A0 \x_A_Q_U.under -900;
+    pos \u113A0 \x_A_Q.under -900;
+    pos \u113A0 \w_A_y_u.under -900;
+    pos \u113A0 \w_A_y.under -900;
+    pos \u113A0 \w_A_v_u.under -900;
+    pos \u113A0 \w_A_v.under -900;
+    pos \u113A0 \w_A_r_u.under -900;
+    pos \u113A0 \w_A_r_U.under -900;
+    pos \u113A0 \w_A_r.under -900;
+    pos \u113A0 \w_A_m_u.under -900;
+    pos \u113A0 \w_A_m.under -900;
+    pos \u113A0 \w_A_g.under -900;
+    pos \u113A0 \v_f_u.under -900;
+    pos \u113A0 \v_f.under -900;
+    pos \u113A0 \v_R.under -900;
+    pos \u113A0 \t_u.under -900;
+    pos \u113A0 \t_U.under -900;
+    pos \u113A0 \t_R.under -900;
+    pos \u113A0 \t_A_y_u.under -900;
+    pos \u113A0 \t_A_y_U.under -900;
+    pos \u113A0 \t_A_y.under -900;
+    pos \u113A0 \t_A_v.under -900;
+    pos \u113A0 \t_A_t_u.under -900;
+    pos \u113A0 \t_A_t_U.under -900;
+    pos \u113A0 \t_A_t_R.under -900;
+    pos \u113A0 \t_A_t_A_y_u.under -900;
+    pos \u113A0 \t_A_t_A_y.under -900;
+    pos \u113A0 \t_A_t_A_v.under -900;
+    pos \u113A0 \t_A_t.under -900;
+    pos \u113A0 \t_A_s_A_y_u.under -900;
+    pos \u113A0 \t_A_s_A_y.under -900;
+    pos \u113A0 \t_A_s_A_v.under -900;
+    pos \u113A0 \t_A_s_A_T.under -900;
+    pos \u113A0 \t_A_s.under -900;
+    pos \u113A0 \t_A_r_u.under -900;
+    pos \u113A0 \t_A_r_U.under -900;
+    pos \u113A0 \t_A_r_A_y_u.under -900;
+    pos \u113A0 \t_A_r_A_y.under -900;
+    pos \u113A0 \t_A_r_A_v_u.under -900;
+    pos \u113A0 \t_A_r_A_v.under -900;
+    pos \u113A0 \t_A_r.under -900;
+    pos \u113A0 \t_A_n_u.under -900;
+    pos \u113A0 \t_A_n_U.under -900;
+    pos \u113A0 \t_A_n_A_y_u.under -900;
+    pos \u113A0 \t_A_n_A_y.under -900;
+    pos \u113A0 \t_A_n.under -900;
+    pos \u113A0 \t_A_m_A_y_u.under -900;
+    pos \u113A0 \t_A_m_A_y.under -900;
+    pos \u113A0 \t_A_m_A_r_u.under -900;
+    pos \u113A0 \t_A_m_A_r.under -900;
+    pos \u113A0 \t_A_m.under -900;
+    pos \u113A0 \t_A_k_u.under -900;
+    pos \u113A0 \t_A_k_U.under -900;
+    pos \u113A0 \t_A_k_R.under -900;
+    pos \u113A0 \t_A_k_A_x_A_m.under -900;
+    pos \u113A0 \t_A_k_A_x.under -900;
+    pos \u113A0 \t_A_k_A_r_u.under -900;
+    pos \u113A0 \t_A_k_A_r.under -900;
+    pos \u113A0 \t_A_k.under -900;
+    pos \u113A0 \t_A_T_A_y_u.under -900;
+    pos \u113A0 \t_A_T_A_y.under -900;
+    pos \u113A0 \t_A_T.under -900;
+    pos \u113A0 \s_A_y_u.under -900;
+    pos \u113A0 \s_A_y_U.under -900;
+    pos \u113A0 \s_A_y.under -900;
+    pos \u113A0 \s_A_s_u.under -900;
+    pos \u113A0 \s_A_s_U.under -900;
+    pos \u113A0 \s_A_s.under -900;
+    pos \u113A0 \s_A_r.under -900;
+    pos \u113A0 \s_A_m_u.under -900;
+    pos \u113A0 \s_A_m_U.under -900;
+    pos \u113A0 \s_A_m_R.under -900;
+    pos \u113A0 \s_A_m.under -900;
+    pos \u113A0 \s_A_T.under -900;
+    pos \u113A0 \r_u.under -900;
+    pos \u113A0 \r_U.under -900;
+    pos \u113A0 \q_u.under -900;
+    pos \u113A0 \q_U.under -900;
+    pos \u113A0 \q_A_y_u.under -900;
+    pos \u113A0 \q_A_y_U.under -900;
+    pos \u113A0 \q_A_y.under -900;
+    pos \u113A0 \q_A_v.under -900;
+    pos \u113A0 \q_A_r_u.under -900;
+    pos \u113A0 \q_A_r_U.under -900;
+    pos \u113A0 \q_A_r.under -900;
+    pos \u113A0 \q_A_q_u.under -900;
+    pos \u113A0 \q_A_q_U.under -900;
+    pos \u113A0 \q_A_q_A_y_u.under -900;
+    pos \u113A0 \q_A_q_A_y.under -900;
+    pos \u113A0 \q_A_q.under -900;
+    pos \u113A0 \q_A_Q_u.under -900;
+    pos \u113A0 \q_A_Q.under -900;
+    pos \u113A0 \p_R.under -900;
+    pos \u113A0 \p_A_y_u.under -900;
+    pos \u113A0 \p_A_y_U.under -900;
+    pos \u113A0 \p_A_y.under -900;
+    pos \u113A0 \p_A_t_u1.under -900;
+    pos \u113A0 \p_A_t_u.under -900;
+    pos \u113A0 \p_A_t_A_v_u.under -900;
+    pos \u113A0 \p_A_t_A_v.under -900;
+    pos \u113A0 \p_A_t.under -900;
+    pos \u113A0 \p_A_r_u.under -900;
+    pos \u113A0 \p_A_r_U.under -900;
+    pos \u113A0 \p_A_r.under -900;
+    pos \u113A0 \p_A_m_u.under -900;
+    pos \u113A0 \p_A_m.under -900;
+    pos \u113A0 \p_A_C.under -900;
+    pos \u113A0 \n_u.under -900;
+    pos \u113A0 \n_U.under -900;
+    pos \u113A0 \n_R.under -900;
+    pos \u113A0 \n_A_y_u.under -900;
+    pos \u113A0 \n_A_y_U.under -900;
+    pos \u113A0 \n_A_y.under -900;
+    pos \u113A0 \n_A_v.under -900;
+    pos \u113A0 \n_A_t_u.under -900;
+    pos \u113A0 \n_A_t_U.under -900;
+    pos \u113A0 \n_A_t_A_y_u.under -900;
+    pos \u113A0 \n_A_t_A_y.under -900;
+    pos \u113A0 \n_A_t_A_v.under -900;
+    pos \u113A0 \n_A_t_A_s.under -900;
+    pos \u113A0 \n_A_t_A_r_u.under -900;
+    pos \u113A0 \n_A_t_A_r_U.under -900;
+    pos \u113A0 \n_A_t_A_r_A_y_u.under -900;
+    pos \u113A0 \n_A_t_A_r_A_y.under -900;
+    pos \u113A0 \n_A_t_A_r.under -900;
+    pos \u113A0 \n_A_t.under -900;
+    pos \u113A0 \n_A_r_u.under -900;
+    pos \u113A0 \n_A_r_U.under -900;
+    pos \u113A0 \n_A_r.under -900;
+    pos \u113A0 \n_A_q_u.under -900;
+    pos \u113A0 \n_A_q.under -900;
+    pos \u113A0 \n_A_n_u.under -900;
+    pos \u113A0 \n_A_n_U.under -900;
+    pos \u113A0 \n_A_n.under -900;
+    pos \u113A0 \n_A_m.under -900;
+    pos \u113A0 \n_A_k_u.under -900;
+    pos \u113A0 \n_A_k_U.under -900;
+    pos \u113A0 \n_A_k_R.under -900;
+    pos \u113A0 \n_A_k_A_x.under -900;
+    pos \u113A0 \n_A_k_A_t_u.under -900;
+    pos \u113A0 \n_A_k_A_t.under -900;
+    pos \u113A0 \n_A_k.under -900;
+    pos \u113A0 \n_A_h_u.under -900;
+    pos \u113A0 \n_A_h.under -900;
+    pos \u113A0 \n_A_d_u.under -900;
+    pos \u113A0 \n_A_d_U.under -900;
+    pos \u113A0 \n_A_d_A_y_u.under -900;
+    pos \u113A0 \n_A_d_A_y.under -900;
+    pos \u113A0 \n_A_d_A_v.under -900;
+    pos \u113A0 \n_A_d_A_r_u.under -900;
+    pos \u113A0 \n_A_d_A_r_U.under -900;
+    pos \u113A0 \n_A_d_A_r.under -900;
+    pos \u113A0 \n_A_d.under -900;
+    pos \u113A0 \n_A_b_A_r_u.under -900;
+    pos \u113A0 \n_A_b_A_r.under -900;
+    pos \u113A0 \n_A_b.under -900;
+    pos \u113A0 \n_A_T.under -900;
+    pos \u113A0 \n_A_G_A_R.under -900;
+    pos \u113A0 \n_A_G.under -900;
+    pos \u113A0 \n_A_D_A_y_u.under -900;
+    pos \u113A0 \n_A_D_A_y.under -900;
+    pos \u113A0 \n_A_D_A_v_u.under -900;
+    pos \u113A0 \n_A_D_A_v.under -900;
+    pos \u113A0 \n_A_D_A_r_u.under -900;
+    pos \u113A0 \n_A_D_A_r.under -900;
+    pos \u113A0 \n_A_D.under -900;
+    pos \u113A0 \n_A_B_u.under -900;
+    pos \u113A0 \n_A_B.under -900;
+    pos \u113A0 \m_R.under -900;
+    pos \u113A0 \m_A_y_u.under -900;
+    pos \u113A0 \m_A_y_U.under -900;
+    pos \u113A0 \m_A_y.under -900;
+    pos \u113A0 \m_A_r_u.under -900;
+    pos \u113A0 \m_A_r_U.under -900;
+    pos \u113A0 \m_A_r.under -900;
+    pos \u113A0 \m_A_m_A_y_u.under -900;
+    pos \u113A0 \m_A_m_A_y.under -900;
+    pos \u113A0 \m_A_m.under -900;
+    pos \u113A0 \m_A_X.under -900;
+    pos \u113A0 \l_A_k_u.under -900;
+    pos \u113A0 \l_A_k.under -900;
+    pos \u113A0 \k_u.under -900;
+    pos \u113A0 \k_U.under -900;
+    pos \u113A0 \k_R.under -900;
+    pos \u113A0 \k_A_y_u.under -900;
+    pos \u113A0 \k_A_y_U.under -900;
+    pos \u113A0 \k_A_y.under -900;
+    pos \u113A0 \k_A_x_A_y_u.under -900;
+    pos \u113A0 \k_A_x_A_y.under -900;
+    pos \u113A0 \k_A_x_A_v_u.under -900;
+    pos \u113A0 \k_A_x_A_v.under -900;
+    pos \u113A0 \k_A_x_A_r_u.under -900;
+    pos \u113A0 \k_A_x_A_r.under -900;
+    pos \u113A0 \k_A_x_A_m_u.under -900;
+    pos \u113A0 \k_A_x_A_m_U.under -900;
+    pos \u113A0 \k_A_x_A_m_A_y_u.under -900;
+    pos \u113A0 \k_A_x_A_m_A_y.under -900;
+    pos \u113A0 \k_A_x_A_m.under -900;
+    pos \u113A0 \k_A_x_A_l_u.under -900;
+    pos \u113A0 \k_A_x_A_l.under -900;
+    pos \u113A0 \k_A_x_A_k_A_y.under -900;
+    pos \u113A0 \k_A_x_A_k_A_r.under -900;
+    pos \u113A0 \k_A_x.under -900;
+    pos \u113A0 \k_A_v.under -900;
+    pos \u113A0 \k_A_t_u.under -900;
+    pos \u113A0 \k_A_t_U.under -900;
+    pos \u113A0 \k_A_t_R.under -900;
+    pos \u113A0 \k_A_t_A_y_u.under -900;
+    pos \u113A0 \k_A_t_A_y_U.under -900;
+    pos \u113A0 \k_A_t_A_y.under -900;
+    pos \u113A0 \k_A_t_A_v.under -900;
+    pos \u113A0 \k_A_t_A_r_u.under -900;
+    pos \u113A0 \k_A_t_A_r_A_y_u.under -900;
+    pos \u113A0 \k_A_t_A_r_A_y.under -900;
+    pos \u113A0 \k_A_t_A_r.under -900;
+    pos \u113A0 \k_A_t_A_T.under -900;
+    pos \u113A0 \k_A_t.under -900;
+    pos \u113A0 \k_A_s_A_s_u.under -900;
+    pos \u113A0 \k_A_s_A_s.under -900;
+    pos \u113A0 \k_A_s.under -900;
+    pos \u113A0 \k_A_r_u.under -900;
+    pos \u113A0 \k_A_r_U.under -900;
+    pos \u113A0 \k_A_r.under -900;
+    pos \u113A0 \k_A_q_u.under -900;
+    pos \u113A0 \k_A_q.under -900;
+    pos \u113A0 \k_A_n_u.under -900;
+    pos \u113A0 \k_A_n_U.under -900;
+    pos \u113A0 \k_A_n_A_y_u.under -900;
+    pos \u113A0 \k_A_n_A_y.under -900;
+    pos \u113A0 \k_A_n.under -900;
+    pos \u113A0 \k_A_m.under -900;
+    pos \u113A0 \k_A_k_u.under -900;
+    pos \u113A0 \k_A_k_U.under -900;
+    pos \u113A0 \k_A_k_R.under -900;
+    pos \u113A0 \k_A_k_A_r.under -900;
+    pos \u113A0 \k_A_k.under -900;
+    pos \u113A0 \k_A_T.under -900;
+    pos \u113A0 \j_u.under -900;
+    pos \u113A0 \j_U.under -900;
+    pos \u113A0 \j_R.under -900;
+    pos \u113A0 \j_A_z_u.under -900;
+    pos \u113A0 \j_A_z_U.under -900;
+    pos \u113A0 \j_A_z.under -900;
+    pos \u113A0 \j_A_y_u.under -900;
+    pos \u113A0 \j_A_y_U.under -900;
+    pos \u113A0 \j_A_y.under -900;
+    pos \u113A0 \j_A_v_u.under -900;
+    pos \u113A0 \j_A_v.under -900;
+    pos \u113A0 \j_A_r_u.under -900;
+    pos \u113A0 \j_A_r_U.under -900;
+    pos \u113A0 \j_A_r.under -900;
+    pos \u113A0 \j_A_m.under -900;
+    pos \u113A0 \j_A_j_u.under -900;
+    pos \u113A0 \j_A_j_U.under -900;
+    pos \u113A0 \j_A_j_A_z_u.under -900;
+    pos \u113A0 \j_A_j_A_z.under -900;
+    pos \u113A0 \j_A_j_A_y_u.under -900;
+    pos \u113A0 \j_A_j_A_y.under -900;
+    pos \u113A0 \j_A_j.under -900;
+    pos \u113A0 \h_u.under -900;
+    pos \u113A0 \h_U.under -900;
+    pos \u113A0 \h_R.under -900;
+    pos \u113A0 \h_A_y_u.under -900;
+    pos \u113A0 \h_A_y_U.under -900;
+    pos \u113A0 \h_A_y.under -900;
+    pos \u113A0 \h_A_m.under -900;
+    pos \u113A0 \g_u.under -900;
+    pos \u113A0 \g_U.under -900;
+    pos \u113A0 \g_R.under -900;
+    pos \u113A0 \g_A_y_u.under -900;
+    pos \u113A0 \g_A_y_U.under -900;
+    pos \u113A0 \g_A_y.under -900;
+    pos \u113A0 \g_A_v.under -900;
+    pos \u113A0 \g_A_r_u.under -900;
+    pos \u113A0 \g_A_r_U.under -900;
+    pos \u113A0 \g_A_r.under -900;
+    pos \u113A0 \g_A_n_u.under -900;
+    pos \u113A0 \g_A_n_U.under -900;
+    pos \u113A0 \g_A_n_A_y_u.under -900;
+    pos \u113A0 \g_A_n_A_y.under -900;
+    pos \u113A0 \g_A_n_A_v.under -900;
+    pos \u113A0 \g_A_n.under -900;
+    pos \u113A0 \g_A_m.under -900;
+    pos \u113A0 \g_A_j_u.under -900;
+    pos \u113A0 \g_A_j.under -900;
+    pos \u113A0 \g_A_g_u.under -900;
+    pos \u113A0 \g_A_g_U.under -900;
+    pos \u113A0 \g_A_g_R.under -900;
+    pos \u113A0 \g_A_g.under -900;
+    pos \u113A0 \g_A_d_u.under -900;
+    pos \u113A0 \g_A_d_A_D_u.under -900;
+    pos \u113A0 \g_A_d_A_D_A_r_u.under -900;
+    pos \u113A0 \g_A_d_A_D_A_r.under -900;
+    pos \u113A0 \g_A_d_A_D.under -900;
+    pos \u113A0 \g_A_d.under -900;
+    pos \u113A0 \g_A_b.under -900;
+    pos \u113A0 \g_A_G_R.under -900;
+    pos \u113A0 \g_A_G.under -900;
+    pos \u113A0 \g_A_D_u.under -900;
+    pos \u113A0 \g_A_D.under -900;
+    pos \u113A0 \g_A_B_u.under -900;
+    pos \u113A0 \g_A_B_A_y_u.under -900;
+    pos \u113A0 \g_A_B_A_y.under -900;
+    pos \u113A0 \g_A_B.under -900;
+    pos \u113A0 \d_u.under -900;
+    pos \u113A0 \d_U.under -900;
+    pos \u113A0 \d_A_y_u.under -900;
+    pos \u113A0 \d_A_y_U.under -900;
+    pos \u113A0 \d_A_y.under -900;
+    pos \u113A0 \d_A_v_A_y_u.under -900;
+    pos \u113A0 \d_A_v_A_y.under -900;
+    pos \u113A0 \d_A_v.under -900;
+    pos \u113A0 \d_A_r_u.under -900;
+    pos \u113A0 \d_A_r_U.under -900;
+    pos \u113A0 \d_A_r.under -900;
+    pos \u113A0 \d_A_m_u.under -900;
+    pos \u113A0 \d_A_m_U.under -900;
+    pos \u113A0 \d_A_m.under -900;
+    pos \u113A0 \d_A_l_u.under -900;
+    pos \u113A0 \d_A_l.under -900;
+    pos \u113A0 \d_A_g_u.under -900;
+    pos \u113A0 \d_A_g_A_r_u.under -900;
+    pos \u113A0 \d_A_g_A_r.under -900;
+    pos \u113A0 \d_A_g.under -900;
+    pos \u113A0 \d_A_d_u.under -900;
+    pos \u113A0 \d_A_d_U.under -900;
+    pos \u113A0 \d_A_d_A_y_u.under -900;
+    pos \u113A0 \d_A_d_A_y.under -900;
+    pos \u113A0 \d_A_d_A_r_u.under -900;
+    pos \u113A0 \d_A_d_A_r.under -900;
+    pos \u113A0 \d_A_d.under -900;
+    pos \u113A0 \d_A_b_A_r_u.under -900;
+    pos \u113A0 \d_A_b_A_r.under -900;
+    pos \u113A0 \d_A_b.under -900;
+    pos \u113A0 \d_A_G.under -900;
+    pos \u113A0 \d_A_D_r_u.under -900;
+    pos \u113A0 \d_A_D_A_y_u.under -900;
+    pos \u113A0 \d_A_D_A_y.under -900;
+    pos \u113A0 \d_A_D_A_v_u.under -900;
+    pos \u113A0 \d_A_D_A_v.under -900;
+    pos \u113A0 \d_A_D_A_r_U.under -900;
+    pos \u113A0 \d_A_D_A_r.under -900;
+    pos \u113A0 \d_A_D_A_m_u.under -900;
+    pos \u113A0 \d_A_D_A_m.under -900;
+    pos \u113A0 \d_A_D.under -900;
+    pos \u113A0 \d_A_B_u.under -900;
+    pos \u113A0 \d_A_B_A_y_u.under -900;
+    pos \u113A0 \d_A_B_A_y.under -900;
+    pos \u113A0 \d_A_B_A_r_u.under -900;
+    pos \u113A0 \d_A_B_A_r.under -900;
+    pos \u113A0 \d_A_B.under -900;
+    pos \u113A0 \c_R.under -900;
+    pos \u113A0 \c_Ar.under -900;
+    pos \u113A0 \c_A_y_u.under -900;
+    pos \u113A0 \c_A_y_U.under -900;
+    pos \u113A0 \c_A_y.under -900;
+    pos \u113A0 \c_A_r_u.under -900;
+    pos \u113A0 \c_A_r_U.under -900;
+    pos \u113A0 \c_A_c_u.under -900;
+    pos \u113A0 \c_A_c_U.under -900;
+    pos \u113A0 \c_A_c.under -900;
+    pos \u113A0 \c_A_C_u.under -900;
+    pos \u113A0 \c_A_C_U.under -900;
+    pos \u113A0 \c_A_C.under -900;
+    pos \u113A0 \b_R.under -900;
+    pos \u113A0 \b_A_y_u.under -900;
+    pos \u113A0 \b_A_y_U.under -900;
+    pos \u113A0 \b_A_y.under -900;
+    pos \u113A0 \b_A_r_u.under -900;
+    pos \u113A0 \b_A_r_U.under -900;
+    pos \u113A0 \b_A_r.under -900;
+    pos \u113A0 \b_A_d.under -900;
+    pos \u113A0 \b_A_b_u.under -900;
+    pos \u113A0 \b_A_b_U.under -900;
+    pos \u113A0 \b_A_b.under -900;
+    pos \u113A0 \Z_A_y_u.under -900;
+    pos \u113A0 \Z_A_y.under -900;
+    pos \u113A0 \Z_A_k_u.under -900;
+    pos \u113A0 \Z_A_k_U.under -900;
+    pos \u113A0 \Z_A_k_A_y_u.under -900;
+    pos \u113A0 \Z_A_k_A_y.under -900;
+    pos \u113A0 \Z_A_k_A_x_A_y_u.under -900;
+    pos \u113A0 \Z_A_k_A_x_A_y.under -900;
+    pos \u113A0 \Z_A_k_A_x.under -900;
+    pos \u113A0 \Z_A_k_A_t_u.under -900;
+    pos \u113A0 \Z_A_k_A_t_A_y_u.under -900;
+    pos \u113A0 \Z_A_k_A_t_A_y.under -900;
+    pos \u113A0 \Z_A_k_A_t.under -900;
+    pos \u113A0 \Z_A_k_A_r_u.under -900;
+    pos \u113A0 \Z_A_k_A_r.under -900;
+    pos \u113A0 \Z_A_k_A_k_u.under -900;
+    pos \u113A0 \Z_A_k_A_k.under -900;
+    pos \u113A0 \Z_A_k.under -900;
+    pos \u113A0 \W_A_y_u.under -900;
+    pos \u113A0 \W_A_y.under -900;
+    pos \u113A0 \V_l_l_X -900;
+    pos \u113A0 \V_l_X -900;
+    pos \u113A0 \T_A_y_u.under -900;
+    pos \u113A0 \T_A_y.under -900;
+    pos \u113A0 \T_A_v_u.under -900;
+    pos \u113A0 \T_A_v.under -900;
+    pos \u113A0 \T_A_r_u.under -900;
+    pos \u113A0 \T_A_r.under -900;
+    pos \u113A0 \T_A_m_u.under -900;
+    pos \u113A0 \T_A_m.under -900;
+    pos \u113A0 \S_u.under -900;
+    pos \u113A0 \S_U.under -900;
+    pos \u113A0 \S_R.under -900;
+    pos \u113A0 \S_A_y_u.under -900;
+    pos \u113A0 \S_A_y_U.under -900;
+    pos \u113A0 \S_A_y.under -900;
+    pos \u113A0 \S_A_v.under -900;
+    pos \u113A0 \S_A_r_u.under -900;
+    pos \u113A0 \S_A_r_U.under -900;
+    pos \u113A0 \S_A_r.under -900;
+    pos \u113A0 \S_A_n_u.under -900;
+    pos \u113A0 \S_A_n.under -900;
+    pos \u113A0 \S_A_m_u.under -900;
+    pos \u113A0 \S_A_m.under -900;
+    pos \u113A0 \S_A_c_u.under -900;
+    pos \u113A0 \S_A_c_U.under -900;
+    pos \u113A0 \S_A_c.under -900;
+    pos \u113A0 \S_A_Q.under -900;
+    pos \u113A0 \S_A_C_u.under -900;
+    pos \u113A0 \S_A_C.under -900;
+    pos \u113A0 \P_A_y_u.under -900;
+    pos \u113A0 \P_A_y.under -900;
+    pos \u113A0 \P_A_v_u.under -900;
+    pos \u113A0 \P_A_v.under -900;
+    pos \u113A0 \P_A_r_u.under -900;
+    pos \u113A0 \P_A_r.under -900;
+    pos \u113A0 \N_u.under -900;
+    pos \u113A0 \N_U.under -900;
+    pos \u113A0 \N_A_y_u.under -900;
+    pos \u113A0 \N_A_y_U.under -900;
+    pos \u113A0 \N_A_y.under -900;
+    pos \u113A0 \N_A_w_A_y_u.under -900;
+    pos \u113A0 \N_A_w_A_y.under -900;
+    pos \u113A0 \N_A_w.under -900;
+    pos \u113A0 \N_A_t_u.under -900;
+    pos \u113A0 \N_A_t_U.under -900;
+    pos \u113A0 \N_A_t_A_r_u.under -900;
+    pos \u113A0 \N_A_t_A_r_U.under -900;
+    pos \u113A0 \N_A_t_A_r.under -900;
+    pos \u113A0 \N_A_t_A_n_u.under -900;
+    pos \u113A0 \N_A_t_A_n_U.under -900;
+    pos \u113A0 \N_A_t_A_n.under -900;
+    pos \u113A0 \N_A_t.under -900;
+    pos \u113A0 \N_A_r_u.under -900;
+    pos \u113A0 \N_A_r_U.under -900;
+    pos \u113A0 \N_A_r.under -900;
+    pos \u113A0 \N_A_q_u.under -900;
+    pos \u113A0 \N_A_q_U.under -900;
+    pos \u113A0 \N_A_q_A_v.under -900;
+    pos \u113A0 \N_A_q_A_r_u.under -900;
+    pos \u113A0 \N_A_q_A_r.under -900;
+    pos \u113A0 \N_A_q.under -900;
+    pos \u113A0 \N_A_n_u.under -900;
+    pos \u113A0 \N_A_n_U.under -900;
+    pos \u113A0 \N_A_n.under -900;
+    pos \u113A0 \N_A_m.under -900;
+    pos \u113A0 \N_A_h_u.under -900;
+    pos \u113A0 \N_A_h_A_y_u.under -900;
+    pos \u113A0 \N_A_h_A_y.under -900;
+    pos \u113A0 \N_A_h_A_v.under -900;
+    pos \u113A0 \N_A_h.under -900;
+    pos \u113A0 \N_A_W.under -900;
+    pos \u113A0 \L_A_y_u.under -900;
+    pos \u113A0 \L_A_y_U.under -900;
+    pos \u113A0 \L_A_y.under -900;
+    pos \u113A0 \L_A_L.under -900;
+    pos \u113A0 \K_R.under -900;
+    pos \u113A0 \K_A_y_u.under -900;
+    pos \u113A0 \K_A_y.under -900;
+    pos \u113A0 \K_A_v_u.under -900;
+    pos \u113A0 \K_A_v.under -900;
+    pos \u113A0 \K_A_r_u.under -900;
+    pos \u113A0 \K_A_r.under -900;
+    pos \u113A0 \K_A_n.under -900;
+    pos \u113A0 \K_A_m_u.under -900;
+    pos \u113A0 \K_A_m.under -900;
+    pos \u113A0 \K_A_k.under -900;
+    pos \u113A0 \G_R.under -900;
+    pos \u113A0 \D_A_y_u.under -900;
+    pos \u113A0 \D_A_y.under -900;
+    pos \u113A0 \D_A_v_u.under -900;
+    pos \u113A0 \D_A_v.under -900;
+    pos \u113A0 \D_A_r_u.under -900;
+    pos \u113A0 \D_A_r.under -900;
+    pos \u113A0 \D_A_m_u.under -900;
+    pos \u113A0 \D_A_m.under -900;
+    pos \u113A0 \C_u.under -900;
+    pos \u113A0 \C_U.under -900;
+    pos \u113A0 \C_R.under -900;
+    pos \u113A0 \C_A_z_u.under -900;
+    pos \u113A0 \C_A_z.under -900;
+    pos \u113A0 \C_A_y_u.under -900;
+    pos \u113A0 \C_A_y_U.under -900;
+    pos \u113A0 \C_A_y.under -900;
+    pos \u113A0 \C_A_r_u.under -900;
+    pos \u113A0 \C_A_r.under -900;
+    pos \u113A0 \B_u.under -900;
+    pos \u113A0 \B_U.under -900;
+    pos \u113A0 \B_R.under -900;
+    pos \u113A0 \B_A_y_u.under -900;
+    pos \u113A0 \B_A_y_U.under -900;
+    pos \u113A0 \B_A_y.under -900;
+    pos \u113A0 \B_A_n_u.under -900;
+    pos \u113A0 \B_A_n.under -900;
+    pos \u113A0 \A_z_u.under -900;
+    pos \u113A0 \A_z_u -900;
+    pos \u113A0 \A_z_U.under -900;
+    pos \u113A0 \A_z_U -900;
+    pos \u113A0 \A_z -900;
+    pos \u113A0 \A_y_u.under -900;
+    pos \u113A0 \A_y_U.under -900;
+    pos \u113A0 \A_x -900;
+    pos \u113A0 \A_w_u.under -900;
+    pos \u113A0 \A_w_u -900;
+    pos \u113A0 \A_w_U.under -900;
+    pos \u113A0 \A_w_U -900;
+    pos \u113A0 \A_w -900;
+    pos \u113A0 \A_v_u.under -900;
+    pos \u113A0 \A_v_U.under -900;
+    pos \u113A0 \A_s_u.under -900;
+    pos \u113A0 \A_s_U.under -900;
+    pos \u113A0 \A_r_u.under -900;
+    pos \u113A0 \A_r_U.under -900;
+    pos \u113A0 \A_p_u.under -900;
+    pos \u113A0 \A_p_u -900;
+    pos \u113A0 \A_p_U.under -900;
+    pos \u113A0 \A_p_U -900;
+    pos \u113A0 \A_p -900;
+    pos \u113A0 \A_m_u.under -900;
+    pos \u113A0 \A_m_U.under -900;
+    pos \u113A0 \A_l_u.under -900;
+    pos \u113A0 \A_l_U.under -900;
+    pos \u113A0 \A_j -900;
+    pos \u113A0 \A_h -900;
+    pos \u113A0 \A_c_u.under -900;
+    pos \u113A0 \A_c_U.under -900;
+    pos \u113A0 \A_b_u.under -900;
+    pos \u113A0 \A_b_u -900;
+    pos \u113A0 \A_b_U.under -900;
+    pos \u113A0 \A_b_U -900;
+    pos \u113A0 \A_b -900;
+    pos \u113A0 \A_Z_u.under -900;
+    pos \u113A0 \A_Z_u -900;
+    pos \u113A0 \A_Z_U.under -900;
+    pos \u113A0 \A_Z_U -900;
+    pos \u113A0 \A_Z -900;
+    pos \u113A0 \A_W_u.under -900;
+    pos \u113A0 \A_W_u -900;
+    pos \u113A0 \A_W_U.under -900;
+    pos \u113A0 \A_W_U -900;
+    pos \u113A0 \A_W -900;
+    pos \u113A0 \A_T_u.under -900;
+    pos \u113A0 \A_T_u -900;
+    pos \u113A0 \A_T_U.under -900;
+    pos \u113A0 \A_T_U -900;
+    pos \u113A0 \A_T -900;
+    pos \u113A0 \A_Q_u.under -900;
+    pos \u113A0 \A_Q_U.under -900;
+    pos \u113A0 \A_P_u.under -900;
+    pos \u113A0 \A_P_u -900;
+    pos \u113A0 \A_P_U.under -900;
+    pos \u113A0 \A_P_U -900;
+    pos \u113A0 \A_P -900;
+    pos \u113A0 \A_N -1179;
+    pos \u113A0 \A_L_u.under -900;
+    pos \u113A0 \A_L_U.under -900;
+    pos \u113A0 \A_J_u -900;
+    pos \u113A0 \A_J_U -900;
+    pos \u113A0 \A_J -900;
+    pos \u113A0 \A_G_u.under -900;
+    pos \u113A0 \A_G_u -900;
+    pos \u113A0 \A_G_U.under -900;
+    pos \u113A0 \A_G_U -900;
+    pos \u113A0 \A_G -900;
+    pos \u113A0 \A_D_u.under -900;
+    pos \u113A0 \A_D_u -900;
+    pos \u113A0 \A_D_U.under -900;
+    pos \u113A0 \A_D_U -900;
+    pos \u113A0 \A_D -900;
+    pos \u113A0 \A_C -900;
+    pos \u113A0 \A_B -900;
+  subtable;
+    @kc9_first_1 = [\u113CE ];
+    @kc9_first_2 = [\A_r \A_r_U \A_r_u ];
+    @kc9_first_3 = [\A_y \A_y_U \A_y_u ];
+    @kc9_first_4 = [\A_l \A_l_U \A_l_u \l_A_y.under \l_A_y_U.under \l_A_y_u.under ];
+    @kc9_first_5 = [\A_v \A_v_U \A_v_u \v_A_y.under \v_A_y_U.under \v_A_y_u.under ];
+    @kc9_first_6 = [\u113BF \u113C0 \A_K \A_K_U \A_K_u \A_L \A_L_U \A_L_u \A_Q \A_Q_U \A_Q_u \A_S \A_c 
+	\A_c_U \A_c_u \A_d \A_g \A_k \A_m \A_m_U \A_m_u \A_n \A_q \A_s \A_s_U \A_s_u 
+	\A_t ];
+    @kc9_first_7 = [\u11392 \u11394 \u11397 \u1139C \u1139D \u113A1 \u113A3 \u113A5 \u113AA \u113AB 
+	\u113AC \u113AD \u113AE \u113AF \u113B1 \u113B3 \u113B8 \u113C1 \u113C2 
+	\u113C3 \A_A \A_I \A_R \A_R_R \A_U \A_Y \A_a \A_i \A_u \E_A \E_A_a \L_A_v 
+	\L_A_y \L_A_y_U \L_A_y_u \M_M \N_A_t_A_X \N_A_t_A_n_A_X \O_A \S_A_r 
+	\S_A_r_U \S_A_r_u \S_A_y \S_A_y_U \S_A_y_u \S_R \S_U \S_u \Z_A_g_R \c_A_c 
+	\c_A_c_U \c_A_c_u \c_A_r_U \c_A_r_u \c_A_y \c_A_y_U \c_A_y_u \d_A_d 
+	\d_A_d_A_r_U \d_A_d_A_y_U \d_A_d_U \d_A_d_u \d_A_g_R \d_A_k \d_A_k_u 
+	\d_A_m \d_A_m_U \d_A_m_u \d_A_r \d_A_r_U \d_A_r_u \d_A_y \d_A_y_U 
+	\d_A_y_u \d_R \d_U \d_u \e_A \e_A_a \e_e_A \g_A_d_U \g_A_l \g_A_l_U 
+	\g_A_l_u \g_A_r \g_A_r_U \g_A_r_u \g_A_y \g_A_y_U \g_A_y_u \g_R \g_U \g_u 
+	\k_A_l \k_A_l_U \k_A_l_u \k_A_r \k_A_r_U \k_A_r_u \k_A_y \k_A_y_U 
+	\k_A_y_u \k_R \k_U \k_V_l_X \k_u \l_A_y_U \l_A_y_u \m_A_r \m_A_r_U 
+	\m_A_r_u \m_A_y \m_A_y_U \m_A_y_u \m_R \m_f \n_A_d \n_A_d_A_X \n_A_d_A_r 
+	\n_A_d_A_r_U \n_A_d_A_r_u \n_A_d_U \n_A_d_u \n_A_m_R \n_A_r \n_A_r_U 
+	\n_A_r_u \n_A_y \n_A_y_U \n_A_y_u \n_R \n_U \n_u \o_A \q_A_Q_U \q_A_l 
+	\q_A_l_U \q_A_l_u \q_A_q \q_A_q_A_X \q_A_q_A_y_U \q_A_q_U \q_A_q_u 
+	\q_A_r \q_A_r_U \q_A_r_u \q_A_y \q_A_y_U \q_A_y_u \q_U \q_u \r_A_X \r_A_r 
+	\r_A_r_U \r_A_r_u \r_U \r_u \s_A_m \s_A_m_R \s_A_m_U \s_A_m_u \s_A_q 
+	\s_A_q_A_X \s_A_q_U \s_A_q_u \s_A_r \s_A_s \s_A_s_U \s_A_s_u \s_A_t 
+	\s_A_t_A_X \s_A_t_A_r \s_A_t_A_r_U \s_A_t_A_r_u \s_A_t_A_v \s_A_t_U 
+	\s_A_t_u \s_A_y \s_A_y_U \s_A_y_u \t_A_l \t_A_l_U \t_A_l_u \t_A_r 
+	\t_A_r_U \t_A_r_u \t_A_y \t_A_y_U \t_A_y_u \t_R \t_U \t_u \v_A_y \v_A_y_U 
+	\v_A_y_u \v_R \w_A_t \w_A_t_A_n \w_A_t_A_r \y_A_t \y_A_t_U \y_A_t_u 
+	\uni0CE6 \uni0CE7 \uni0CE8 \uni0CE9 \uni0CEA \uni0CEB \uni0CEC \uni0CED 
+	\uni0CEE \uni0CEF \sza \xxrhaxx \xxzhaxx ];
+    @kc9_first_8 = [\A_B \A_C \A_D \A_D_U \A_D_U.under \A_D_u \A_D_u.under \A_G \A_G_U \A_G_U.under 
+	\A_G_u \A_G_u.under \A_J \A_J_U \A_J_u \A_L_U.under \A_L_u.under \A_N 
+	\A_P \A_P_U \A_P_U.under \A_P_u \A_P_u.under \A_Q_U.under \A_Q_u.under 
+	\A_T \A_T_U \A_T_U.under \A_T_u \A_T_u.under \A_W \A_W_U \A_W_U.under 
+	\A_W_u \A_W_u.under \A_Z \A_Z_U \A_Z_U.under \A_Z_u \A_Z_u.under \A_b 
+	\A_b_U \A_b_U.under \A_b_u \A_b_u.under \A_c_U.under \A_c_u.under \A_h 
+	\A_j \A_l_U.under \A_l_u.under \A_m_U.under \A_m_u.under \A_p \A_p_U 
+	\A_p_U.under \A_p_u \A_p_u.under \A_r_U.under \A_r_u.under 
+	\A_s_U.under \A_s_u.under \A_v_U.under \A_v_u.under \A_w \A_w_U 
+	\A_w_U.under \A_w_u \A_w_u.under \A_x \A_y_U.under \A_y_u.under \A_z 
+	\A_z_U \A_z_U.under \A_z_u \A_z_u.under \B_A_n.under \B_A_n_u.under 
+	\B_A_y.under \B_A_y_U.under \B_A_y_u.under \B_R.under \B_U.under 
+	\B_u.under \C_A_r.under \C_A_r_u.under \C_A_y.under \C_A_y_U.under 
+	\C_A_y_u.under \C_A_z.under \C_A_z_u.under \C_R.under \C_U.under 
+	\C_u.under \D_A_m.under \D_A_m_u.under \D_A_r.under \D_A_r_u.under 
+	\D_A_v.under \D_A_v_u.under \D_A_y.under \D_A_y_u.under \G_R.under 
+	\K_A_k.under \K_A_m.under \K_A_m_u.under \K_A_n.under \K_A_r.under 
+	\K_A_r_u.under \K_A_v.under \K_A_v_u.under \K_A_y.under 
+	\K_A_y_u.under \K_R.under \L_A_L.under \L_A_y.under \L_A_y_U.under 
+	\L_A_y_u.under \N_A_W.under \N_A_h.under \N_A_h_A_v.under 
+	\N_A_h_A_y.under \N_A_h_A_y_u.under \N_A_h_u.under \N_A_m.under 
+	\N_A_n.under \N_A_n_U.under \N_A_n_u.under \N_A_q.under 
+	\N_A_q_A_r.under \N_A_q_A_r_u.under \N_A_q_A_v.under \N_A_q_U.under 
+	\N_A_q_u.under \N_A_r.under \N_A_r_U.under \N_A_r_u.under 
+	\N_A_t.under \N_A_t_A_n.under \N_A_t_A_n_U.under \N_A_t_A_n_u.under 
+	\N_A_t_A_r.under \N_A_t_A_r_U.under \N_A_t_A_r_u.under 
+	\N_A_t_U.under \N_A_t_u.under \N_A_w.under \N_A_w_A_y.under 
+	\N_A_w_A_y_u.under \N_A_y.under \N_A_y_U.under \N_A_y_u.under 
+	\N_U.under \N_u.under \P_A_r.under \P_A_r_u.under \P_A_v.under 
+	\P_A_v_u.under \P_A_y.under \P_A_y_u.under \S_A_C.under 
+	\S_A_C_u.under \S_A_Q.under \S_A_c.under \S_A_c_U.under 
+	\S_A_c_u.under \S_A_m.under \S_A_m_u.under \S_A_n.under 
+	\S_A_n_u.under \S_A_r.under \S_A_r_U.under \S_A_r_u.under 
+	\S_A_v.under \S_A_y.under \S_A_y_U.under \S_A_y_u.under \S_R.under 
+	\S_U.under \S_u.under \T_A_m.under \T_A_m_u.under \T_A_r.under 
+	\T_A_r_u.under \T_A_v.under \T_A_v_u.under \T_A_y.under 
+	\T_A_y_u.under \V_l_X \V_l_l_X \W_A_y.under \W_A_y_u.under 
+	\Z_A_k.under \Z_A_k_A_k.under \Z_A_k_A_k_u.under \Z_A_k_A_r.under 
+	\Z_A_k_A_r_u.under \Z_A_k_A_t.under \Z_A_k_A_t_A_y.under 
+	\Z_A_k_A_t_A_y_u.under \Z_A_k_A_t_u.under \Z_A_k_A_x.under 
+	\Z_A_k_A_x_A_y.under \Z_A_k_A_x_A_y_u.under \Z_A_k_A_y.under 
+	\Z_A_k_A_y_u.under \Z_A_k_U.under \Z_A_k_u.under \Z_A_y.under 
+	\Z_A_y_u.under \b_A_b.under \b_A_b_U.under \b_A_b_u.under 
+	\b_A_d.under \b_A_r.under \b_A_r_U.under \b_A_r_u.under \b_A_y.under 
+	\b_A_y_U.under \b_A_y_u.under \b_R.under \c_A_C.under \c_A_C_U.under 
+	\c_A_C_u.under \c_A_c.under \c_A_c_U.under \c_A_c_u.under 
+	\c_A_r_U.under \c_A_r_u.under \c_A_y.under \c_A_y_U.under 
+	\c_A_y_u.under \c_Ar.under \c_R.under \d_A_B.under \d_A_B_A_r.under 
+	\d_A_B_A_r_u.under \d_A_B_A_y.under \d_A_B_A_y_u.under 
+	\d_A_B_u.under \d_A_D.under \d_A_D_A_m.under \d_A_D_A_m_u.under 
+	\d_A_D_A_r.under \d_A_D_A_r_U.under \d_A_D_A_v.under 
+	\d_A_D_A_v_u.under \d_A_D_A_y.under \d_A_D_A_y_u.under 
+	\d_A_D_r_u.under \d_A_G.under \d_A_b.under \d_A_b_A_r.under 
+	\d_A_b_A_r_u.under \d_A_d.under \d_A_d_A_r.under \d_A_d_A_r_u.under 
+	\d_A_d_A_y.under \d_A_d_A_y_u.under \d_A_d_U.under \d_A_d_u.under 
+	\d_A_g.under \d_A_g_A_r.under \d_A_g_A_r_u.under \d_A_g_u.under 
+	\d_A_l.under \d_A_l_u.under \d_A_m.under \d_A_m_U.under 
+	\d_A_m_u.under \d_A_r.under \d_A_r_U.under \d_A_r_u.under 
+	\d_A_v.under \d_A_v_A_y.under \d_A_v_A_y_u.under \d_A_y.under 
+	\d_A_y_U.under \d_A_y_u.under \d_U.under \d_u.under \g_A_B.under 
+	\g_A_B_A_y.under \g_A_B_A_y_u.under \g_A_B_u.under \g_A_D.under 
+	\g_A_D_u.under \g_A_G.under \g_A_G_R.under \g_A_b.under \g_A_d.under 
+	\g_A_d_A_D.under \g_A_d_A_D_A_r.under \g_A_d_A_D_A_r_u.under 
+	\g_A_d_A_D_u.under \g_A_d_u.under \g_A_g.under \g_A_g_R.under 
+	\g_A_g_U.under \g_A_g_u.under \g_A_j.under \g_A_j_u.under 
+	\g_A_m.under \g_A_n.under \g_A_n_A_v.under \g_A_n_A_y.under 
+	\g_A_n_A_y_u.under \g_A_n_U.under \g_A_n_u.under \g_A_r.under 
+	\g_A_r_U.under \g_A_r_u.under \g_A_v.under \g_A_y.under 
+	\g_A_y_U.under \g_A_y_u.under \g_R.under \g_U.under \g_u.under 
+	\h_A_m.under \h_A_y.under \h_A_y_U.under \h_A_y_u.under \h_R.under 
+	\h_U.under \h_u.under \j_A_j.under \j_A_j_A_y.under 
+	\j_A_j_A_y_u.under \j_A_j_A_z.under \j_A_j_A_z_u.under 
+	\j_A_j_U.under \j_A_j_u.under \j_A_m.under \j_A_r.under 
+	\j_A_r_U.under \j_A_r_u.under \j_A_v.under \j_A_v_u.under 
+	\j_A_y.under \j_A_y_U.under \j_A_y_u.under \j_A_z.under 
+	\j_A_z_U.under \j_A_z_u.under \j_R.under \j_U.under \j_u.under 
+	\k_A_T.under \k_A_k.under \k_A_k_A_r.under \k_A_k_R.under 
+	\k_A_k_U.under \k_A_k_u.under \k_A_m.under \k_A_n.under 
+	\k_A_n_A_y.under \k_A_n_A_y_u.under \k_A_n_U.under \k_A_n_u.under 
+	\k_A_q.under \k_A_q_u.under \k_A_r.under \k_A_r_U.under 
+	\k_A_r_u.under \k_A_s.under \k_A_s_A_s.under \k_A_s_A_s_u.under 
+	\k_A_t.under \k_A_t_A_T.under \k_A_t_A_r.under \k_A_t_A_r_A_y.under 
+	\k_A_t_A_r_A_y_u.under \k_A_t_A_r_u.under \k_A_t_A_v.under 
+	\k_A_t_A_y.under \k_A_t_A_y_U.under \k_A_t_A_y_u.under 
+	\k_A_t_R.under \k_A_t_U.under \k_A_t_u.under \k_A_v.under 
+	\k_A_x.under \k_A_x_A_k_A_r.under \k_A_x_A_k_A_y.under 
+	\k_A_x_A_l.under \k_A_x_A_l_u.under \k_A_x_A_m.under 
+	\k_A_x_A_m_A_y.under \k_A_x_A_m_A_y_u.under \k_A_x_A_m_U.under 
+	\k_A_x_A_m_u.under \k_A_x_A_r.under \k_A_x_A_r_u.under 
+	\k_A_x_A_v.under \k_A_x_A_v_u.under \k_A_x_A_y.under 
+	\k_A_x_A_y_u.under \k_A_y.under \k_A_y_U.under \k_A_y_u.under 
+	\k_R.under \k_U.under \k_u.under \l_A_k.under \l_A_k_u.under 
+	\m_A_X.under \m_A_m.under \m_A_m_A_y.under \m_A_m_A_y_u.under 
+	\m_A_r.under \m_A_r_U.under \m_A_r_u.under \m_A_y.under 
+	\m_A_y_U.under \m_A_y_u.under \m_R.under \n_A_B.under \n_A_B_u.under 
+	\n_A_D.under \n_A_D_A_r.under \n_A_D_A_r_u.under \n_A_D_A_v.under 
+	\n_A_D_A_v_u.under \n_A_D_A_y.under \n_A_D_A_y_u.under \n_A_G.under 
+	\n_A_G_A_R.under \n_A_T.under \n_A_b.under \n_A_b_A_r.under 
+	\n_A_b_A_r_u.under \n_A_d.under \n_A_d_A_r.under \n_A_d_A_r_U.under 
+	\n_A_d_A_r_u.under \n_A_d_A_v.under \n_A_d_A_y.under 
+	\n_A_d_A_y_u.under \n_A_d_U.under \n_A_d_u.under \n_A_h.under 
+	\n_A_h_u.under \n_A_k.under \n_A_k_A_t.under \n_A_k_A_t_u.under 
+	\n_A_k_A_x.under \n_A_k_R.under \n_A_k_U.under \n_A_k_u.under 
+	\n_A_m.under \n_A_n.under \n_A_n_U.under \n_A_n_u.under \n_A_q.under 
+	\n_A_q_u.under \n_A_r.under \n_A_r_U.under \n_A_r_u.under 
+	\n_A_t.under \n_A_t_A_r.under \n_A_t_A_r_A_y.under 
+	\n_A_t_A_r_A_y_u.under \n_A_t_A_r_U.under \n_A_t_A_r_u.under 
+	\n_A_t_A_s.under \n_A_t_A_v.under \n_A_t_A_y.under 
+	\n_A_t_A_y_u.under \n_A_t_U.under \n_A_t_u.under \n_A_v.under 
+	\n_A_y.under \n_A_y_U.under \n_A_y_u.under \n_R.under \n_U.under 
+	\n_u.under \p_A_C.under \p_A_m.under \p_A_m_u.under \p_A_r.under 
+	\p_A_r_U.under \p_A_r_u.under \p_A_t.under \p_A_t_A_v.under 
+	\p_A_t_A_v_u.under \p_A_t_u.under \p_A_t_u1.under \p_A_y.under 
+	\p_A_y_U.under \p_A_y_u.under \p_R.under \q_A_Q.under \q_A_Q_u.under 
+	\q_A_q.under \q_A_q_A_y.under \q_A_q_A_y_u.under \q_A_q_U.under 
+	\q_A_q_u.under \q_A_r.under \q_A_r_U.under \q_A_r_u.under 
+	\q_A_v.under \q_A_y.under \q_A_y_U.under \q_A_y_u.under \q_U.under 
+	\q_u.under \r_U.under \r_u.under \s_A_T.under \s_A_m.under 
+	\s_A_m_R.under \s_A_m_U.under \s_A_m_u.under \s_A_r.under 
+	\s_A_s.under \s_A_s_U.under \s_A_s_u.under \s_A_y.under 
+	\s_A_y_U.under \s_A_y_u.under \t_A_T.under \t_A_T_A_y.under 
+	\t_A_T_A_y_u.under \t_A_k.under \t_A_k_A_r.under \t_A_k_A_r_u.under 
+	\t_A_k_A_x.under \t_A_k_A_x_A_m.under \t_A_k_R.under \t_A_k_U.under 
+	\t_A_k_u.under \t_A_m.under \t_A_m_A_r.under \t_A_m_A_r_u.under 
+	\t_A_m_A_y.under \t_A_m_A_y_u.under \t_A_n.under \t_A_n_A_y.under 
+	\t_A_n_A_y_u.under \t_A_n_U.under \t_A_n_u.under \t_A_r.under 
+	\t_A_r_A_v.under \t_A_r_A_v_u.under \t_A_r_A_y.under 
+	\t_A_r_A_y_u.under \t_A_r_U.under \t_A_r_u.under \t_A_s.under 
+	\t_A_s_A_T.under \t_A_s_A_v.under \t_A_s_A_y.under 
+	\t_A_s_A_y_u.under \t_A_t.under \t_A_t_A_v.under \t_A_t_A_y.under 
+	\t_A_t_A_y_u.under \t_A_t_R.under \t_A_t_U.under \t_A_t_u.under 
+	\t_A_v.under \t_A_y.under \t_A_y_U.under \t_A_y_u.under \t_R.under 
+	\t_U.under \t_u.under \v_R.under \v_f.under \v_f_u.under \w_A_g.under 
+	\w_A_m.under \w_A_m_u.under \w_A_r.under \w_A_r_U.under 
+	\w_A_r_u.under \w_A_v.under \w_A_v_u.under \w_A_y.under 
+	\w_A_y_u.under \x_A_Q.under \x_A_Q_U.under \x_A_Q_u.under 
+	\x_A_k.under \x_A_k_A_r.under \x_A_k_R.under \x_A_k_U.under 
+	\x_A_k_u.under \x_A_m.under \x_A_m_U.under \x_A_m_u.under 
+	\x_A_q.under \x_A_q_A_r.under \x_A_q_A_r_U.under \x_A_q_A_r_u.under 
+	\x_A_q_A_v.under \x_A_q_U.under \x_A_q_u.under \y_A_y.under 
+	\y_A_y_f.under \y_A_y_f_u.under \y_A_y_u.under \y_f.under 
+	\y_f_u.under \z_A_c.under \z_A_j.under \z_A_j_A_y.under 
+	\z_A_j_A_y_u.under \z_A_j_A_z.under \z_A_j_A_z_U.under 
+	\z_A_j_A_z_u.under \z_A_j_U.under \z_A_j_u.under \z_A_y.under 
+	\z_A_y_u.under \z_A_z.under \z_A_z_U.under \z_A_z_u.under ];
+    @kc9_first_9 = [\u11393 \u11395 \u11396 \u11398 \u11399 \u1139A \u1139B \u1139E \u1139F \u113A0 
+	\u113A2 \u113A4 \u113A6 \u113A7 \u113A8 \u113A9 \u113B0 \u113B2 \u113B4 
+	\u113B5 \B_A_n \B_A_n_U \B_A_n_u \B_A_r \B_A_r_U \B_A_r_u \B_A_y 
+	\B_A_y_U \B_A_y_u \B_R \B_U \B_u \C_A_r \C_A_r_U \C_A_r_u \C_A_y \C_A_y_U 
+	\C_A_y_u \C_A_z \C_A_z_U \C_A_z_u \C_R \C_U \C_u \D_A_m \D_A_m_U \D_A_m_u 
+	\D_A_r \D_A_r_U \D_A_r_u \D_A_v \D_A_v_U \D_A_v_u \D_A_y \D_A_y_U 
+	\D_A_y_u \G_A_r \G_A_r_U \G_A_r_u \G_R \K_A_K \K_A_K_U \K_A_K_u \K_A_k 
+	\K_A_k_U \K_A_k_u \K_A_m \K_A_m_U \K_A_m_u \K_A_n \K_A_n_U \K_A_n_u 
+	\K_A_r \K_A_r_U \K_A_r_u \K_A_v \K_A_v_U \K_A_v_u \K_A_y \K_A_y_U 
+	\K_A_y_u \K_R \L_A_L \L_A_X \N_A_L \N_A_L_U \N_A_L_u \N_A_Q \N_A_W \N_A_X 
+	\N_A_h \N_A_h_A_v \N_A_h_A_y \N_A_h_A_y_U \N_A_h_A_y_u \N_A_h_U 
+	\N_A_h_u \N_A_j \N_A_j_U \N_A_j_u \N_A_k_A_X \N_A_m \N_A_n \N_A_n_U 
+	\N_A_n_u \N_A_q \N_A_q_A_X \N_A_q_A_r \N_A_q_A_r_U \N_A_q_A_r_u 
+	\N_A_q_A_v \N_A_q_U \N_A_q_u \N_A_r \N_A_r_U \N_A_r_u \N_A_t \N_A_t_A_n 
+	\N_A_t_A_n_U \N_A_t_A_n_u \N_A_t_A_r \N_A_t_A_r_U \N_A_t_A_r_u 
+	\N_A_t_U \N_A_t_u \N_A_w \N_A_w_A_y \N_A_w_A_y_U \N_A_w_A_y_u \N_A_y 
+	\N_A_y_U \N_A_y_u \N_R \N_U \N_u \P_A_r \P_A_r_U \P_A_r_u \P_A_v \P_A_v_U 
+	\P_A_v_u \P_A_y \P_A_y_U \P_A_y_u \S_A_C \S_A_C_U \S_A_C_u \S_A_Q 
+	\S_A_Q_U \S_A_Q_u \S_A_c \S_A_c_U \S_A_c_u \S_A_m \S_A_m_U \S_A_m_u 
+	\S_A_n \S_A_n_U \S_A_n_u \S_A_v \T_A_m \T_A_m_U \T_A_m_u \T_A_r \T_A_r_U 
+	\T_A_r_u \T_A_v \T_A_v_U \T_A_v_u \T_A_y \T_A_y_U \T_A_y_u \V_l \V_l_l 
+	\W_A_y \W_A_y_U \W_A_y_u \Z_A_g \Z_A_g_U \Z_A_g_u \Z_A_k \Z_A_k_A_L 
+	\Z_A_k_A_L_U \Z_A_k_A_L_u \Z_A_k_A_X \Z_A_k_A_k \Z_A_k_A_k_U 
+	\Z_A_k_A_k_u \Z_A_k_A_r \Z_A_k_A_r_U \Z_A_k_A_r_u \Z_A_k_A_t 
+	\Z_A_k_A_t_A_y \Z_A_k_A_t_A_y_U \Z_A_k_A_t_A_y_u \Z_A_k_A_t_U 
+	\Z_A_k_A_t_u \Z_A_k_A_x \Z_A_k_A_x_A_y \Z_A_k_A_x_A_y_U 
+	\Z_A_k_A_x_A_y_u \Z_A_k_A_y \Z_A_k_A_y_U \Z_A_k_A_y_u \Z_A_k_U 
+	\Z_A_k_u \Z_A_y \Z_A_y_U \Z_A_y_u \b_A_b \b_A_b_U \b_A_b_u \b_A_d 
+	\b_A_d_U \b_A_d_u \b_A_r \b_A_r_U \b_A_r_u \b_A_y \b_A_y_U \b_A_y_u \b_R 
+	\c_A_C \c_A_C_U \c_A_C_u \c_R \d_A_B \d_A_B_A_r \d_A_B_A_r_U 
+	\d_A_B_A_r_u \d_A_B_A_y \d_A_B_A_y_U \d_A_B_A_y_u \d_A_B_U \d_A_B_u 
+	\d_A_D \d_A_D_A_m \d_A_D_A_m_U \d_A_D_A_m_u \d_A_D_A_r \d_A_D_A_r_U 
+	\d_A_D_A_v \d_A_D_A_v_U \d_A_D_A_v_u \d_A_D_A_y \d_A_D_A_y_U 
+	\d_A_D_A_y_u \d_A_D_r_u \d_A_G \d_A_X \d_A_b \d_A_b_A_r \d_A_b_A_r_U 
+	\d_A_b_A_r_u \d_A_d_A_r \d_A_d_A_r_u \d_A_d_A_y \d_A_d_A_y_u \d_A_g 
+	\d_A_g_A_r \d_A_g_A_r_U \d_A_g_A_r_u \d_A_g_U \d_A_g_u \d_A_k_A_X 
+	\d_A_k_U \d_A_l \d_A_l_U \d_A_l_u \d_A_v \d_A_v_A_y \d_A_v_A_y_U 
+	\d_A_v_A_y_u \g_A_B \g_A_B_A_y \g_A_B_A_y_U \g_A_B_A_y_u \g_A_B_u 
+	\g_A_D \g_A_D_u \g_A_G \g_A_G_R \g_A_X \g_A_b \g_A_d \g_A_d_A_D 
+	\g_A_d_A_D_A_r \g_A_d_A_D_A_r_U \g_A_d_A_D_A_r_u \g_A_d_A_D_U 
+	\g_A_d_A_D_u \g_A_d_u \g_A_g \g_A_g_A_y \g_A_g_A_y_U \g_A_g_A_y_u 
+	\g_A_g_R \g_A_g_U \g_A_g_u \g_A_j \g_A_j_U \g_A_j_u \g_A_m \g_A_n 
+	\g_A_n_A_v \g_A_n_A_y \g_A_n_A_y_U \g_A_n_A_y_u \g_A_n_U \g_A_n_u 
+	\g_A_v \h_A_N \h_A_N_R \h_A_N_U \h_A_N_u \h_A_X \h_A_l \h_A_l_U \h_A_l_u 
+	\h_A_m \h_A_n \h_A_n_U \h_A_n_u \h_A_r \h_A_r_U \h_A_r_u \h_A_v \h_A_y 
+	\h_A_y_U \h_A_y_u \h_R \h_U \h_u \j_A_j \j_A_j_A_y \j_A_j_A_y_U 
+	\j_A_j_A_y_u \j_A_j_A_z \j_A_j_A_z_U \j_A_j_A_z_u \j_A_j_U \j_A_j_u 
+	\j_A_m \j_A_r \j_A_r_U \j_A_r_u \j_A_v \j_A_v_U \j_A_v_u \j_A_y \j_A_y_U 
+	\j_A_y_u \j_A_z \j_A_z_U \j_A_z_u \j_R \j_U \j_u \k_A_L \k_A_L_U \k_A_L_u 
+	\k_A_T \k_A_X \k_A_k \k_A_k_A_X \k_A_k_A_r \k_A_k_R \k_A_k_U \k_A_k_u 
+	\k_A_m \k_A_n \k_A_n_A_y \k_A_n_A_y_U \k_A_n_A_y_u \k_A_n_U \k_A_n_u 
+	\k_A_q \k_A_q_U \k_A_q_u \k_A_s \k_A_s_A_s \k_A_s_A_s_U \k_A_s_A_s_u 
+	\k_A_t \k_A_t_A_T \k_A_t_A_r \k_A_t_A_r_A_y \k_A_t_A_r_A_y_U 
+	\k_A_t_A_r_A_y_u \k_A_t_A_r_U \k_A_t_A_r_u \k_A_t_A_v \k_A_t_A_y 
+	\k_A_t_A_y_U \k_A_t_A_y_u \k_A_t_R \k_A_t_U \k_A_t_u \k_A_v \k_A_x 
+	\k_A_x_A_k_A_r \k_A_x_A_k_A_r_U \k_A_x_A_k_A_y \k_A_x_A_k_A_y_U 
+	\k_A_x_A_l \k_A_x_A_l_U \k_A_x_A_l_u \k_A_x_A_m \k_A_x_A_m_A_y 
+	\k_A_x_A_m_A_y_U \k_A_x_A_m_A_y_u \k_A_x_A_m_U \k_A_x_A_m_u 
+	\k_A_x_A_r \k_A_x_A_r_U \k_A_x_A_r_u \k_A_x_A_v \k_A_x_A_v_U 
+	\k_A_x_A_v_u \k_A_x_A_y \k_A_x_A_y_U \k_A_x_A_y_u \l_A_X \l_A_k 
+	\l_A_k_U \l_A_k_u \l_A_m \l_A_m_U \l_A_m_u \m_A_X \m_A_m \m_A_m_A_X 
+	\m_A_m_A_y \m_A_m_A_y_U \m_A_m_A_y_u \m_A_m_f \n_A_B \n_A_B_u \n_A_D 
+	\n_A_D_A_r \n_A_D_A_r_U \n_A_D_A_r_u \n_A_D_A_v \n_A_D_A_v_U 
+	\n_A_D_A_v_u \n_A_D_A_y \n_A_D_A_y_U \n_A_D_A_y_u \n_A_G \n_A_G_A_R 
+	\n_A_T \n_A_X \n_A_b \n_A_b_A_r \n_A_b_A_r_U \n_A_b_A_r_u \n_A_d_A_v 
+	\n_A_d_A_y \n_A_d_A_y_U \n_A_d_A_y_u \n_A_h \n_A_h_U \n_A_h_u \n_A_k 
+	\n_A_k_A_t \n_A_k_A_t_U \n_A_k_A_t_u \n_A_k_A_x \n_A_k_R \n_A_k_U 
+	\n_A_k_u \n_A_m \n_A_n \n_A_n_A_X \n_A_n_U \n_A_n_u \n_A_q \n_A_q_U 
+	\n_A_q_u \n_A_t \n_A_t_A_X \n_A_t_A_d \n_A_t_A_d_U \n_A_t_A_d_u 
+	\n_A_t_A_n \n_A_t_A_n_U \n_A_t_A_n_u \n_A_t_A_r \n_A_t_A_r_A_y 
+	\n_A_t_A_r_A_y_U \n_A_t_A_r_A_y_u \n_A_t_A_r_U \n_A_t_A_r_u 
+	\n_A_t_A_s \n_A_t_A_v \n_A_t_A_y \n_A_t_A_y_U \n_A_t_A_y_u \n_A_t_U 
+	\n_A_t_u \n_A_v \p_A_C \p_A_C_U \p_A_C_u \p_A_P \p_A_P_U \p_A_P_u \p_A_m 
+	\p_A_m_U \p_A_m_u \p_A_p \p_A_p_U \p_A_p_u \p_A_r \p_A_r_U \p_A_r_u 
+	\p_A_s \p_A_s_A_T \p_A_s_A_T_U \p_A_s_A_T_u \p_A_s_A_m \p_A_s_A_m_u 
+	\p_A_s_A_t \p_A_s_A_t_u \p_A_s_A_v \p_A_s_A_v_U \p_A_s_A_v_u 
+	\p_A_s_A_y \p_A_s_A_y_u \p_A_s_U \p_A_s_u \p_A_t \p_A_t_A_v 
+	\p_A_t_A_v_U \p_A_t_A_v_u \p_A_t_U \p_A_t_u \p_A_t_u1 \p_A_y \p_A_y_U 
+	\p_A_y_u \p_R \q_A_Q \q_A_Q_u \q_A_X \q_A_q_A_y \q_A_q_A_y_u \q_A_v 
+	\s_A_T \s_A_p \s_A_p_A_l \s_A_p_A_l_U \s_A_p_A_l_u \s_A_p_A_r 
+	\s_A_p_A_r_U \s_A_p_A_r_u \s_A_p_U \s_A_p_u \s_A_q_A_l \s_A_q_A_l_U 
+	\s_A_q_A_l_u \s_A_q_A_r \s_A_q_A_r_U \s_A_q_A_r_u \s_A_v \t_A_T 
+	\t_A_T_A_y \t_A_T_A_y_U \t_A_T_A_y_u \t_A_X \t_A_k \t_A_k_A_r 
+	\t_A_k_A_r_U \t_A_k_A_r_u \t_A_k_A_x \t_A_k_A_x_A_m \t_A_k_A_x_A_m_U 
+	\t_A_k_A_x_A_m_u \t_A_k_A_x_U \t_A_k_A_x_u \t_A_k_R \t_A_k_U \t_A_k_u 
+	\t_A_m \t_A_m_A_r \t_A_m_A_r_U \t_A_m_A_r_u \t_A_m_A_y \t_A_m_A_y_U 
+	\t_A_m_A_y_u \t_A_n \t_A_n_A_X \t_A_n_A_t \t_A_n_A_t_A_X \t_A_n_A_t_U 
+	\t_A_n_A_t_u \t_A_n_A_y \t_A_n_A_y_U \t_A_n_A_y_u \t_A_n_U \t_A_n_u 
+	\t_A_r_A_v \t_A_r_A_v_U \t_A_r_A_v_u \t_A_r_A_y \t_A_r_A_y_U 
+	\t_A_r_A_y_u \t_A_s \t_A_s_A_T \t_A_s_A_v \t_A_s_A_y \t_A_s_A_y_U 
+	\t_A_s_A_y_u \t_A_t \t_A_t_A_X \t_A_t_A_r \t_A_t_A_r_U \t_A_t_A_r_u 
+	\t_A_t_A_v \t_A_t_A_y \t_A_t_A_y_U \t_A_t_A_y_u \t_A_t_R \t_A_t_U 
+	\t_A_t_u \t_A_v \v_A_v \v_f \v_f_U \v_f_u \w_A_g \w_A_g_U \w_A_g_u \w_A_m 
+	\w_A_m_U \w_A_m_u \w_A_r \w_A_r_U \w_A_r_u \w_A_v \w_A_v_U \w_A_v_u 
+	\w_A_y \w_A_y_U \w_A_y_u \x_A_N \x_A_N_U \x_A_N_u \x_A_Q \x_A_Q_U 
+	\x_A_Q_u \x_A_k \x_A_k_A_r \x_A_k_A_r_U \x_A_k_R \x_A_k_U \x_A_k_u 
+	\x_A_m \x_A_m_U \x_A_m_u \x_A_q \x_A_q_A_r \x_A_q_A_r_U \x_A_q_A_r_u 
+	\x_A_q_A_v \x_A_q_U \x_A_q_u \y_A_d \y_A_d_U \y_A_d_u \y_A_y \y_A_y_U 
+	\y_A_y_f \y_A_y_f_U \y_A_y_f_u \y_A_y_u \y_f \y_f_u \z_A_c \z_A_j 
+	\z_A_j_A_y \z_A_j_A_y_U \z_A_j_A_y_u \z_A_j_A_z \z_A_j_A_z_U 
+	\z_A_j_A_z_u \z_A_j_U \z_A_j_u \z_A_y \z_A_y_U \z_A_y_u \z_A_z \z_A_z_U 
+	\z_A_z_u \fa \za \zu \zuu \zza ];
+    @kc9_second_1 = [\u11384 \u11385 \u113BB \u113BC ];
+    @kc9_second_2 = [\u113B9 \u113BA ];
+    @kc9_second_3 = [\u113CE ];
+    @kc9_second_4 = [\A_r \A_r_U \A_r_u ];
+    @kc9_second_5 = [\A_y \A_y_U \A_y_u ];
+    @kc9_second_6 = [\u113BD \u113BE \R_R ];
+    @kc9_second_7 = [\A_l \A_l_U \A_l_u \l_A_y.under \l_A_y_U.under \l_A_y_u.under ];
+    @kc9_second_8 = [\A_v \A_v_U \A_v_u \v_A_y.under \v_A_y_U.under \v_A_y_u.under ];
+    @kc9_second_9 = [\u113BF \u113C0 \A_K \A_K_U \A_K_u \A_L \A_L_U \A_L_u \A_Q \A_Q_U \A_Q_u \A_S \A_c 
+	\A_c_U \A_c_u \A_d \A_g \A_k \A_m \A_m_U \A_m_u \A_n \A_q \A_s \A_s_U \A_s_u 
+	\A_t ];
+    @kc9_second_10 = [\A_B \A_C \A_D \A_D_U \A_D_U.under \A_D_u \A_D_u.under \A_G \A_G_U \A_G_U.under 
+	\A_G_u \A_G_u.under \A_J \A_J_U \A_J_u \A_L_U.under \A_L_u.under \A_N 
+	\A_P \A_P_U \A_P_U.under \A_P_u \A_P_u.under \A_Q_U.under \A_Q_u.under 
+	\A_T \A_T_U \A_T_U.under \A_T_u \A_T_u.under \A_W \A_W_U \A_W_U.under 
+	\A_W_u \A_W_u.under \A_Z \A_Z_U \A_Z_U.under \A_Z_u \A_Z_u.under \A_b 
+	\A_b_U \A_b_U.under \A_b_u \A_b_u.under \A_c_U.under \A_c_u.under \A_h 
+	\A_j \A_l_U.under \A_l_u.under \A_m_U.under \A_m_u.under \A_p \A_p_U 
+	\A_p_U.under \A_p_u \A_p_u.under \A_r_U.under \A_r_u.under 
+	\A_s_U.under \A_s_u.under \A_v_U.under \A_v_u.under \A_w \A_w_U 
+	\A_w_U.under \A_w_u \A_w_u.under \A_x \A_y_U.under \A_y_u.under \A_z 
+	\A_z_U \A_z_U.under \A_z_u \A_z_u.under \B_A_n.under \B_A_n_u.under 
+	\B_A_y.under \B_A_y_U.under \B_A_y_u.under \B_R.under \B_U.under 
+	\B_u.under \C_A_r.under \C_A_r_u.under \C_A_y.under \C_A_y_U.under 
+	\C_A_y_u.under \C_A_z.under \C_A_z_u.under \C_R.under \C_U.under 
+	\C_u.under \D_A_m.under \D_A_m_u.under \D_A_r.under \D_A_r_u.under 
+	\D_A_v.under \D_A_v_u.under \D_A_y.under \D_A_y_u.under \G_R.under 
+	\K_A_k.under \K_A_m.under \K_A_m_u.under \K_A_n.under \K_A_r.under 
+	\K_A_r_u.under \K_A_v.under \K_A_v_u.under \K_A_y.under 
+	\K_A_y_u.under \K_R.under \L_A_L.under \L_A_y.under \L_A_y_U.under 
+	\L_A_y_u.under \N_A_W.under \N_A_h.under \N_A_h_A_v.under 
+	\N_A_h_A_y.under \N_A_h_A_y_u.under \N_A_h_u.under \N_A_m.under 
+	\N_A_n.under \N_A_n_U.under \N_A_n_u.under \N_A_q.under 
+	\N_A_q_A_r.under \N_A_q_A_r_u.under \N_A_q_A_v.under \N_A_q_U.under 
+	\N_A_q_u.under \N_A_r.under \N_A_r_U.under \N_A_r_u.under 
+	\N_A_t.under \N_A_t_A_n.under \N_A_t_A_n_U.under \N_A_t_A_n_u.under 
+	\N_A_t_A_r.under \N_A_t_A_r_U.under \N_A_t_A_r_u.under 
+	\N_A_t_U.under \N_A_t_u.under \N_A_w.under \N_A_w_A_y.under 
+	\N_A_w_A_y_u.under \N_A_y.under \N_A_y_U.under \N_A_y_u.under 
+	\N_U.under \N_u.under \P_A_r.under \P_A_r_u.under \P_A_v.under 
+	\P_A_v_u.under \P_A_y.under \P_A_y_u.under \S_A_C.under 
+	\S_A_C_u.under \S_A_Q.under \S_A_c.under \S_A_c_U.under 
+	\S_A_c_u.under \S_A_m.under \S_A_m_u.under \S_A_n.under 
+	\S_A_n_u.under \S_A_r.under \S_A_r_U.under \S_A_r_u.under 
+	\S_A_v.under \S_A_y.under \S_A_y_U.under \S_A_y_u.under \S_R.under 
+	\S_U.under \S_u.under \T_A_m.under \T_A_m_u.under \T_A_r.under 
+	\T_A_r_u.under \T_A_v.under \T_A_v_u.under \T_A_y.under 
+	\T_A_y_u.under \V_l_X \V_l_l_X \W_A_y.under \W_A_y_u.under 
+	\Z_A_k.under \Z_A_k_A_k.under \Z_A_k_A_k_u.under \Z_A_k_A_r.under 
+	\Z_A_k_A_r_u.under \Z_A_k_A_t.under \Z_A_k_A_t_A_y.under 
+	\Z_A_k_A_t_A_y_u.under \Z_A_k_A_t_u.under \Z_A_k_A_x.under 
+	\Z_A_k_A_x_A_y.under \Z_A_k_A_x_A_y_u.under \Z_A_k_A_y.under 
+	\Z_A_k_A_y_u.under \Z_A_k_U.under \Z_A_k_u.under \Z_A_y.under 
+	\Z_A_y_u.under \b_A_b.under \b_A_b_U.under \b_A_b_u.under 
+	\b_A_d.under \b_A_r.under \b_A_r_U.under \b_A_r_u.under \b_A_y.under 
+	\b_A_y_U.under \b_A_y_u.under \b_R.under \c_A_C.under \c_A_C_U.under 
+	\c_A_C_u.under \c_A_c.under \c_A_c_U.under \c_A_c_u.under 
+	\c_A_r_U.under \c_A_r_u.under \c_A_y.under \c_A_y_U.under 
+	\c_A_y_u.under \c_Ar.under \c_R.under \d_A_B.under \d_A_B_A_r.under 
+	\d_A_B_A_r_u.under \d_A_B_A_y.under \d_A_B_A_y_u.under 
+	\d_A_B_u.under \d_A_D.under \d_A_D_A_m.under \d_A_D_A_m_u.under 
+	\d_A_D_A_r.under \d_A_D_A_r_U.under \d_A_D_A_v.under 
+	\d_A_D_A_v_u.under \d_A_D_A_y.under \d_A_D_A_y_u.under 
+	\d_A_D_r_u.under \d_A_G.under \d_A_b.under \d_A_b_A_r.under 
+	\d_A_b_A_r_u.under \d_A_d.under \d_A_d_A_r.under \d_A_d_A_r_u.under 
+	\d_A_d_A_y.under \d_A_d_A_y_u.under \d_A_d_U.under \d_A_d_u.under 
+	\d_A_g.under \d_A_g_A_r.under \d_A_g_A_r_u.under \d_A_g_u.under 
+	\d_A_l.under \d_A_l_u.under \d_A_m.under \d_A_m_U.under 
+	\d_A_m_u.under \d_A_r.under \d_A_r_U.under \d_A_r_u.under 
+	\d_A_v.under \d_A_v_A_y.under \d_A_v_A_y_u.under \d_A_y.under 
+	\d_A_y_U.under \d_A_y_u.under \d_U.under \d_u.under \g_A_B.under 
+	\g_A_B_A_y.under \g_A_B_A_y_u.under \g_A_B_u.under \g_A_D.under 
+	\g_A_D_u.under \g_A_G.under \g_A_G_R.under \g_A_b.under \g_A_d.under 
+	\g_A_d_A_D.under \g_A_d_A_D_A_r.under \g_A_d_A_D_A_r_u.under 
+	\g_A_d_A_D_u.under \g_A_d_u.under \g_A_g.under \g_A_g_R.under 
+	\g_A_g_U.under \g_A_g_u.under \g_A_j.under \g_A_j_u.under 
+	\g_A_m.under \g_A_n.under \g_A_n_A_v.under \g_A_n_A_y.under 
+	\g_A_n_A_y_u.under \g_A_n_U.under \g_A_n_u.under \g_A_r.under 
+	\g_A_r_U.under \g_A_r_u.under \g_A_v.under \g_A_y.under 
+	\g_A_y_U.under \g_A_y_u.under \g_R.under \g_U.under \g_u.under 
+	\h_A_m.under \h_A_y.under \h_A_y_U.under \h_A_y_u.under \h_R.under 
+	\h_U.under \h_u.under \j_A_j.under \j_A_j_A_y.under 
+	\j_A_j_A_y_u.under \j_A_j_A_z.under \j_A_j_A_z_u.under 
+	\j_A_j_U.under \j_A_j_u.under \j_A_m.under \j_A_r.under 
+	\j_A_r_U.under \j_A_r_u.under \j_A_v.under \j_A_v_u.under 
+	\j_A_y.under \j_A_y_U.under \j_A_y_u.under \j_A_z.under 
+	\j_A_z_U.under \j_A_z_u.under \j_R.under \j_U.under \j_u.under 
+	\k_A_T.under \k_A_k.under \k_A_k_A_r.under \k_A_k_R.under 
+	\k_A_k_U.under \k_A_k_u.under \k_A_m.under \k_A_n.under 
+	\k_A_n_A_y.under \k_A_n_A_y_u.under \k_A_n_U.under \k_A_n_u.under 
+	\k_A_q.under \k_A_q_u.under \k_A_r.under \k_A_r_U.under 
+	\k_A_r_u.under \k_A_s.under \k_A_s_A_s.under \k_A_s_A_s_u.under 
+	\k_A_t.under \k_A_t_A_T.under \k_A_t_A_r.under \k_A_t_A_r_A_y.under 
+	\k_A_t_A_r_A_y_u.under \k_A_t_A_r_u.under \k_A_t_A_v.under 
+	\k_A_t_A_y.under \k_A_t_A_y_U.under \k_A_t_A_y_u.under 
+	\k_A_t_R.under \k_A_t_U.under \k_A_t_u.under \k_A_v.under 
+	\k_A_x.under \k_A_x_A_k_A_r.under \k_A_x_A_k_A_y.under 
+	\k_A_x_A_l.under \k_A_x_A_l_u.under \k_A_x_A_m.under 
+	\k_A_x_A_m_A_y.under \k_A_x_A_m_A_y_u.under \k_A_x_A_m_U.under 
+	\k_A_x_A_m_u.under \k_A_x_A_r.under \k_A_x_A_r_u.under 
+	\k_A_x_A_v.under \k_A_x_A_v_u.under \k_A_x_A_y.under 
+	\k_A_x_A_y_u.under \k_A_y.under \k_A_y_U.under \k_A_y_u.under 
+	\k_R.under \k_U.under \k_u.under \l_A_k.under \l_A_k_u.under 
+	\m_A_X.under \m_A_m.under \m_A_m_A_y.under \m_A_m_A_y_u.under 
+	\m_A_r.under \m_A_r_U.under \m_A_r_u.under \m_A_y.under 
+	\m_A_y_U.under \m_A_y_u.under \m_R.under \n_A_B.under \n_A_B_u.under 
+	\n_A_D.under \n_A_D_A_r.under \n_A_D_A_r_u.under \n_A_D_A_v.under 
+	\n_A_D_A_v_u.under \n_A_D_A_y.under \n_A_D_A_y_u.under \n_A_G.under 
+	\n_A_G_A_R.under \n_A_T.under \n_A_b.under \n_A_b_A_r.under 
+	\n_A_b_A_r_u.under \n_A_d.under \n_A_d_A_r.under \n_A_d_A_r_U.under 
+	\n_A_d_A_r_u.under \n_A_d_A_v.under \n_A_d_A_y.under 
+	\n_A_d_A_y_u.under \n_A_d_U.under \n_A_d_u.under \n_A_h.under 
+	\n_A_h_u.under \n_A_k.under \n_A_k_A_t.under \n_A_k_A_t_u.under 
+	\n_A_k_A_x.under \n_A_k_R.under \n_A_k_U.under \n_A_k_u.under 
+	\n_A_m.under \n_A_n.under \n_A_n_U.under \n_A_n_u.under \n_A_q.under 
+	\n_A_q_u.under \n_A_r.under \n_A_r_U.under \n_A_r_u.under 
+	\n_A_t.under \n_A_t_A_r.under \n_A_t_A_r_A_y.under 
+	\n_A_t_A_r_A_y_u.under \n_A_t_A_r_U.under \n_A_t_A_r_u.under 
+	\n_A_t_A_s.under \n_A_t_A_v.under \n_A_t_A_y.under 
+	\n_A_t_A_y_u.under \n_A_t_U.under \n_A_t_u.under \n_A_v.under 
+	\n_A_y.under \n_A_y_U.under \n_A_y_u.under \n_R.under \n_U.under 
+	\n_u.under \p_A_C.under \p_A_m.under \p_A_m_u.under \p_A_r.under 
+	\p_A_r_U.under \p_A_r_u.under \p_A_t.under \p_A_t_A_v.under 
+	\p_A_t_A_v_u.under \p_A_t_u.under \p_A_t_u1.under \p_A_y.under 
+	\p_A_y_U.under \p_A_y_u.under \p_R.under \q_A_Q.under \q_A_Q_u.under 
+	\q_A_q.under \q_A_q_A_y.under \q_A_q_A_y_u.under \q_A_q_U.under 
+	\q_A_q_u.under \q_A_r.under \q_A_r_U.under \q_A_r_u.under 
+	\q_A_v.under \q_A_y.under \q_A_y_U.under \q_A_y_u.under \q_U.under 
+	\q_u.under \r_U.under \r_u.under \s_A_T.under \s_A_m.under 
+	\s_A_m_R.under \s_A_m_U.under \s_A_m_u.under \s_A_r.under 
+	\s_A_s.under \s_A_s_U.under \s_A_s_u.under \s_A_y.under 
+	\s_A_y_U.under \s_A_y_u.under \t_A_T.under \t_A_T_A_y.under 
+	\t_A_T_A_y_u.under \t_A_k.under \t_A_k_A_r.under \t_A_k_A_r_u.under 
+	\t_A_k_A_x.under \t_A_k_A_x_A_m.under \t_A_k_R.under \t_A_k_U.under 
+	\t_A_k_u.under \t_A_m.under \t_A_m_A_r.under \t_A_m_A_r_u.under 
+	\t_A_m_A_y.under \t_A_m_A_y_u.under \t_A_n.under \t_A_n_A_y.under 
+	\t_A_n_A_y_u.under \t_A_n_U.under \t_A_n_u.under \t_A_r.under 
+	\t_A_r_A_v.under \t_A_r_A_v_u.under \t_A_r_A_y.under 
+	\t_A_r_A_y_u.under \t_A_r_U.under \t_A_r_u.under \t_A_s.under 
+	\t_A_s_A_T.under \t_A_s_A_v.under \t_A_s_A_y.under 
+	\t_A_s_A_y_u.under \t_A_t.under \t_A_t_A_v.under \t_A_t_A_y.under 
+	\t_A_t_A_y_u.under \t_A_t_R.under \t_A_t_U.under \t_A_t_u.under 
+	\t_A_v.under \t_A_y.under \t_A_y_U.under \t_A_y_u.under \t_R.under 
+	\t_U.under \t_u.under \v_R.under \v_f.under \v_f_u.under \w_A_g.under 
+	\w_A_m.under \w_A_m_u.under \w_A_r.under \w_A_r_U.under 
+	\w_A_r_u.under \w_A_v.under \w_A_v_u.under \w_A_y.under 
+	\w_A_y_u.under \x_A_Q.under \x_A_Q_U.under \x_A_Q_u.under 
+	\x_A_k.under \x_A_k_A_r.under \x_A_k_R.under \x_A_k_U.under 
+	\x_A_k_u.under \x_A_m.under \x_A_m_U.under \x_A_m_u.under 
+	\x_A_q.under \x_A_q_A_r.under \x_A_q_A_r_U.under \x_A_q_A_r_u.under 
+	\x_A_q_A_v.under \x_A_q_U.under \x_A_q_u.under \y_A_y.under 
+	\y_A_y_f.under \y_A_y_f_u.under \y_A_y_u.under \y_f.under 
+	\y_f_u.under \z_A_c.under \z_A_j.under \z_A_j_A_y.under 
+	\z_A_j_A_y_u.under \z_A_j_A_z.under \z_A_j_A_z_U.under 
+	\z_A_j_A_z_u.under \z_A_j_U.under \z_A_j_u.under \z_A_y.under 
+	\z_A_y_u.under \z_A_z.under \z_A_z_U.under \z_A_z_u.under ];
+    pos @kc9_first_1 @kc9_second_1 -326;
+    pos @kc9_first_2 @kc9_second_2 -469;
+    pos @kc9_first_3 @kc9_second_2 -504;
+    pos @kc9_first_4 @kc9_second_2 -522;
+    pos @kc9_first_5 @kc9_second_2 -504;
+    pos @kc9_first_6 @kc9_second_2 -509;
+    pos @kc9_first_7 @kc9_second_1 -310;
+    pos @kc9_first_7 @kc9_second_2 -509;
+    pos @kc9_first_7 @kc9_second_3 -315;
+    pos @kc9_first_7 @kc9_second_4 -516;
+    pos @kc9_first_7 @kc9_second_5 -258;
+    pos @kc9_first_7 @kc9_second_6 -447;
+    pos @kc9_first_7 @kc9_second_7 -570;
+    pos @kc9_first_7 @kc9_second_8 -461;
+    pos @kc9_first_7 @kc9_second_9 -509;
+    pos @kc9_first_7 @kc9_second_10 -577;
+    pos @kc9_first_8 @kc9_second_2 -487;
+    pos @kc9_first_9 @kc9_second_1 -332;
+    pos @kc9_first_9 @kc9_second_2 -499;
+    pos @kc9_first_9 @kc9_second_3 -253;
+    pos @kc9_first_9 @kc9_second_4 -563;
+    pos @kc9_first_9 @kc9_second_5 -320;
+    pos @kc9_first_9 @kc9_second_6 -475;
+    pos @kc9_first_9 @kc9_second_7 -578;
+    pos @kc9_first_9 @kc9_second_8 -445;
+    pos @kc9_first_9 @kc9_second_9 -695;
+    pos @kc9_first_9 @kc9_second_10 -524;
+} kernHorizontalKerninglookup3;
+
+lookup markMarkPositioningintutglookup4 {
+  lookupflag 0;
+  markClass [\u113D1 ] <anchor 140 592> @Anchor4;
+  pos base [\u11392 \A_k \_11392 ] <anchor 406 592> mark @Anchor4;
+  pos base [\u11393 \K_A_r.under \K_A_r_u \K_R_R \d_A_k_u \n_A_d_A_X \t_A_r_A_y \t_A_r_A_y.under \v_A_y \v_A_y_U \v_A_y_u ] <anchor 438 592> mark @Anchor4;
+  pos base [\u11394 \A_g \_11394 ] <anchor 390 592> mark @Anchor4;
+  pos base [\u11395 \A_G \A_G_U \A_G_U.under \A_G_u \A_G_u.under \p_A_P \p_A_P_U \p_A_P_u \_11395 ] <anchor 528 592> mark @Anchor4;
+  pos base [\u11396 \A_Z \A_Z_u \A_Z_u.under \Z_A_g \Z_A_g_R \Z_A_g_U \d_A_D \d_A_D.under \_11396 ] <anchor 452 592> mark @Anchor4;
+  pos base [\u11397 \u113A5 \A_n \s_A_m_R \s_A_m_R.under \_11397 \_113A5 ] <anchor 354 592> mark @Anchor4;
+  pos base [\u11398 \A_C \S_U \S_U.under \t_A_m_A_y \t_A_m_A_y.under \t_A_m_A_y_U \t_A_m_A_y_u \t_A_m_A_y_u.under \x_A_q_A_r_U \x_A_q_A_r_U.under \_11398 ] <anchor 558 592> mark @Anchor4;
+  pos base [\u11399 \A_j \N_A_t_A_X \_11399 \za ] <anchor 811 592> mark @Anchor4;
+  pos base [\u1139A \A_J ] <anchor 428 592> mark @Anchor4;
+  pos base [\u1139B \A_z \_1139B ] <anchor 617 592> mark @Anchor4;
+  pos base [\u1139C \A_q \_1139C ] <anchor 171 592> mark @Anchor4;
+  pos base [\u1139D \A_Q \A_Q_U \A_Q_U.under \A_Q_u \A_Q_u.under \_1139D ] <anchor 283 592> mark @Anchor4;
+  pos base [\u1139E \A_w \A_w_u \A_w_u.under \C.1 \d_A_D_A_m \d_A_D_A_m.under \w_A_r \w_A_r.under \w_A_r_U \w_A_r_U.under \w_A_r_u \w_A_r_u.under \_1139E ] <anchor 484 592> mark @Anchor4;
+  pos base [\u1139F \A_W \A_W_u \A_W_u.under \D.1 \S_A_y \S_A_y.under \S_A_y_U \S_A_y_U.under \S_A_y_u \S_A_y_u.under \_1139F ] <anchor 544 592> mark @Anchor4;
+  pos base [\u113A0 \_113A0 ] <anchor 593 592> mark @Anchor4;
+  pos base [\u113A1 \A_t \r_u \r_u.under \y_A_t \_113A1 ] <anchor 368 592> mark @Anchor4;
+  pos base [\u113A2 \A_T \A_T_U \A_T_U.under \A_T_u \A_T_u.under \T_A_r \T_A_r.under \T_A_r_u \l_A_m \l_A_m_U \l_A_m_u \t_R_R \v_R \v_R.under \v_R_R \_113A2 ] <anchor 372 592> mark @Anchor4;
+  pos base [\u113A3 ] <anchor 217 592> mark @Anchor4;
+  pos base [\u113A4 \A_D \A_D_u \A_D_u.under \_113A4 ] <anchor 388 592> mark @Anchor4;
+  pos base [\u113A6 \m_A_m_f \p_A_p \p_A_s \p_A_t \p_A_t_U \_113A6 ] <anchor 491 592> mark @Anchor4;
+  pos base [\u113A7 \A_P \A_P_u \A_P_u.under \P_A_r \P_A_r.under \P_A_r_U \P_A_r_u \P_A_r_u.under \_113A7 \fa ] <anchor 514 592> mark @Anchor4;
+  pos base [\u113A8 \A_b \A_b_u \A_b_u.under \b_A_b \b_A_b.under \b_A_r \b_A_r.under \b_A_r_U \b_A_r_U.under \b_A_r_u \b_A_r_u.under \b_R \b_R.under \b_R_R \p_A_s_A_m_u \_113A8 ] <anchor 561 592> mark @Anchor4;
+  pos base [\u113A9 \A_B \k_A_q \k_A_q.under \_113A9 ] <anchor 534 592> mark @Anchor4;
+  pos base [\u113AA \A_m \q_A_q_A_X \_113AA ] <anchor 258 592> mark @Anchor4;
+  pos base [\u113AB \K_A_n_U \_113AB ] <anchor 364 592> mark @Anchor4;
+  pos base [\u113AC \_113AC ] <anchor 330 592> mark @Anchor4;
+  pos base [\u113AD \_113AD ] <anchor 324 592> mark @Anchor4;
+  pos base [\u113AE \A_l_U \A_l_U.under \_113AE ] <anchor 362 592> mark @Anchor4;
+  pos base [\u113AF \A_S \_113AF ] <anchor 420 592> mark @Anchor4;
+  pos base [\u113B0 \A_x \D_A_v \D_A_v.under \D_A_v_u \D_A_v_u.under \x_A_Q \x_A_Q.under \x_A_m \x_A_m.under \x_A_m_U \x_A_m_U.under \x_A_m_u \x_A_m_u.under \_113B0 ] <anchor 527 592> mark @Anchor4;
+  pos base [\u113B1 \A_s \A_s_u \A_s_u.under \s_A_p \s_A_p_A_r \s_A_p_A_r_U \s_A_p_A_r_u \s_A_p_u \_113B1 \sza ] <anchor 318 592> mark @Anchor4;
+  pos base [\u113B2 \A_h \K_A_y_u.under \l_A_k_u \l_A_k_u.under \_113B2 ] <anchor 507 592> mark @Anchor4;
+  pos base [\u113B3 \_113B3 ] <anchor 312 592> mark @Anchor4;
+  pos base [\u113B4 \_113B4 \xxrhaxx ] <anchor 405 592> mark @Anchor4;
+  pos base [\u113B5 \s_A_s \s_A_s.under \_113B5 \xxtenxx \xxzhaxx ] <anchor 365 592> mark @Anchor4;
+  pos base [\period_period \q_A_q_A_y \q_A_q_A_y.under \q_A_q_A_y_U ] <anchor 337 592> mark @Anchor4;
+  pos base [\period_period_period \d_A_l \d_A_l.under \d_A_l_u \d_A_l_u.under \r_A_r \r_A_r_u ] <anchor 333 592> mark @Anchor4;
+  pos base [\A_A ] <anchor 658 592> mark @Anchor4;
+  pos base [\A_D_U \A_D_U.under \g_R_R ] <anchor 398 592> mark @Anchor4;
+  pos base [\A_I \n_A_t_A_r_A_y_U \t_A_n_A_t ] <anchor 647 592> mark @Anchor4;
+  pos base [\A_J_U \p_A_r \p_A_r.under \p_A_r_U \p_A_r_U.under \p_A_s_A_t ] <anchor 492 592> mark @Anchor4;
+  pos base [\A_J_u \d_A_D_A_r \d_A_D_A_r.under \d_A_D_r_u \d_A_D_r_u.under \g_u \g_u.under ] <anchor 453 592> mark @Anchor4;
+  pos base [\A_K \A_K_u ] <anchor 440 592> mark @Anchor4;
+  pos base [\A_K_U ] <anchor 481 592> mark @Anchor4;
+  pos base [\A_L \d_A_y \d_A_y.under \m_R.under ] <anchor 259 592> mark @Anchor4;
+  pos base [\A_L_U \A_L_U.under ] <anchor 307 592> mark @Anchor4;
+  pos base [\A_L_u \A_L_u.under ] <anchor 263 592> mark @Anchor4;
+  pos base [\A_N \N_A_r \N_A_r.under \N_A_r_U \N_A_r_U.under \N_A_r_u \N_A_r_u.under \y_A_y_f_U ] <anchor 569 592> mark @Anchor4;
+  pos base [\A_P_U \A_P_U.under ] <anchor 531 592> mark @Anchor4;
+  pos base [\A_R \uni0CED ] <anchor 285 592> mark @Anchor4;
+  pos base [\A_R_R \A_v \uni0CEC ] <anchor 303 592> mark @Anchor4;
+  pos base [\A_U \L_A_y \L_A_y.under \L_A_y_U \L_A_y_U.under \L_A_y_u \L_A_y_u.under ] <anchor 328 592> mark @Anchor4;
+  pos base [\A_W_U \A_W_U.under ] <anchor 548 592> mark @Anchor4;
+  pos base [\A_Y ] <anchor 635 592> mark @Anchor4;
+  pos base [\A_Z_U \A_Z_U.under \d_A_g_U \s_A_q_A_X ] <anchor 474 592> mark @Anchor4;
+  pos base [\A_a \Z_A_k_U \Z_A_k_U.under \t_A_k_U \t_A_k_U.under ] <anchor 684 592> mark @Anchor4;
+  pos base [\A_b_U \A_b_U.under \t_A_t_U \t_A_t_U.under ] <anchor 608 592> mark @Anchor4;
+  pos base [\A_c \c_R \c_R.under ] <anchor 346 592> mark @Anchor4;
+  pos base [\A_c_U \A_c_U.under \T_A_r_U ] <anchor 393 592> mark @Anchor4;
+  pos base [\A_c_u \A_c_u.under \s_A_m \s_A_m.under \s_A_m_u \s_A_m_u.under ] <anchor 348 592> mark @Anchor4;
+  pos base [\A_d ] <anchor 205 592> mark @Anchor4;
+  pos base [\A_f \q_A_v.under \s_A_r \s_A_r.under ] <anchor 342 592> mark @Anchor4;
+  pos base [\A_i ] <anchor 476 592> mark @Anchor4;
+  pos base [\A_l ] <anchor 310 592> mark @Anchor4;
+  pos base [\A_l_u \A_l_u.under \s_A_t_u ] <anchor 332 592> mark @Anchor4;
+  pos base [\A_m_U \A_m_U.under ] <anchor 301 592> mark @Anchor4;
+  pos base [\A_m_u \A_m_u.under \A_r_U \A_r_U.under ] <anchor 289 592> mark @Anchor4;
+  pos base [\A_p \K_A_y_u \Z_A_y \Z_A_y.under \Z_A_y_U \Z_A_y_u \Z_A_y_u.under ] <anchor 515 592> mark @Anchor4;
+  pos base [\A_p_U \A_p_U.under \p_A_m \p_A_m.under \p_A_m_u \p_A_m_u.under \t_A_n_A_X \t_A_t_A_r \t_A_t_A_r_U \t_A_t_A_r_u ] <anchor 555 592> mark @Anchor4;
+  pos base [\A_p_u \A_p_u.under \n_A_t_A_r_U \n_A_t_A_r_U.under \s_A_t_A_v ] <anchor 523 592> mark @Anchor4;
+  pos base [\A_r \A_r_u \A_r_u.under \q_A_r ] <anchor 268 592> mark @Anchor4;
+  pos base [\A_s_U \A_s_U.under ] <anchor 371 592> mark @Anchor4;
+  pos base [\A_u ] <anchor 339 592> mark @Anchor4;
+  pos base [\A_v_U ] <anchor 313 592> mark @Anchor4;
+  pos base [\A_v_U.under ] <anchor 275 592> mark @Anchor4;
+  pos base [\A_v_u \m_R ] <anchor 286 592> mark @Anchor4;
+  pos base [\A_v_u.under ] <anchor 274 592> mark @Anchor4;
+  pos base [\A_w_U \A_w_U.under ] <anchor 493 592> mark @Anchor4;
+  pos base [\A_y \A_y_u \A_y_u.under ] <anchor 201 592> mark @Anchor4;
+  pos base [\A_y_U \A_y_U.under \d_U \d_U.under ] <anchor 232 592> mark @Anchor4;
+  pos base [\A_z_U \A_z_U.under \A_z_u \A_z_u.under \p_A_s_A_T \p_A_s_A_T_u ] <anchor 746 592> mark @Anchor4;
+  pos base [\B.1 ] <anchor 526 592> mark @Anchor4;
+  pos base [\B_A_n \B_A_n.under \o_A \p_A_s_A_v_U ] <anchor 674 592> mark @Anchor4;
+  pos base [\B_A_n_U \k_A_x_A_k_A_r \k_A_x_A_k_A_r.under \t_A_T_A_y \t_A_T_A_y.under \t_A_T_A_y_U \t_A_T_A_y_u \t_A_T_A_y_u.under ] <anchor 710 592> mark @Anchor4;
+  pos base [\B_A_n_u \B_A_n_u.under \k_A_x_A_m_A_y \k_A_x_A_m_A_y.under \k_A_x_A_m_A_y_u \k_A_x_A_m_A_y_u.under ] <anchor 782 592> mark @Anchor4;
+  pos base [\B_A_r \B_A_r_u \w_A_m_U \x_A_k_A_r_U ] <anchor 539 592> mark @Anchor4;
+  pos base [\B_A_r_U ] <anchor 540 592> mark @Anchor4;
+  pos base [\B_A_y \B_A_y.under \B_A_y_U \B_A_y_U.under \B_A_y_u \B_A_y_u.under ] <anchor 610 592> mark @Anchor4;
+  pos base [\B_R \B_R.under \B_R_R \w_A_y \w_A_y.under \w_A_y_u \w_A_y_u.under ] <anchor 547 592> mark @Anchor4;
+  pos base [\B_U \B_U.under \k_A_L_U \n_A_n_A_X \n_A_t_A_d_U ] <anchor 563 592> mark @Anchor4;
+  pos base [\B_u \B_u.under \J.1 \u1139A.1 \_1139A ] <anchor 640 592> mark @Anchor4;
+  pos base [\C_A_r \C_A_r.under \C_A_r_U \C_A_r_u \C_A_r_u.under \k_A_n \k_A_n.under \s_A_q_A_l \s_A_q_A_l_u ] <anchor 574 592> mark @Anchor4;
+  pos base [\C_A_y \C_A_y.under \C_A_y_U \C_A_y_U.under \C_A_y_u \C_A_y_u.under \n_A_k_u \n_A_k_u.under ] <anchor 632 592> mark @Anchor4;
+  pos base [\C_A_z \C_A_z.under \C_A_z_U \C_A_z_u \C_A_z_u.under ] <anchor 989 592> mark @Anchor4;
+  pos base [\C_R \C_R.under \C_R_R \d_A_D_A_v \d_A_D_A_v.under \d_A_D_A_v_u \d_A_D_A_v_u.under \m_A_m_A_y_u \m_A_m_A_y_u.under \p_A_m_U ] <anchor 591 592> mark @Anchor4;
+  pos base [\C_U \C_U.under \n_A_t_A_n_U ] <anchor 687 592> mark @Anchor4;
+  pos base [\C_u \C_u.under ] <anchor 583 592> mark @Anchor4;
+  pos base [\D_A_m \D_A_m.under \D_A_m_u \D_A_m_u.under \l_A_k_U ] <anchor 425 592> mark @Anchor4;
+  pos base [\D_A_m_U \d_A_g \d_A_g.under \d_A_g_u \d_A_g_u.under ] <anchor 477 592> mark @Anchor4;
+  pos base [\D_A_r \D_A_r.under \D_A_r_u \D_A_r_u.under ] <anchor 389 592> mark @Anchor4;
+  pos base [\D_A_r_U \T_A_m \T_A_m.under \T_A_m_u \T_A_m_u.under \c_A_y \c_A_y.under \c_A_y_U \c_A_y_U.under \c_A_y_u \c_A_y_u.under \k_R \k_R.under \n_A_d_A_r_U \n_A_d_A_r_U.under ] <anchor 414 592> mark @Anchor4;
+  pos base [\D_A_v_U \k_A_m \k_A_m.under \p_A_t_u \t_A_r_A_v_U \t_A_t_R \t_A_t_R.under ] <anchor 562 592> mark @Anchor4;
+  pos base [\D_A_y \D_A_y.under \d_A_k_U ] <anchor 450 592> mark @Anchor4;
+  pos base [\D_A_y_U \s_A_q_U ] <anchor 499 592> mark @Anchor4;
+  pos base [\D_A_y_u \D_A_y_u.under ] <anchor 455 592> mark @Anchor4;
+  pos base [\E.1 ] <anchor 351 592> mark @Anchor4;
+  pos base [\E_A ] <anchor 614 592> mark @Anchor4;
+  pos base [\E_A_a ] <anchor 374 592> mark @Anchor4;
+  pos base [\E_A_a.1 \K_A_K \K_A_K_u \L_A_v ] <anchor 426 592> mark @Anchor4;
+  pos base [\E_A_a_m_A \y_A_d_U ] <anchor 379 592> mark @Anchor4;
+  pos base [\G.1 ] <anchor 396 592> mark @Anchor4;
+  pos base [\G_A_r \G_A_r_U \G_A_r_u \x_A_q_A_r \x_A_q_A_r.under \x_A_q_A_r_u \x_A_q_A_r_u.under ] <anchor 536 592> mark @Anchor4;
+  pos base [\G_R \G_R.under \k_A_L \k_A_L_u ] <anchor 535 592> mark @Anchor4;
+  pos base [\G_R_R ] <anchor 537 592> mark @Anchor4;
+  pos base [\K_A_K_U ] <anchor 466 592> mark @Anchor4;
+  pos base [\K_A_k \k_A_X \p_A_s_U ] <anchor 520 592> mark @Anchor4;
+  pos base [\K_A_k.under \d_A_D_A_y \d_A_D_A_y.under \d_A_D_A_y_u \d_A_D_A_y_u.under \s_A_p_A_l_U \x_A_k \x_A_k.under \x_A_k_A_r \x_A_k_A_r.under \x_A_k_R \x_A_k_R.under \x_A_k_U \x_A_k_U.under ] <anchor 513 592> mark @Anchor4;
+  pos base [\K_A_k_U ] <anchor 565 592> mark @Anchor4;
+  pos base [\K_A_k_u \z_A_c \z_A_c.under ] <anchor 667 592> mark @Anchor4;
+  pos base [\K_A_m \xxhundredxx ] <anchor 498 592> mark @Anchor4;
+  pos base [\K_A_m.under \n_A_v \n_A_v.under \w_A_t \w_A_t_A_r ] <anchor 494 592> mark @Anchor4;
+  pos base [\K_A_m_U \t_A_v \t_A_v.under \t_u \t_u.under ] <anchor 502 592> mark @Anchor4;
+  pos base [\K_A_m_u \S_R \S_R.under \d_A_D_A_r_U \d_A_D_A_r_U.under \n_A_n \n_A_n.under ] <anchor 505 592> mark @Anchor4;
+  pos base [\K_A_m_u.under \n_A_d_A_v \n_A_d_A_v.under ] <anchor 509 592> mark @Anchor4;
+  pos base [\K_A_n ] <anchor 413 592> mark @Anchor4;
+  pos base [\K_A_n.under \m_A_y \m_A_y.under \m_A_y_U \m_A_y_U.under \m_A_y_u \m_A_y_u.under \uni0CEA ] <anchor 334 592> mark @Anchor4;
+  pos base [\K_A_n_u \Z_A_g_u ] <anchor 504 592> mark @Anchor4;
+  pos base [\K_A_r \K_A_r_U \s_A_t_A_r \s_A_t_A_r_U \s_A_t_A_r_u ] <anchor 442 592> mark @Anchor4;
+  pos base [\K_A_r_u.under \K_R \n_A_y \n_A_y.under \n_A_y_U \n_A_y_U.under \n_A_y_u \n_A_y_u.under ] <anchor 430 592> mark @Anchor4;
+  pos base [\K_A_v \K_A_v.under \L_A_L \L_A_L.under \b_A_d \b_A_d.under \b_A_d_U \b_A_d_u \h_A_y \h_A_y.under \h_A_y_U \h_A_y_U.under \h_A_y_u \h_A_y_u.under ] <anchor 582 592> mark @Anchor4;
+  pos base [\K_A_v_U \N_R \n_A_t_A_X ] <anchor 594 592> mark @Anchor4;
+  pos base [\K_A_v_u \P_A_y \P_A_y.under \P_A_y_U \P_A_y_u \P_A_y_u.under \m_A_m_A_y \m_A_m_A_y.under \m_A_m_A_y_U ] <anchor 581 592> mark @Anchor4;
+  pos base [\K_A_v_u.under \n_A_q_u \n_A_q_u.under ] <anchor 589 592> mark @Anchor4;
+  pos base [\K_A_y \K_A_y_U \V_l_l \h_U \h_U.under \n_A_t \n_A_t.under ] <anchor 503 592> mark @Anchor4;
+  pos base [\K_A_y.under \m_A_m_A_X ] <anchor 510 592> mark @Anchor4;
+  pos base [\K_R.under \g_A_X ] <anchor 446 592> mark @Anchor4;
+  pos base [\L_A_X ] <anchor 366 592> mark @Anchor4;
+  pos base [\M_M ] <anchor 209 592> mark @Anchor4;
+  pos base [\N_A_L \N_A_L_U \N_A_L_u ] <anchor 765 592> mark @Anchor4;
+  pos base [\N_A_Q ] <anchor 663 592> mark @Anchor4;
+  pos base [\N_A_W \N_A_W.under ] <anchor 947 592> mark @Anchor4;
+  pos base [\N_A_X \k_A_n_U \k_A_n_U.under \k_A_t_R \k_A_t_R.under \n_A_t_A_y_U \p_A_s_A_v ] <anchor 622 592> mark @Anchor4;
+  pos base [\N_A_h \N_A_h.under ] <anchor 856 592> mark @Anchor4;
+  pos base [\N_A_h_A_v \N_A_h_A_v.under ] <anchor 1029 592> mark @Anchor4;
+  pos base [\N_A_h_A_y \N_A_h_A_y.under \N_A_h_A_y_U \N_A_h_A_y_u \N_A_h_A_y_u.under ] <anchor 931 592> mark @Anchor4;
+  pos base [\N_A_h_U \N_A_k_u ] <anchor 852 592> mark @Anchor4;
+  pos base [\N_A_h_u \N_A_h_u.under \h_A_N_R ] <anchor 967 592> mark @Anchor4;
+  pos base [\N_A_j ] <anchor 1264 592> mark @Anchor4;
+  pos base [\N_A_j_U ] <anchor 1399 592> mark @Anchor4;
+  pos base [\N_A_j_u ] <anchor 1278 592> mark @Anchor4;
+  pos base [\N_A_k ] <anchor 776 592> mark @Anchor4;
+  pos base [\N_A_k_A_X ] <anchor 890 592> mark @Anchor4;
+  pos base [\N_A_k_U ] <anchor 833 592> mark @Anchor4;
+  pos base [\N_A_m \N_A_m.under \n_A_n_u \n_A_n_u.under \w_A_t_A_n ] <anchor 662 592> mark @Anchor4;
+  pos base [\N_A_n \N_A_n.under ] <anchor 863 592> mark @Anchor4;
+  pos base [\N_A_n_U \N_A_n_U.under ] <anchor 911 592> mark @Anchor4;
+  pos base [\N_A_n_u \N_A_n_u.under ] <anchor 957 592> mark @Anchor4;
+  pos base [\N_A_q \n_A_G_A_R \n_A_G_A_R.under ] <anchor 693 592> mark @Anchor4;
+  pos base [\N_A_q.under \g_A_g_u \g_A_g_u.under \k_A_t_A_r_A_y \k_A_t_A_r_A_y.under \k_A_t_A_r_A_y_u \k_A_t_A_r_A_y_u.under ] <anchor 743 592> mark @Anchor4;
+  pos base [\N_A_q_A_X \t_A_n_A_t_U ] <anchor 686 592> mark @Anchor4;
+  pos base [\N_A_q_A_r \N_A_q_A_r.under \N_A_q_A_r_U \N_A_q_A_r_u \N_A_q_A_r_u.under ] <anchor 700 592> mark @Anchor4;
+  pos base [\N_A_q_A_v \N_A_q_A_v.under ] <anchor 914 592> mark @Anchor4;
+  pos base [\N_A_q_U \N_A_q_U.under ] <anchor 797 592> mark @Anchor4;
+  pos base [\N_A_q_u ] <anchor 836 592> mark @Anchor4;
+  pos base [\N_A_q_u.under ] <anchor 871 592> mark @Anchor4;
+  pos base [\N_A_t \N_A_t.under \k_A_k_A_r \k_A_k_A_r.under ] <anchor 720 592> mark @Anchor4;
+  pos base [\N_A_t_A_n \N_A_t_A_n.under ] <anchor 860 592> mark @Anchor4;
+  pos base [\N_A_t_A_n_A_X ] <anchor 918 592> mark @Anchor4;
+  pos base [\N_A_t_A_n_U \N_A_t_A_n_U.under ] <anchor 908 592> mark @Anchor4;
+  pos base [\N_A_t_A_n_u \N_A_t_A_n_u.under ] <anchor 954 592> mark @Anchor4;
+  pos base [\N_A_t_A_r \N_A_t_A_r.under \N_A_t_A_r_u \N_A_t_A_r_u.under ] <anchor 724 592> mark @Anchor4;
+  pos base [\N_A_t_A_r_U \N_A_t_A_r_U.under \t_A_k_u \t_A_k_u.under ] <anchor 731 592> mark @Anchor4;
+  pos base [\N_A_t_U \N_A_t_U.under ] <anchor 750 592> mark @Anchor4;
+  pos base [\N_A_t_u \N_A_t_u.under ] <anchor 855 592> mark @Anchor4;
+  pos base [\N_A_w \N_A_w.under ] <anchor 880 592> mark @Anchor4;
+  pos base [\N_A_w_A_y \N_A_w_A_y.under \N_A_w_A_y_U \N_A_w_A_y_u \N_A_w_A_y_u.under ] <anchor 942 592> mark @Anchor4;
+  pos base [\N_A_y \N_A_y.under \N_A_y_U \N_A_y_U.under \N_A_y_u \N_A_y_u.under ] <anchor 642 592> mark @Anchor4;
+  pos base [\N_U \N_U.under \S_A_c_U \S_A_c_U.under \c_A_C \c_A_C.under ] <anchor 628 592> mark @Anchor4;
+  pos base [\N_u \N_u.under \k_A_t_u \k_A_t_u.under ] <anchor 749 592> mark @Anchor4;
+  pos base [\O_A ] <anchor 813 592> mark @Anchor4;
+  pos base [\P_A_v \P_A_v.under \P_A_v_u \P_A_v_u.under \d_A_B_A_y \d_A_B_A_y.under \d_A_B_A_y_U \d_A_B_A_y_u \d_A_B_A_y_u.under ] <anchor 599 592> mark @Anchor4;
+  pos base [\P_A_v_U \Z_A_k \Z_A_k.under \t_A_k \t_A_k.under ] <anchor 627 592> mark @Anchor4;
+  pos base [\R_R ] <anchor 279 592> mark @Anchor4;
+  pos base [\S_A_C \S_A_C.under ] <anchor 849 592> mark @Anchor4;
+  pos base [\S_A_C_U ] <anchor 979 592> mark @Anchor4;
+  pos base [\S_A_C_u \S_A_C_u.under \Z_A_k_A_t_U ] <anchor 874 592> mark @Anchor4;
+  pos base [\S_A_Q \S_A_Q.under \S_A_Q_u \T_A_r_u.under ] <anchor 427 592> mark @Anchor4;
+  pos base [\S_A_Q_U \T_A_y_U ] <anchor 447 592> mark @Anchor4;
+  pos base [\S_A_c \S_A_c.under \S_A_c_u \S_A_c_u.under \w_A_v_u \w_A_v_u.under ] <anchor 616 592> mark @Anchor4;
+  pos base [\S_A_m \S_A_m.under \S_A_m_u \S_A_m_u.under \d_A_G \d_A_G.under ] <anchor 538 592> mark @Anchor4;
+  pos base [\S_A_m_U \p_A_t_u1.under \t_A_n_A_y \t_A_n_A_y.under \t_A_n_A_y_U \t_A_n_A_y_u \t_A_n_A_y_u.under ] <anchor 573 592> mark @Anchor4;
+  pos base [\S_A_n \S_A_n.under ] <anchor 736 592> mark @Anchor4;
+  pos base [\S_A_n_U ] <anchor 784 592> mark @Anchor4;
+  pos base [\S_A_n_u \S_A_n_u.under ] <anchor 876 592> mark @Anchor4;
+  pos base [\S_A_r \S_A_r.under \S_A_r_U \S_A_r_U.under \S_A_r_u \S_A_r_u.under \e_A \g_A_m \g_A_m.under \p_R \p_R.under \p_R_R ] <anchor 486 592> mark @Anchor4;
+  pos base [\S_A_r_I \k_A_T \k_A_T.under ] <anchor 661 592> mark @Anchor4;
+  pos base [\S_A_v \S_A_v.under \c_A_C_u \c_A_C_u.under ] <anchor 654 592> mark @Anchor4;
+  pos base [\S_u \S_u.under ] <anchor 624 592> mark @Anchor4;
+  pos base [\T_A_m_U \s_A_p_A_l_u ] <anchor 431 592> mark @Anchor4;
+  pos base [\T_A_v \T_A_v.under \T_A_v_u \T_A_v_u.under ] <anchor 454 592> mark @Anchor4;
+  pos base [\T_A_v_U ] <anchor 487 592> mark @Anchor4;
+  pos base [\T_A_y \T_A_y.under \T_A_y_u \T_A_y_u.under ] <anchor 436 592> mark @Anchor4;
+  pos base [\V_0 \V_6 \V_9 \V_two ] <anchor 202 592> mark @Anchor4;
+  pos base [\V_5 \V_four ] <anchor 191 592> mark @Anchor4;
+  pos base [\V_7 \d_A_m \d_A_m.under \d_A_m_u \d_A_m_u.under \q_A_Q_U ] <anchor 219 592> mark @Anchor4;
+  pos base [\V_8 ] <anchor 197 592> mark @Anchor4;
+  pos base [\V_l ] <anchor 485 592> mark @Anchor4;
+  pos base [\V_l_X ] <anchor 326 592> mark @Anchor4;
+  pos base [\V_l_l_X ] <anchor 349 592> mark @Anchor4;
+  pos base [\V_one ] <anchor 186 592> mark @Anchor4;
+  pos base [\V_period ] <anchor 110 592> mark @Anchor4;
+  pos base [\V_three \d_u \d_u.under ] <anchor 199 592> mark @Anchor4;
+  pos base [\W_A_y \W_A_y.under \W_A_y_u \W_A_y_u.under \h_A_l \h_A_l_u ] <anchor 607 592> mark @Anchor4;
+  pos base [\W_A_y_U \b_A_y \b_A_y.under \b_A_y_U \b_A_y_U.under \b_A_y_u \b_A_y_u.under \k_A_q_u \k_A_q_u.under \n_A_T \n_A_T.under \t_A_t_A_y \t_A_t_A_y.under \t_A_t_A_y_u \t_A_t_A_y_u.under ] <anchor 629 592> mark @Anchor4;
+  pos base [\Z_A_k_A_L \Z_A_k_A_L_u \t_A_s_A_v \t_A_s_A_v.under ] <anchor 756 592> mark @Anchor4;
+  pos base [\Z_A_k_A_L_U \n_A_t_A_s \n_A_t_A_s.under ] <anchor 769 592> mark @Anchor4;
+  pos base [\Z_A_k_A_X ] <anchor 741 592> mark @Anchor4;
+  pos base [\Z_A_k_A_k \Z_A_k_A_k.under ] <anchor 920 592> mark @Anchor4;
+  pos base [\Z_A_k_A_k_U ] <anchor 978 592> mark @Anchor4;
+  pos base [\Z_A_k_A_k_u \Z_A_k_A_k_u.under ] <anchor 997 592> mark @Anchor4;
+  pos base [\Z_A_k_A_r \Z_A_k_A_r.under \Z_A_k_A_r_U \Z_A_k_A_r_u \Z_A_k_A_r_u.under \n_A_t_A_v \n_A_t_A_v.under \n_A_t_u \n_A_t_u.under ] <anchor 638 592> mark @Anchor4;
+  pos base [\Z_A_k_A_t \Z_A_k_A_t.under ] <anchor 850 592> mark @Anchor4;
+  pos base [\Z_A_k_A_t_A_y \Z_A_k_A_t_A_y.under \Z_A_k_A_t_A_y_U \Z_A_k_A_t_A_y_u \Z_A_k_A_t_A_y_u.under ] <anchor 919 592> mark @Anchor4;
+  pos base [\Z_A_k_A_t_u \Z_A_k_A_t_u.under ] <anchor 960 592> mark @Anchor4;
+  pos base [\Z_A_k_A_x \Z_A_k_A_x.under ] <anchor 930 592> mark @Anchor4;
+  pos base [\Z_A_k_A_x_A_y \Z_A_k_A_x_A_y.under \Z_A_k_A_x_A_y_U ] <anchor 984 592> mark @Anchor4;
+  pos base [\Z_A_k_A_x_A_y_u \Z_A_k_A_x_A_y_u.under ] <anchor 993 592> mark @Anchor4;
+  pos base [\Z_A_k_A_y \Z_A_k_A_y.under \Z_A_k_A_y_U \Z_A_k_A_y_u \Z_A_k_A_y_u.under ] <anchor 695 592> mark @Anchor4;
+  pos base [\Z_A_k_u \Z_A_k_u.under ] <anchor 703 592> mark @Anchor4;
+  pos base [\a.1 ] <anchor 291 592> mark @Anchor4;
+  pos base [\b_A_b_U \b_A_b_U.under \n_A_k_U \n_A_k_U.under ] <anchor 613 592> mark @Anchor4;
+  pos base [\b_A_b_u \b_A_b_u.under ] <anchor 572 592> mark @Anchor4;
+  pos base [\c_A_C_U \c_A_C_U.under \t_A_k_A_x_u ] <anchor 758 592> mark @Anchor4;
+  pos base [\c_A_c \c_A_c.under \c_A_c_u \c_A_c_u.under ] <anchor 341 592> mark @Anchor4;
+  pos base [\c_A_c_U \c_A_c_U.under ] <anchor 370 592> mark @Anchor4;
+  pos base [\c_A_r_U \c_A_r_U.under ] <anchor 384 592> mark @Anchor4;
+  pos base [\c_A_r_u \c_A_r_u.under \c_R_R \v_A_y.under ] <anchor 347 592> mark @Anchor4;
+  pos base [\c_Ar \c_Ar.under ] <anchor 343 592> mark @Anchor4;
+  pos base [\d_A_B \d_A_B.under \h_A_X \t_A_r_A_v \t_A_r_A_v.under \t_A_r_A_v_u \t_A_r_A_v_u.under \v_f \v_f.under \v_f_U \v_f_u \v_f_u.under ] <anchor 522 592> mark @Anchor4;
+  pos base [\d_A_B_A_r \d_A_B_A_r.under \d_A_B_A_r_u \d_A_B_A_r_u.under ] <anchor 541 592> mark @Anchor4;
+  pos base [\d_A_B_A_r_U \p_A_s_A_m ] <anchor 551 592> mark @Anchor4;
+  pos base [\d_A_B_U ] <anchor 557 592> mark @Anchor4;
+  pos base [\d_A_B_u \d_A_B_u.under ] <anchor 651 592> mark @Anchor4;
+  pos base [\d_A_D_A_m_U ] <anchor 530 592> mark @Anchor4;
+  pos base [\d_A_D_A_m_u \d_A_D_A_m_u.under \n_A_q \n_A_q.under ] <anchor 489 592> mark @Anchor4;
+  pos base [\d_A_D_A_v_U \n_A_t_A_r_A_y \n_A_t_A_r_A_y.under \n_A_t_A_r_A_y_u \n_A_t_A_r_A_y_u.under ] <anchor 618 592> mark @Anchor4;
+  pos base [\d_A_D_A_y_U ] <anchor 529 592> mark @Anchor4;
+  pos base [\d_A_X \q_A_l_u ] <anchor 288 592> mark @Anchor4;
+  pos base [\d_A_b \d_A_b.under \d_A_b_A_r \d_A_b_A_r.under \d_A_b_A_r_U \g_A_B_A_y \g_A_B_A_y.under \g_A_B_A_y_u \g_A_B_A_y_u.under ] <anchor 754 592> mark @Anchor4;
+  pos base [\d_A_b_A_r_u \d_A_b_A_r_u.under \n_A_B_u \n_A_B_u.under ] <anchor 761 592> mark @Anchor4;
+  pos base [\d_A_d \d_A_d.under ] <anchor 278 592> mark @Anchor4;
+  pos base [\d_A_d_A_r \d_A_d_A_r.under \d_A_d_A_r_U \d_A_d_A_r_u \d_A_d_A_r_u.under ] <anchor 253 592> mark @Anchor4;
+  pos base [\d_A_d_A_y \d_A_d_A_y.under \d_A_d_A_y_U \d_A_d_A_y_u \d_A_d_A_y_u.under ] <anchor 376 592> mark @Anchor4;
+  pos base [\d_A_d_U \d_A_d_U.under ] <anchor 367 592> mark @Anchor4;
+  pos base [\d_A_d_u \d_A_d_u.under ] <anchor 319 592> mark @Anchor4;
+  pos base [\d_A_g_A_r \d_A_g_A_r.under \d_A_g_A_r_U \d_A_g_A_r_u \d_A_g_A_r_u.under ] <anchor 463 592> mark @Anchor4;
+  pos base [\d_A_g_R \k_u \k_u.under ] <anchor 483 592> mark @Anchor4;
+  pos base [\d_A_k ] <anchor 352 592> mark @Anchor4;
+  pos base [\d_A_k_A_X ] <anchor 496 592> mark @Anchor4;
+  pos base [\d_A_l_U \q_A_q_A_y_u \q_A_q_A_y_u.under \s_A_p_A_l \s_A_p_U \s_A_s_U \s_A_s_U.under \s_A_s_u \s_A_s_u.under ] <anchor 345 592> mark @Anchor4;
+  pos base [\d_A_m_U \d_A_m_U.under \q_A_l ] <anchor 236 592> mark @Anchor4;
+  pos base [\d_A_r ] <anchor 331 592> mark @Anchor4;
+  pos base [\d_A_r.under \q_u.under ] <anchor 302 592> mark @Anchor4;
+  pos base [\d_A_r_U \d_A_r_U.under ] <anchor 272 592> mark @Anchor4;
+  pos base [\d_A_r_u \d_A_r_u.under ] <anchor 266 592> mark @Anchor4;
+  pos base [\d_A_v \d_A_v.under \r_A_X ] <anchor 344 592> mark @Anchor4;
+  pos base [\d_A_v_A_y \d_A_v_A_y.under \d_A_v_A_y_u \d_A_v_A_y_u.under \g_A_d_U \n_A_X ] <anchor 412 592> mark @Anchor4;
+  pos base [\d_A_v_A_y_U \e_A_a ] <anchor 451 592> mark @Anchor4;
+  pos base [\d_A_y_U \d_A_y_U.under \d_A_y_u \d_A_y_u.under ] <anchor 262 592> mark @Anchor4;
+  pos base [\d_R \n_A_d \n_A_d.under \n_A_d_u \n_A_d_u.under \y_A_t_U \y_A_t_u \uni0CEE ] <anchor 373 592> mark @Anchor4;
+  pos base [\d_R_R ] <anchor 254 592> mark @Anchor4;
+  pos base [\e_e ] <anchor 320 592> mark @Anchor4;
+  pos base [\e_e_A ] <anchor 807 592> mark @Anchor4;
+  pos base [\g_A_B \g_A_B.under \g_A_g_U \g_A_g_U.under ] <anchor 678 592> mark @Anchor4;
+  pos base [\g_A_B_A_y_U \k_A_k_u \k_A_k_u.under ] <anchor 789 592> mark @Anchor4;
+  pos base [\g_A_B_u \g_A_B_u.under ] <anchor 778 592> mark @Anchor4;
+  pos base [\g_A_D \g_A_D.under ] <anchor 708 592> mark @Anchor4;
+  pos base [\g_A_D_u \g_A_D_u.under ] <anchor 711 592> mark @Anchor4;
+  pos base [\g_A_G \g_A_G.under ] <anchor 729 592> mark @Anchor4;
+  pos base [\g_A_G_R \g_A_G_R.under \k_A_t_A_y_U \k_A_t_A_y_U.under ] <anchor 734 592> mark @Anchor4;
+  pos base [\g_A_b \g_A_b.under ] <anchor 872 592> mark @Anchor4;
+  pos base [\g_A_d \g_A_d.under \g_A_d_u \g_A_d_u.under \n_U \n_U.under ] <anchor 402 592> mark @Anchor4;
+  pos base [\g_A_d_A_D \g_A_d_A_D.under \g_A_d_A_D_A_r \g_A_d_A_D_A_r.under \g_A_d_A_D_A_r_U \g_A_d_A_D_A_r_u \g_A_d_A_D_A_r_u.under \g_A_d_A_D_u \g_A_d_A_D_u.under ] <anchor 727 592> mark @Anchor4;
+  pos base [\g_A_d_A_D_U \n_A_t_A_n_u ] <anchor 733 592> mark @Anchor4;
+  pos base [\g_A_g \g_A_g.under ] <anchor 680 592> mark @Anchor4;
+  pos base [\g_A_g_A_y \g_A_g_A_y_U \g_A_g_A_y_u ] <anchor 755 592> mark @Anchor4;
+  pos base [\g_A_g_R \g_A_g_R.under \n_A_G \n_A_G.under ] <anchor 689 592> mark @Anchor4;
+  pos base [\g_A_j \g_A_j.under ] <anchor 1040 592> mark @Anchor4;
+  pos base [\g_A_j_U ] <anchor 1178 592> mark @Anchor4;
+  pos base [\g_A_j_u \g_A_j_u.under ] <anchor 1056 592> mark @Anchor4;
+  pos base [\g_A_l \g_A_l_u \t_A_X \t_A_l_u ] <anchor 458 592> mark @Anchor4;
+  pos base [\g_A_l_U ] <anchor 468 592> mark @Anchor4;
+  pos base [\g_A_n \g_A_n.under \p_A_s_u ] <anchor 517 592> mark @Anchor4;
+  pos base [\g_A_n_A_v \g_A_n_A_v.under \h_A_l_U ] <anchor 656 592> mark @Anchor4;
+  pos base [\g_A_n_A_y \g_A_n_A_y.under \g_A_n_A_y_U \g_A_n_A_y_u \g_A_n_A_y_u.under \t_A_n_u \t_A_n_u.under ] <anchor 592 592> mark @Anchor4;
+  pos base [\g_A_n_U \g_A_n_U.under \n_A_k_R \n_A_k_R.under \t_A_t \t_A_t.under ] <anchor 564 592> mark @Anchor4;
+  pos base [\g_A_n_u \g_A_n_u.under ] <anchor 611 592> mark @Anchor4;
+  pos base [\g_A_r \g_A_r.under \g_A_r_u \g_A_r_u.under ] <anchor 369 592> mark @Anchor4;
+  pos base [\g_A_r_U \g_A_r_U.under \n_A_d_U \n_A_d_U.under ] <anchor 391 592> mark @Anchor4;
+  pos base [\g_A_v \g_A_v.under ] <anchor 554 592> mark @Anchor4;
+  pos base [\g_A_y \g_A_y.under \g_A_y_U \g_A_y_U.under \g_A_y_u \g_A_y_u.under ] <anchor 465 592> mark @Anchor4;
+  pos base [\g_R \g_R.under ] <anchor 395 592> mark @Anchor4;
+  pos base [\g_U \g_U.under \l_A_y \l_A_y_U \l_A_y_u ] <anchor 400 592> mark @Anchor4;
+  pos base [\h_A_N \h_A_N_U ] <anchor 965 592> mark @Anchor4;
+  pos base [\h_A_N_u ] <anchor 1086 592> mark @Anchor4;
+  pos base [\h_A_m \h_A_m.under ] <anchor 576 592> mark @Anchor4;
+  pos base [\h_A_n \k_A_s \k_A_s.under ] <anchor 666 592> mark @Anchor4;
+  pos base [\h_A_n_U ] <anchor 714 592> mark @Anchor4;
+  pos base [\h_A_n_u ] <anchor 760 592> mark @Anchor4;
+  pos base [\h_A_r ] <anchor 524 592> mark @Anchor4;
+  pos base [\h_A_r_U \p_A_y_U \p_A_y_U.under ] <anchor 552 592> mark @Anchor4;
+  pos base [\h_A_r_u ] <anchor 532 592> mark @Anchor4;
+  pos base [\h_A_v \k_A_k_R \k_A_k_R.under \k_A_x \k_A_x.under \k_A_x_A_m \k_A_x_A_m.under \k_A_x_A_m_U \k_A_x_A_m_U.under \k_A_x_A_m_u \k_A_x_A_m_u.under \k_A_x_A_r \k_A_x_A_r.under \k_A_x_A_r_U \k_A_x_A_r_u \k_A_x_A_r_u.under ] <anchor 706 592> mark @Anchor4;
+  pos base [\h_R \h_R.under \h_R_R \s_A_t_A_X ] <anchor 519 592> mark @Anchor4;
+  pos base [\h_u \h_u.under \t_A_t_A_y_U ] <anchor 633 592> mark @Anchor4;
+  pos base [\j_A_j \j_A_j.under \zza ] <anchor 1416 592> mark @Anchor4;
+  pos base [\j_A_j_A_y \j_A_j_A_y.under \j_A_j_A_y_U \j_A_j_A_y_u \j_A_j_A_y_u.under ] <anchor 1478 592> mark @Anchor4;
+  pos base [\j_A_j_A_z \j_A_j_A_z.under \j_A_j_A_z_U \j_A_j_A_z_u \j_A_j_A_z_u.under ] <anchor 1827 592> mark @Anchor4;
+  pos base [\j_A_j_U \j_A_j_U.under ] <anchor 1551 592> mark @Anchor4;
+  pos base [\j_A_j_u \j_A_j_u.under ] <anchor 1434 592> mark @Anchor4;
+  pos base [\j_A_m \j_A_m.under ] <anchor 1074 592> mark @Anchor4;
+  pos base [\j_A_r \j_A_r.under ] <anchor 812 592> mark @Anchor4;
+  pos base [\j_A_r_U \j_A_r_U.under ] <anchor 814 592> mark @Anchor4;
+  pos base [\j_A_r_u \j_A_r_u.under \k_A_x_A_m_A_y_U ] <anchor 815 592> mark @Anchor4;
+  pos base [\j_A_v \j_A_v.under \j_A_v_u \j_A_v_u.under ] <anchor 925 592> mark @Anchor4;
+  pos base [\j_A_v_U ] <anchor 933 592> mark @Anchor4;
+  pos base [\j_A_y \j_A_y.under \j_A_y_U \j_A_y_U.under \j_A_y_u \j_A_y_u.under ] <anchor 873 592> mark @Anchor4;
+  pos base [\j_A_z \j_A_z.under ] <anchor 1208 592> mark @Anchor4;
+  pos base [\j_A_z_U \j_A_z_U.under ] <anchor 1209 592> mark @Anchor4;
+  pos base [\j_A_z_u \j_A_z_u.under ] <anchor 1207 592> mark @Anchor4;
+  pos base [\j_R \j_R.under \j_R_R ] <anchor 822 592> mark @Anchor4;
+  pos base [\j_U \j_U.under \zuu ] <anchor 946 592> mark @Anchor4;
+  pos base [\j_u \j_u.under \w_A_g_u \zu ] <anchor 825 592> mark @Anchor4;
+  pos base [\k_A_k \k_A_k.under ] <anchor 713 592> mark @Anchor4;
+  pos base [\k_A_k_A_X ] <anchor 827 592> mark @Anchor4;
+  pos base [\k_A_k_U \k_A_k_U.under ] <anchor 770 592> mark @Anchor4;
+  pos base [\k_A_l \k_A_l_U \k_A_l_u ] <anchor 543 592> mark @Anchor4;
+  pos base [\k_A_n_A_y \k_A_n_A_y.under \k_A_n_A_y_U \k_A_n_A_y_u \k_A_n_A_y_u.under ] <anchor 649 592> mark @Anchor4;
+  pos base [\k_A_n_u \k_A_n_u.under ] <anchor 668 592> mark @Anchor4;
+  pos base [\k_A_q_U \p_A_s_A_y \p_A_s_A_y_u \y_A_y_f_u \y_A_y_f_u.under ] <anchor 567 592> mark @Anchor4;
+  pos base [\k_A_r \k_A_r.under \k_A_r_U \k_A_r_U.under \k_A_r_u \k_A_r_u.under ] <anchor 417 592> mark @Anchor4;
+  pos base [\k_A_s_A_s \k_A_s_A_s.under \k_A_s_A_s_U \k_A_s_A_s_u \k_A_s_A_s_u.under \w_A_g_U ] <anchor 681 592> mark @Anchor4;
+  pos base [\k_A_t \k_A_t.under \p_A_s_A_v_u ] <anchor 630 592> mark @Anchor4;
+  pos base [\k_A_t_A_T \k_A_t_A_T.under ] <anchor 864 592> mark @Anchor4;
+  pos base [\k_A_t_A_r \k_A_t_A_r.under \k_A_t_A_r_u \k_A_t_A_r_u.under ] <anchor 636 592> mark @Anchor4;
+  pos base [\k_A_t_A_r_A_y_U \p_A_s_A_T_U ] <anchor 766 592> mark @Anchor4;
+  pos base [\k_A_t_A_r_U \t_A_t_u \t_A_t_u.under ] <anchor 657 592> mark @Anchor4;
+  pos base [\k_A_t_A_v \k_A_t_A_v.under ] <anchor 763 592> mark @Anchor4;
+  pos base [\k_A_t_A_y \k_A_t_A_y.under \k_A_t_A_y_u \k_A_t_A_y_u.under ] <anchor 705 592> mark @Anchor4;
+  pos base [\k_A_t_U \k_A_t_U.under ] <anchor 653 592> mark @Anchor4;
+  pos base [\k_A_v \k_A_v.under ] <anchor 559 592> mark @Anchor4;
+  pos base [\k_A_x_A_k_A_r_U ] <anchor 722 592> mark @Anchor4;
+  pos base [\k_A_x_A_k_A_y \k_A_x_A_k_A_y.under \k_A_x_A_k_A_y_U ] <anchor 715 592> mark @Anchor4;
+  pos base [\k_A_x_A_l \k_A_x_A_l.under \k_A_x_A_l_u \k_A_x_A_l_u.under ] <anchor 679 592> mark @Anchor4;
+  pos base [\k_A_x_A_l_U ] <anchor 723 592> mark @Anchor4;
+  pos base [\k_A_x_A_v \k_A_x_A_v.under \k_A_x_A_v_U \k_A_x_A_v_u \k_A_x_A_v_u.under \n_A_D_A_v \n_A_D_A_v.under \n_A_D_A_v_u \n_A_D_A_v_u.under ] <anchor 819 592> mark @Anchor4;
+  pos base [\k_A_x_A_y \k_A_x_A_y.under \k_A_x_A_y_U \k_A_x_A_y_u \k_A_x_A_y_u.under ] <anchor 764 592> mark @Anchor4;
+  pos base [\k_A_y \k_A_y.under \k_A_y_U \k_A_y_U.under \k_A_y_u \k_A_y_u.under ] <anchor 475 592> mark @Anchor4;
+  pos base [\k_R_R ] <anchor 432 592> mark @Anchor4;
+  pos base [\k_U \k_U.under \t_A_r_A_y_U ] <anchor 462 592> mark @Anchor4;
+  pos base [\k_V_l_X ] <anchor 620 592> mark @Anchor4;
+  pos base [\l_A_X ] <anchor 378 592> mark @Anchor4;
+  pos base [\l_A_k \l_A_k.under \l_A_y_u.under \u11393.1 \_11393 ] <anchor 399 592> mark @Anchor4;
+  pos base [\l_A_y.under \l_A_y_U.under ] <anchor 387 592> mark @Anchor4;
+  pos base [\m_A_X \m_A_X.under ] <anchor 317 592> mark @Anchor4;
+  pos base [\m_A_m \m_A_m.under ] <anchor 506 592> mark @Anchor4;
+  pos base [\m_A_r \m_A_r.under \m_A_r_U \m_A_r_U.under \m_A_r_u \m_A_r_u.under ] <anchor 255 592> mark @Anchor4;
+  pos base [\m_R_R ] <anchor 240 592> mark @Anchor4;
+  pos base [\m_f ] <anchor 229 592> mark @Anchor4;
+  pos base [\n_A_B \n_A_B.under ] <anchor 675 592> mark @Anchor4;
+  pos base [\n_A_D \n_A_D.under \n_A_D_A_r \n_A_D_A_r.under \n_A_D_A_r_U \n_A_D_A_r_u \n_A_D_A_r_u.under ] <anchor 677 592> mark @Anchor4;
+  pos base [\n_A_D_A_v_U \p_A_C \p_A_C.under ] <anchor 831 592> mark @Anchor4;
+  pos base [\n_A_D_A_y \n_A_D_A_y.under \n_A_D_A_y_U \n_A_D_A_y_u \n_A_D_A_y_u.under ] <anchor 738 592> mark @Anchor4;
+  pos base [\n_A_b \n_A_b.under \n_A_b_A_r \n_A_b_A_r.under \n_A_b_A_r_U \n_A_b_A_r_u \n_A_b_A_r_u.under ] <anchor 806 592> mark @Anchor4;
+  pos base [\n_A_d_A_r \n_A_d_A_r.under \n_A_d_A_r_u \n_A_d_A_r_u.under \s_A_t_U ] <anchor 377 592> mark @Anchor4;
+  pos base [\n_A_d_A_y \n_A_d_A_y.under \n_A_d_A_y_U \n_A_d_A_y_u \n_A_d_A_y_u.under \s_A_q_A_r_u \t_A_l ] <anchor 445 592> mark @Anchor4;
+  pos base [\n_A_h \n_A_h.under ] <anchor 664 592> mark @Anchor4;
+  pos base [\n_A_h_U ] <anchor 660 592> mark @Anchor4;
+  pos base [\n_A_h_u \n_A_h_u.under ] <anchor 773 592> mark @Anchor4;
+  pos base [\n_A_k \n_A_k.under \p_A_y_u \p_A_y_u.under \y_A_y_f \y_A_y_f.under ] <anchor 556 592> mark @Anchor4;
+  pos base [\n_A_k_A_t \n_A_k_A_t.under ] <anchor 794 592> mark @Anchor4;
+  pos base [\n_A_k_A_t_U ] <anchor 846 592> mark @Anchor4;
+  pos base [\n_A_k_A_t_u \n_A_k_A_t_u.under ] <anchor 915 592> mark @Anchor4;
+  pos base [\n_A_k_A_x \n_A_k_A_x.under ] <anchor 844 592> mark @Anchor4;
+  pos base [\n_A_m \n_A_m.under \n_A_m_R \r_U \r_U.under ] <anchor 448 592> mark @Anchor4;
+  pos base [\n_A_n_U \n_A_n_U.under ] <anchor 553 592> mark @Anchor4;
+  pos base [\n_A_q_U ] <anchor 525 592> mark @Anchor4;
+  pos base [\n_A_r \n_A_r.under \n_A_r_U \n_A_r_U.under \n_A_r_u \n_A_r_u.under ] <anchor 361 592> mark @Anchor4;
+  pos base [\n_A_t_A_d \n_A_t_A_d_u ] <anchor 566 592> mark @Anchor4;
+  pos base [\n_A_t_A_n ] <anchor 639 592> mark @Anchor4;
+  pos base [\n_A_t_A_r \n_A_t_A_r.under \n_A_t_A_r_u \n_A_t_A_r_u.under \v_A_v ] <anchor 508 592> mark @Anchor4;
+  pos base [\n_A_t_A_y \n_A_t_A_y.under \n_A_t_A_y_u \n_A_t_A_y_u.under \s_A_T \s_A_T.under ] <anchor 579 592> mark @Anchor4;
+  pos base [\n_A_t_U \n_A_t_U.under ] <anchor 542 592> mark @Anchor4;
+  pos base [\n_R \n_R.under \n_R_R \uni0CEB ] <anchor 360 592> mark @Anchor4;
+  pos base [\n_u \n_u.under \s_A_v ] <anchor 449 592> mark @Anchor4;
+  pos base [\p_A_C_U ] <anchor 961 592> mark @Anchor4;
+  pos base [\p_A_C_u \t_A_s_A_T \t_A_s_A_T.under ] <anchor 857 592> mark @Anchor4;
+  pos base [\p_A_p_U ] <anchor 512 592> mark @Anchor4;
+  pos base [\p_A_p_u ] <anchor 495 592> mark @Anchor4;
+  pos base [\p_A_r_u \p_A_r_u.under \w_A_m \w_A_m.under ] <anchor 518 592> mark @Anchor4;
+  pos base [\p_A_s_A_t_u \p_A_t.under \p_A_t_u1 ] <anchor 575 592> mark @Anchor4;
+  pos base [\p_A_t_A_v \p_A_t_A_v.under \p_A_t_A_v_u \p_A_t_A_v_u.under \p_A_t_u.under ] <anchor 788 592> mark @Anchor4;
+  pos base [\p_A_t_A_v_U ] <anchor 791 592> mark @Anchor4;
+  pos base [\p_A_y \p_A_y.under \w_A_y_U ] <anchor 587 592> mark @Anchor4;
+  pos base [\q_A_Q \q_A_Q.under \q_A_Q_u \q_A_Q_u.under ] <anchor 189 592> mark @Anchor4;
+  pos base [\q_A_X ] <anchor 172 592> mark @Anchor4;
+  pos base [\q_A_l_U ] <anchor 314 592> mark @Anchor4;
+  pos base [\q_A_q \q_A_q.under ] <anchor 271 592> mark @Anchor4;
+  pos base [\q_A_q_U \q_A_q_U.under ] <anchor 323 592> mark @Anchor4;
+  pos base [\q_A_q_u \q_A_q_u.under \t_U \t_U.under ] <anchor 407 592> mark @Anchor4;
+  pos base [\q_A_r.under ] <anchor 158 592> mark @Anchor4;
+  pos base [\q_A_r_U \q_A_r_U.under ] <anchor 146 592> mark @Anchor4;
+  pos base [\q_A_r_u \q_A_r_u.under ] <anchor 138 592> mark @Anchor4;
+  pos base [\q_A_v \q_u ] <anchor 281 592> mark @Anchor4;
+  pos base [\q_A_y \q_A_y.under \q_A_y_u \q_A_y_u.under ] <anchor 228 592> mark @Anchor4;
+  pos base [\q_A_y_U \q_A_y_U.under \q_U ] <anchor 230 592> mark @Anchor4;
+  pos base [\q_U.under ] <anchor 226 592> mark @Anchor4;
+  pos base [\r_A_r_U ] <anchor 363 592> mark @Anchor4;
+  pos base [\s_A_m_U \s_A_m_U.under ] <anchor 380 592> mark @Anchor4;
+  pos base [\s_A_q \y_A_y_u \y_A_y_u.under ] <anchor 473 592> mark @Anchor4;
+  pos base [\s_A_q_A_l_U ] <anchor 600 592> mark @Anchor4;
+  pos base [\s_A_q_A_r \s_A_q_A_r_U ] <anchor 488 592> mark @Anchor4;
+  pos base [\s_A_q_u ] <anchor 625 592> mark @Anchor4;
+  pos base [\s_A_t ] <anchor 381 592> mark @Anchor4;
+  pos base [\s_A_y \s_A_y.under \s_A_y_U \s_A_y_U.under \s_A_y_u \s_A_y_u.under ] <anchor 385 592> mark @Anchor4;
+  pos base [\t_A_T \t_A_T.under \t_A_t_A_X ] <anchor 643 592> mark @Anchor4;
+  pos base [\t_A_k_A_r \t_A_k_A_r.under \t_A_k_A_r_U \t_A_k_A_r_u \t_A_k_A_r_u.under ] <anchor 637 592> mark @Anchor4;
+  pos base [\t_A_k_A_x \t_A_k_A_x.under \t_A_k_A_x_A_m \t_A_k_A_x_A_m.under \t_A_k_A_x_A_m_U \t_A_k_A_x_A_m_u ] <anchor 725 592> mark @Anchor4;
+  pos base [\t_A_k_A_x_U ] <anchor 861 592> mark @Anchor4;
+  pos base [\t_A_k_R \t_A_k_R.under \t_A_s \t_A_s.under ] <anchor 634 592> mark @Anchor4;
+  pos base [\t_A_l_U ] <anchor 461 592> mark @Anchor4;
+  pos base [\t_A_m \t_A_m.under \t_A_m_A_r \t_A_m_A_r.under \t_A_m_A_r_U \t_A_m_A_r_u \t_A_m_A_r_u.under ] <anchor 482 592> mark @Anchor4;
+  pos base [\t_A_n \t_A_n.under ] <anchor 497 592> mark @Anchor4;
+  pos base [\t_A_n_A_t_A_X ] <anchor 737 592> mark @Anchor4;
+  pos base [\t_A_n_A_t_u ] <anchor 781 592> mark @Anchor4;
+  pos base [\t_A_n_U \t_A_n_U.under ] <anchor 545 592> mark @Anchor4;
+  pos base [\t_A_r \t_A_r.under \t_A_r_U \t_A_r_U.under \t_A_r_u \t_A_r_u.under ] <anchor 356 592> mark @Anchor4;
+  pos base [\t_A_r_A_y_u \t_A_r_A_y_u.under ] <anchor 443 592> mark @Anchor4;
+  pos base [\t_A_s_A_y \t_A_s_A_y.under \t_A_s_A_y_u \t_A_s_A_y_u.under ] <anchor 698 592> mark @Anchor4;
+  pos base [\t_A_s_A_y_U ] <anchor 704 592> mark @Anchor4;
+  pos base [\t_A_t_A_v \t_A_t_A_v.under ] <anchor 697 592> mark @Anchor4;
+  pos base [\t_A_y \t_A_y.under \t_A_y_U \t_A_y_U.under \t_A_y_u \t_A_y_u.under ] <anchor 444 592> mark @Anchor4;
+  pos base [\t_R \t_R.under \y_A_d \y_A_d_u ] <anchor 375 592> mark @Anchor4;
+  pos base [\v_A_y_U.under ] <anchor 357 592> mark @Anchor4;
+  pos base [\v_A_y_u.under ] <anchor 479 592> mark @Anchor4;
+  pos base [\w_A_g \w_A_g.under ] <anchor 685 592> mark @Anchor4;
+  pos base [\w_A_m_u \w_A_m_u.under ] <anchor 521 592> mark @Anchor4;
+  pos base [\w_A_v \w_A_v.under \w_A_v_U ] <anchor 612 592> mark @Anchor4;
+  pos base [\x_A_N \x_A_N_U ] <anchor 818 592> mark @Anchor4;
+  pos base [\x_A_N_u ] <anchor 939 592> mark @Anchor4;
+  pos base [\x_A_Q_U \x_A_Q_U.under ] <anchor 598 592> mark @Anchor4;
+  pos base [\x_A_Q_u \x_A_Q_u.under \x_A_q_U \x_A_q_U.under ] <anchor 549 592> mark @Anchor4;
+  pos base [\x_A_k_u \x_A_k_u.under ] <anchor 597 592> mark @Anchor4;
+  pos base [\x_A_q \x_A_q.under ] <anchor 533 592> mark @Anchor4;
+  pos base [\x_A_q_A_v \x_A_q_A_v.under ] <anchor 682 592> mark @Anchor4;
+  pos base [\x_A_q_u \x_A_q_u.under ] <anchor 652 592> mark @Anchor4;
+  pos base [\y_A_y \y_A_y.under \y_A_y_U \y_f \y_f.under \y_f_u \y_f_u.under ] <anchor 460 592> mark @Anchor4;
+  pos base [\z_A_j \z_A_j.under ] <anchor 1115 592> mark @Anchor4;
+  pos base [\z_A_j_A_y \z_A_j_A_y.under \z_A_j_A_y_U \z_A_j_A_y_u \z_A_j_A_y_u.under ] <anchor 1177 592> mark @Anchor4;
+  pos base [\z_A_j_A_z \z_A_j_A_z.under ] <anchor 1533 592> mark @Anchor4;
+  pos base [\z_A_j_A_z_U \z_A_j_A_z_U.under \z_A_j_A_z_u \z_A_j_A_z_u.under ] <anchor 1539 592> mark @Anchor4;
+  pos base [\z_A_j_U \z_A_j_U.under ] <anchor 1250 592> mark @Anchor4;
+  pos base [\z_A_j_u \z_A_j_u.under ] <anchor 1128 592> mark @Anchor4;
+  pos base [\z_A_y \z_A_y.under \z_A_y_U ] <anchor 671 592> mark @Anchor4;
+  pos base [\z_A_y_u \z_A_y_u.under ] <anchor 676 592> mark @Anchor4;
+  pos base [\z_A_z \z_A_z.under \z_A_z_U \z_A_z_U.under \z_A_z_u \z_A_z_u.under ] <anchor 917 592> mark @Anchor4;
+  pos base [\uni0CE6 ] <anchor 295 592> mark @Anchor4;
+  pos base [\uni0CE7 ] <anchor 306 592> mark @Anchor4;
+  pos base [\uni0CE8 ] <anchor 293 592> mark @Anchor4;
+  pos base [\uni0CE9 ] <anchor 308 592> mark @Anchor4;
+  pos base [\uni0CEF ] <anchor 316 592> mark @Anchor4;
+  pos base [\_113A3 ] <anchor 185 592> mark @Anchor4;
+  pos base [\xxthousand ] <anchor 546 592> mark @Anchor4;
+} markMarkPositioningintutglookup4;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markMarkPositioninglookup0;
+      lookup markMarkPositioninglookup1;
+      lookup markMarkPositioninglookup2;
+
+ script latn;
+     language dflt ;
+      lookup markMarkPositioninglookup0;
+      lookup markMarkPositioninglookup1;
+      lookup markMarkPositioninglookup2;
+
+ script tutg;
+     language dflt ;
+      lookup markMarkPositioninglookup0;
+      lookup markMarkPositioninglookup1;
+      lookup markMarkPositioninglookup2;
+      lookup markMarkPositioningintutglookup4;
+} mark;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup3;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup3;
+
+ script tutg;
+     language dflt ;
+      lookup kernHorizontalKerninglookup3;
+} kern;
+
+@GDEF_Simple = [\u11392 \u11394 \u11395 \u11396 \u11397 \u11398 \u11399 \u1139B 
+	\u1139C \u1139D \u1139E \u1139F \u113A0 \u113A1 \u113A2 \u113A3 \u113A4 \u113A5 
+	\u113A6 \u113A7 \u113A8 \u113A9 \u113AA \u113AB \u113AC \u113AD \u113AE \u113AF 
+	\u113B0 \u113B1 \u113B2 \u113B3 \u113B4 \u113B5 \uni0CE6 \uni0CE7 \uni0CE8 
+	\uni0CE9 \uni0CEA \uni0CEB \uni0CEC \uni0CED \uni0CEE \uni0CEF \u11393.1 
+	\u1139A.1 ];
+@GDEF_Mark = [\u113BD \u113BE \u113BF \u113C0 \u113CA \u113CD \u113D1 \f_I \u113BB.1 
+	\u113BC.1 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+
