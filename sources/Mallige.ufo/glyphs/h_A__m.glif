@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="h_A_m" format="2">
   <advance width="1144"/>
+  <anchor x="576" y="-131" name="Anchor-6"/>
+  <anchor x="576" y="645" name="Anchor-5"/>
   <anchor x="576" y="592" name="Anchor-4"/>
   <outline>
     <contour>

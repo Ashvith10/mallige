@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Z_A_k_A_x.under" format="2">
   <advance width="1868"/>
+  <anchor x="930" y="-900" name="Anchor-6"/>
+  <anchor x="930" y="-5" name="Anchor-5"/>
   <anchor x="930" y="592" name="Anchor-4"/>
   <outline>
     <contour>

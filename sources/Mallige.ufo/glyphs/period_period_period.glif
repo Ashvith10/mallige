@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period_period_period" format="2">
   <advance width="665"/>
+  <anchor x="333" y="-141" name="Anchor-6"/>
+  <anchor x="333" y="211" name="Anchor-5"/>
   <anchor x="333" y="592" name="Anchor-4"/>
   <outline>
     <contour>

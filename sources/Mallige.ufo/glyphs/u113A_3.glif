@@ -2,9 +2,10 @@
 <glyph name="u113A3" format="2">
   <advance width="423"/>
   <unicode hex="113A3"/>
+  <anchor x="218" y="-213" name="Anchor-6"/>
+  <anchor x="218" y="650" name="Anchor-5"/>
   <anchor x="217" y="592" name="Anchor-4"/>
   <anchor x="4" y="555" name="Anchor-3"/>
-  <anchor x="367" y="555" name="Anchor-2"/>
   <anchor x="185" y="555" name="Anchor-1"/>
   <anchor x="367" y="0" name="Anchor-0"/>
   <outline>
